@@ -20,7 +20,8 @@ class Item {
     var availability: String = "Any"
     var condition: String = "Any"
     var isApplyFilter: Bool = false
-    init(name: String = "", iconImage: UIImage? = UIImage(), description: String = "", counterStr:String = "", selectedItem: NavigationType = .price, minimumPrice: String = "", maximumPrice: String = "", daysSinceListed: String = "Any", availability: String = "Any", condition: String = "Any", isApplyFilter: Bool = false) {
+    var selectedIndex : String = ""
+    init(name: String = "", iconImage: UIImage? = UIImage(), description: String = "", counterStr:String = "", selectedItem: NavigationType = .price, minimumPrice: String = "", maximumPrice: String = "", daysSinceListed: String = "Any", availability: String = "Any", condition: String = "Any", isApplyFilter: Bool = false, selectedIndex : String = "") {
         self.name = name
         self.iconImage = iconImage
         self.description = description
@@ -32,6 +33,7 @@ class Item {
         self.availability = availability
         self.condition = condition
         self.isApplyFilter = isApplyFilter
+        self.selectedIndex = selectedIndex
     }
 }
 

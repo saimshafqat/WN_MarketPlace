@@ -142,8 +142,10 @@ extension MPFilterSelectionModel {
 class SlotItem {
     var name: String = ""
     var slotedValue: String = ""
-    init(name: String = "", slotedValue: String = "") {
+    var selectedID: String =  ""
+    init(name: String = "", slotedValue: String = "" , selectedID : String = "") {
         self.name = name
         self.slotedValue = slotedValue
+        self.selectedID = selectedID
     }
 }
