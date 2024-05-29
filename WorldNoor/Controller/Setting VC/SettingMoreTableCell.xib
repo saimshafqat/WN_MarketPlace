@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingMoreTableCell" rowHeight="50" id="bCE-5n-fhT" customClass="SettingMoreTableCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bCE-5n-fhT" id="eIm-bV-rkk">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ei-tY-UbN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" testing my file so that its working fine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVR-S4-ehe">
+                                <rect key="frame" x="25" y="5" width="345" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4PW-0U-fXB">
+                                <rect key="frame" x="0.0" y="48" width="375" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ohb-dx-CFd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4PW-0U-fXB" secondAttribute="bottom" constant="1" id="7Oh-DV-WOR"/>
+                            <constraint firstAttribute="trailing" secondItem="4PW-0U-fXB" secondAttribute="trailing" id="F5A-DV-Qng"/>
+                            <constraint firstAttribute="trailing" secondItem="eVR-S4-ehe" secondAttribute="trailing" constant="5" id="N54-Ci-Oaz"/>
+                            <constraint firstAttribute="bottom" secondItem="eVR-S4-ehe" secondAttribute="bottom" constant="5" id="Qhe-ml-wxQ"/>
+                            <constraint firstItem="4PW-0U-fXB" firstAttribute="leading" secondItem="1ei-tY-UbN" secondAttribute="leading" id="RVX-DW-L0F"/>
+                            <constraint firstItem="eVR-S4-ehe" firstAttribute="top" secondItem="1ei-tY-UbN" secondAttribute="top" constant="5" id="YLW-gP-4Wr"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="nIx-9e-HEu"/>
+                            <constraint firstItem="eVR-S4-ehe" firstAttribute="leading" secondItem="1ei-tY-UbN" secondAttribute="leading" constant="25" id="oN8-If-TgD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1ei-tY-UbN" firstAttribute="top" secondItem="eIm-bV-rkk" secondAttribute="top" id="3ac-Xr-bkd"/>
+                    <constraint firstAttribute="bottom" secondItem="1ei-tY-UbN" secondAttribute="bottom" id="cEy-Xn-RX5"/>
+                    <constraint firstItem="1ei-tY-UbN" firstAttribute="leading" secondItem="eIm-bV-rkk" secondAttribute="leading" id="mdA-JZ-O3l"/>
+                    <constraint firstAttribute="trailing" secondItem="1ei-tY-UbN" secondAttribute="trailing" id="o75-X4-Agi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblName" destination="eVR-S4-ehe" id="WLc-bb-Zdr"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="108"/>
+        </tableViewCell>
+    </objects>
+</document>

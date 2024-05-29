@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "sell_active_listing.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

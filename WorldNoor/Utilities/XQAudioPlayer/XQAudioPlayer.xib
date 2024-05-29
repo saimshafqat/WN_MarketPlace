@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XQAudioPlayer" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XBO-QF-F2U" customClass="DesignableView" customModule="WorldNoor" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="363" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyR-s7-KhP">
+                    <rect key="frame" x="5" y="5" width="40" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="Kkv-az-T5T"/>
+                        <constraint firstAttribute="width" constant="40" id="Nbu-Cp-bAv"/>
+                    </constraints>
+                    <state key="normal" image="xqPlayBtn"/>
+                    <connections>
+                        <action selector="playButtonActionWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="iJU-7A-5nn"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Tc-KY-bcq">
+                    <rect key="frame" x="277.5" y="14" width="74.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PCi-IY-Vlw" customClass="XQSlider" customModule="WorldNoor" customModuleProvider="target">
+                    <rect key="frame" x="42" y="9" width="230.5" height="31"/>
+                </slider>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2Tc-KY-bcq" firstAttribute="leading" secondItem="PCi-IY-Vlw" secondAttribute="trailing" constant="7" id="9eb-yg-1aw"/>
+                <constraint firstItem="2Tc-KY-bcq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Fs5-OK-eOt"/>
+                <constraint firstItem="RyR-s7-KhP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="Hgc-3D-A9L"/>
+                <constraint firstAttribute="trailing" secondItem="2Tc-KY-bcq" secondAttribute="trailing" constant="11" id="NOR-du-Il0"/>
+                <constraint firstItem="PCi-IY-Vlw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="RCC-YJ-b2w"/>
+                <constraint firstItem="RyR-s7-KhP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="UWy-bH-WVS"/>
+                <constraint firstItem="PCi-IY-Vlw" firstAttribute="leading" secondItem="RyR-s7-KhP" secondAttribute="trailing" constant="-1" id="eyt-bF-3LD"/>
+                <constraint firstItem="PCi-IY-Vlw" firstAttribute="centerY" secondItem="RyR-s7-KhP" secondAttribute="centerY" id="fEU-S4-vXh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="audioBgOvalView" destination="XBO-QF-F2U" id="t82-oy-DnF"/>
+                <outlet property="playButton" destination="RyR-s7-KhP" id="QZf-yY-LfA"/>
+                <outlet property="playerProgressSlider" destination="PCi-IY-Vlw" id="RY1-Kb-rfq"/>
+                <outlet property="timeLabel" destination="2Tc-KY-bcq" id="THB-WQ-0fK"/>
+            </connections>
+            <point key="canvasLocation" x="28" y="-4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xqPlayBtn" width="30" height="30"/>
+    </resources>
+</document>

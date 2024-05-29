@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="KgL-Q7-Vjv" customClass="LinkPreview" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ghu-DQ-lln">
+                    <rect key="frame" x="10" y="8" width="76" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="mS2-yE-S9n"/>
+                        <constraint firstAttribute="width" constant="76" id="ysX-B8-s2z"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1J6-WB-OVK">
+                    <rect key="frame" x="95" y="10" width="271" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="9HA-3n-FT9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNg-4s-0dS">
+                    <rect key="frame" x="95" y="30" width="271" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="55" id="oPk-Xz-iWs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncB-OW-9cJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="tjW-tu-obY"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FNg-4s-0dS" firstAttribute="top" secondItem="KgL-Q7-Vjv" secondAttribute="top" constant="30" id="2oh-6i-1dN"/>
+                <constraint firstItem="Ghu-DQ-lln" firstAttribute="top" secondItem="KgL-Q7-Vjv" secondAttribute="top" constant="8" id="GMJ-2Z-FXg"/>
+                <constraint firstAttribute="trailing" secondItem="1J6-WB-OVK" secondAttribute="trailing" constant="9" id="Khk-Ia-kUN"/>
+                <constraint firstAttribute="trailing" secondItem="ncB-OW-9cJ" secondAttribute="trailing" id="QAl-WJ-cWx"/>
+                <constraint firstItem="1J6-WB-OVK" firstAttribute="leading" secondItem="Ghu-DQ-lln" secondAttribute="trailing" constant="9" id="abH-6n-wXI"/>
+                <constraint firstItem="tjW-tu-obY" firstAttribute="bottom" secondItem="ncB-OW-9cJ" secondAttribute="bottom" id="c3G-MD-pPS"/>
+                <constraint firstItem="Ghu-DQ-lln" firstAttribute="leading" secondItem="tjW-tu-obY" secondAttribute="leading" constant="10" id="dsr-5N-86B"/>
+                <constraint firstItem="1J6-WB-OVK" firstAttribute="top" secondItem="KgL-Q7-Vjv" secondAttribute="top" constant="10" id="hl7-NC-BDi"/>
+                <constraint firstItem="tjW-tu-obY" firstAttribute="bottom" secondItem="Ghu-DQ-lln" secondAttribute="bottom" constant="10" id="j4f-Wl-ms8"/>
+                <constraint firstItem="ncB-OW-9cJ" firstAttribute="top" secondItem="KgL-Q7-Vjv" secondAttribute="top" id="oj4-rN-8VK"/>
+                <constraint firstItem="FNg-4s-0dS" firstAttribute="leading" secondItem="Ghu-DQ-lln" secondAttribute="trailing" constant="9" id="pUT-Lr-XMM"/>
+                <constraint firstItem="tjW-tu-obY" firstAttribute="trailing" secondItem="FNg-4s-0dS" secondAttribute="trailing" constant="9" id="wzN-5J-JPX"/>
+                <constraint firstItem="ncB-OW-9cJ" firstAttribute="leading" secondItem="tjW-tu-obY" secondAttribute="leading" id="zlg-Dd-Njj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="linkDescLbl" destination="FNg-4s-0dS" id="knx-Q2-XN9"/>
+                <outlet property="linkImageView" destination="Ghu-DQ-lln" id="OeG-gl-iay"/>
+                <outlet property="linkPreviewBtn" destination="ncB-OW-9cJ" id="U03-fJ-wEx"/>
+                <outlet property="linkTitleLbl" destination="1J6-WB-OVK" id="QF7-nd-UgU"/>
+            </connections>
+            <point key="canvasLocation" x="-744" y="-88"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LoginSessionCell" rowHeight="50" id="H25-j8-xJd" customClass="LoginSessionCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H25-j8-xJd" id="G7k-oM-caS">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HBZ-wO-MHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" testing my file so that its working fine" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnP-st-GgZ">
+                                <rect key="frame" x="15" y="10" width="310" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTy-DT-fUd">
+                                <rect key="frame" x="0.0" y="48" width="375" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="tnT-Tm-aWM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Snh-2u-kg7">
+                                <rect key="frame" x="335" y="10" width="30" height="30"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueCross" translatesAutoresizingMaskIntoConstraints="NO" id="hGT-u5-M9f">
+                                        <rect key="frame" x="7.5" y="7.5" width="15" height="15"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2A-77-wsa">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="hGT-u5-M9f" firstAttribute="centerY" secondItem="Snh-2u-kg7" secondAttribute="centerY" id="0he-AV-Xpo"/>
+                                    <constraint firstItem="hGT-u5-M9f" firstAttribute="height" secondItem="Snh-2u-kg7" secondAttribute="height" multiplier="0.5" id="Frj-us-qys"/>
+                                    <constraint firstItem="h2A-77-wsa" firstAttribute="centerX" secondItem="Snh-2u-kg7" secondAttribute="centerX" id="IXa-Gr-SiN"/>
+                                    <constraint firstItem="h2A-77-wsa" firstAttribute="height" secondItem="Snh-2u-kg7" secondAttribute="height" id="Of0-oB-ziE"/>
+                                    <constraint firstItem="h2A-77-wsa" firstAttribute="width" secondItem="Snh-2u-kg7" secondAttribute="width" id="XyL-Wv-wOD"/>
+                                    <constraint firstItem="h2A-77-wsa" firstAttribute="centerY" secondItem="Snh-2u-kg7" secondAttribute="centerY" id="cKo-Ze-TaH"/>
+                                    <constraint firstItem="hGT-u5-M9f" firstAttribute="width" secondItem="Snh-2u-kg7" secondAttribute="width" multiplier="0.5" id="jSe-Sq-HhB"/>
+                                    <constraint firstAttribute="height" constant="30" id="ji5-zU-xEP"/>
+                                    <constraint firstItem="hGT-u5-M9f" firstAttribute="centerX" secondItem="Snh-2u-kg7" secondAttribute="centerX" id="srq-Fu-Bo9"/>
+                                    <constraint firstAttribute="width" constant="30" id="xch-lr-7vU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Snh-2u-kg7" secondAttribute="trailing" constant="10" id="2Jr-9w-JdF"/>
+                            <constraint firstAttribute="bottom" secondItem="PnP-st-GgZ" secondAttribute="bottom" constant="10" id="ETQ-5d-YcY"/>
+                            <constraint firstAttribute="bottom" secondItem="iTy-DT-fUd" secondAttribute="bottom" constant="1" id="Oxj-rt-qUE"/>
+                            <constraint firstItem="iTy-DT-fUd" firstAttribute="leading" secondItem="HBZ-wO-MHJ" secondAttribute="leading" id="dIN-LE-2CQ"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="gWp-Fw-VPe"/>
+                            <constraint firstItem="PnP-st-GgZ" firstAttribute="leading" secondItem="HBZ-wO-MHJ" secondAttribute="leading" constant="15" id="jfg-nj-dDa"/>
+                            <constraint firstAttribute="trailing" secondItem="iTy-DT-fUd" secondAttribute="trailing" id="jtc-oY-8Ev"/>
+                            <constraint firstAttribute="trailing" secondItem="PnP-st-GgZ" secondAttribute="trailing" constant="50" id="pFf-XC-XJ8"/>
+                            <constraint firstItem="Snh-2u-kg7" firstAttribute="top" secondItem="HBZ-wO-MHJ" secondAttribute="top" constant="10" id="vXc-lN-DLR"/>
+                            <constraint firstItem="PnP-st-GgZ" firstAttribute="top" secondItem="HBZ-wO-MHJ" secondAttribute="top" constant="10" id="xID-hf-pNa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HBZ-wO-MHJ" firstAttribute="top" secondItem="G7k-oM-caS" secondAttribute="top" id="KTU-L4-7Iz"/>
+                    <constraint firstItem="HBZ-wO-MHJ" firstAttribute="leading" secondItem="G7k-oM-caS" secondAttribute="leading" id="PQZ-s8-FBM"/>
+                    <constraint firstAttribute="bottom" secondItem="HBZ-wO-MHJ" secondAttribute="bottom" id="ZRW-L5-iYN"/>
+                    <constraint firstAttribute="trailing" secondItem="HBZ-wO-MHJ" secondAttribute="trailing" id="qiC-mZ-viA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnCross" destination="h2A-77-wsa" id="MiV-ev-kVZ"/>
+                <outlet property="lblName" destination="PnP-st-GgZ" id="20U-x9-aPi"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="108"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="BlueCross" width="27" height="25"/>
+    </resources>
+</document>

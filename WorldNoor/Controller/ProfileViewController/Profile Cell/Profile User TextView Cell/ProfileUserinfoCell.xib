@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileUserinfoCell" id="diC-Qz-qAu" customClass="ProfileUserinfoCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="diC-Qz-qAu" id="c5G-j7-ajM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGk-2p-CAj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQZ-ck-YYu">
+                                <rect key="frame" x="10" y="5" width="394" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Ahx-1l-SXN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeQ-Sq-zXw">
+                                <rect key="frame" x="10" y="5" width="394" height="34"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NeQ-Sq-zXw" firstAttribute="centerY" secondItem="pQZ-ck-YYu" secondAttribute="centerY" id="KdA-K2-NTz"/>
+                            <constraint firstItem="NeQ-Sq-zXw" firstAttribute="centerX" secondItem="pQZ-ck-YYu" secondAttribute="centerX" id="VPX-nP-do6"/>
+                            <constraint firstItem="NeQ-Sq-zXw" firstAttribute="width" secondItem="pQZ-ck-YYu" secondAttribute="width" id="Zpq-7H-8aI"/>
+                            <constraint firstItem="pQZ-ck-YYu" firstAttribute="leading" secondItem="eGk-2p-CAj" secondAttribute="leading" constant="10" id="dMc-aZ-Dhw"/>
+                            <constraint firstAttribute="bottom" secondItem="pQZ-ck-YYu" secondAttribute="bottom" constant="5" id="h56-21-uLa"/>
+                            <constraint firstItem="pQZ-ck-YYu" firstAttribute="top" secondItem="eGk-2p-CAj" secondAttribute="top" constant="5" id="p2k-xi-iHK"/>
+                            <constraint firstAttribute="trailing" secondItem="pQZ-ck-YYu" secondAttribute="trailing" constant="10" id="sRS-6g-hdR"/>
+                            <constraint firstItem="NeQ-Sq-zXw" firstAttribute="height" secondItem="pQZ-ck-YYu" secondAttribute="height" id="wjv-QU-GdE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="eGk-2p-CAj" secondAttribute="bottom" id="0FA-sh-W6Y"/>
+                    <constraint firstItem="eGk-2p-CAj" firstAttribute="leading" secondItem="c5G-j7-ajM" secondAttribute="leading" id="GwZ-cX-23R"/>
+                    <constraint firstAttribute="trailing" secondItem="eGk-2p-CAj" secondAttribute="trailing" id="Nqd-4s-Xma"/>
+                    <constraint firstItem="eGk-2p-CAj" firstAttribute="top" secondItem="c5G-j7-ajM" secondAttribute="top" id="hhi-j0-sYw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnAboutMe" destination="NeQ-Sq-zXw" id="baC-eh-Iae"/>
+                <outlet property="lblInfo" destination="pQZ-ck-YYu" id="Qdt-hx-Wpv"/>
+            </connections>
+            <point key="canvasLocation" x="180" y="125"/>
+        </tableViewCell>
+    </objects>
+</document>

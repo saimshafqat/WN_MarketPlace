@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "61EE96D8-D403-49D4-BECA-264AD106EAC0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59CDF798-1C03-422E-BFC5-4F302585A4F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2032"
+            endingLineNumber = "2032"
+            landmarkName = "textViewDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B27E16C-8A0D-46E8-B7B6-9BF91A57D11B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2020"
+            endingLineNumber = "2020"
+            landmarkName = "textViewDidBeginEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85B6627A-51C3-45A7-A17D-B86B0324A554"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2040"
+            endingLineNumber = "2040"
+            landmarkName = "textViewDidChange(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "922A8988-4555-424B-83ED-6963F66AB261"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1939"
+            endingLineNumber = "1939"
+            landmarkName = "textView(_:shouldChangeTextIn:replacementText:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E84D410A-3B14-4CC6-B4B2-CE3A93674A31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Cell/MyContactCell/MyContactCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "manageCellContact(indexValue:dict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "948F54F5-8C82-49F9-BBD3-C14618728613"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Cell/MyContactCell/MyContactCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "manageContact(indexValue:dict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5910A745-076D-4141-B375-721D39D62657"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Cell/MyContactCell/MyContactCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "manageContactList(indexValue:dict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72283DE7-D07F-4ACC-911F-7FA5F9D421D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Cell/MyContactCell/MyContactCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "manageForwardList(indexValue:dict:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72283DE7-D07F-4ACC-911F-7FA5F9D421D1 - 5c9c720d5bbb9ecf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MyContactCell.manageForwardList(indexValue: Foundation.IndexPath, dict: __C.NSMutableDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jasvindersingh/Documents/Projects/gitlab/Ogoul/WorldNoor/WorldNoor_IOS/WorldNoor/Cell/MyContactCell/MyContactCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "72283DE7-D07F-4ACC-911F-7FA5F9D421D1 - 5c9c720d5bbb9ecf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MyContactCell.manageForwardList(indexValue: Foundation.IndexPath, dict: __C.NSMutableDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jasvindersingh/Documents/Projects/gitlab/Ogoul/WorldNoor/WorldNoor_IOS/WorldNoor/Cell/MyContactCell/MyContactCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "455">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "414651C7-228E-4E24-BA81-4B18E67C4714"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/ViewController/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "771"
+            endingLineNumber = "771"
+            landmarkName = "configWithMenuStyle()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "254DB1B6-205A-4DAC-A6F9-72FE9E88A52C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/ViewController/FeedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1275"
+            endingLineNumber = "1275"
+            landmarkName = "handleSpeechResult(result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D58BFD6-19B2-48D3-99F3-801E544FE1FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/WatchMoreVC/WatchMoreModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "692"
+            endingLineNumber = "692"
+            landmarkName = "playVideo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D58BFD6-19B2-48D3-99F3-801E544FE1FB - b25c7cdd5ddf28dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.WatchMoreModel.moreAction(indexObj: Foundation.IndexPath, feedObj: WorldNoor.FeedData) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jasvindersingh/Documents/Projects/gitlab/Ogoul/WorldNoor/WorldNoor_IOS/WorldNoor/Controller/WatchMoreVC/WatchMoreModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "693"
+                  endingLineNumber = "693"
+                  offsetFromSymbolStart = "515">
+               </Location>
+               <Location
+                  uuid = "2D58BFD6-19B2-48D3-99F3-801E544FE1FB - b25c7cdd5ddf28dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.WatchMoreModel.moreAction(indexObj: Foundation.IndexPath, feedObj: WorldNoor.FeedData) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jasvindersingh/Documents/Projects/gitlab/Ogoul/WorldNoor/WorldNoor_IOS/WorldNoor/Controller/WatchMoreVC/WatchMoreModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "693"
+                  endingLineNumber = "693"
+                  offsetFromSymbolStart = "706">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1961E9CC-B539-42A9-9B06-BCDA25DD832B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Watch Full Screen VC/WatchFullScreenModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "734"
+            endingLineNumber = "734"
+            landmarkName = "playVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0E7AF85B-7451-4D72-9CDB-104D7BBB7702"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6607EBF-0ECE-4DCC-ACC2-821ECC78BBF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Reaction View/ReactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D765294-9EF5-4936-B336-1B4A563C5F00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/New Top Stroies VC/TopStories View/StoriesBtnView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "manageCount()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E9F81C0-DBEE-4F67-AD3E-695C463227CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Reaction View/ReactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A71B931F-261F-4855-BA43-0A12F8E7A8FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Reaction View/ReactionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+=======
+            startingLineNumber = "384"
+            endingLineNumber = "384"
+            landmarkName = "manageTable()"
+>>>>>>> 573b7fa2d9922ae6a12f13f7a7bd464b1ea9a638
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78CDCA28-B39A-4E0E-B48F-DD44180B3F90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/New Top Stroies VC/TopStories View/StoriesBtnView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "manageCount()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D7C7051-E6ED-48AE-A81B-DA22B6D6764D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/New Top Stroies VC/TopStories View/StoriesBtnView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "commentBtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFB2F298-A4DD-4FF8-9BA8-BAC8F61A41BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/CommentsViewController/CommentTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "CommentTableViewController"
+            landmarkType = "3">
+<<<<<<< HEAD
+=======
+            <Locations>
+               <Location
+                  uuid = "F5EF7EEC-0093-4A13-8B90-C66ADF34DB8E - d7e577c6b5849e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.FeedDetailController.commetDropDownTrailingConst.getter : Swift.Optional&lt;__C.NSLayoutConstraint&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucky/Desktop/Softech_Latest_Work/worldnoor/WorldNoor/Controller/FeedDetailController/ViewController/FeedDetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "F5EF7EEC-0093-4A13-8B90-C66ADF34DB8E - c3259b11c93a25e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.FeedDetailController.commetDropDownTrailingConst.setter : Swift.Optional&lt;__C.NSLayoutConstraint&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucky/Desktop/Softech_Latest_Work/worldnoor/WorldNoor/Controller/FeedDetailController/ViewController/FeedDetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "F5EF7EEC-0093-4A13-8B90-C66ADF34DB8E - 66451951ce0be68d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.FeedDetailController.commetDropDownTrailingConst.modify : Swift.Optional&lt;__C.NSLayoutConstraint&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucky/Desktop/Softech_Latest_Work/worldnoor/WorldNoor/Controller/FeedDetailController/ViewController/FeedDetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "F5EF7EEC-0093-4A13-8B90-C66ADF34DB8E - b687138d3a1fe5ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.FeedDetailController.commetDropDownTrailingConst.modify : Swift.Optional&lt;__C.NSLayoutConstraint&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucky/Desktop/Softech_Latest_Work/worldnoor/WorldNoor/Controller/FeedDetailController/ViewController/FeedDetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "F5EF7EEC-0093-4A13-8B90-C66ADF34DB8E - 89827ca53aa05351"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.FeedDetailController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; WorldNoor.FeedDetailController"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucky/Desktop/Softech_Latest_Work/worldnoor/WorldNoor/Controller/FeedDetailController/ViewController/FeedDetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "2679">
+               </Location>
+               <Location
+                  uuid = "F5EF7EEC-0093-4A13-8B90-C66ADF34DB8E - f73f1f9334cfe156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.FeedDetailController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WorldNoor.FeedDetailController&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucky/Desktop/Softech_Latest_Work/worldnoor/WorldNoor/Controller/FeedDetailController/ViewController/FeedDetailController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "2621">
+               </Location>
+            </Locations>
+>>>>>>> 573b7fa2d9922ae6a12f13f7a7bd464b1ea9a638
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+<<<<<<< HEAD
+            uuid = "43AA6C84-EB1D-4C77-86E0-F4BAEBB009FB"
+            shouldBeEnabled = "No"
+=======
+            uuid = "E287D479-1440-42AD-804F-6C3D3DDB27E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/ProfileViewController/ProfileViewModel/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1078"
+            endingLineNumber = "1078"
+            landmarkName = "uploadAction(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F799410D-F6AD-4BC3-BBC2-0186F1F3CBB3"
+            shouldBeEnabled = "Yes"
+>>>>>>> 573b7fa2d9922ae6a12f13f7a7bd464b1ea9a638
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "713"
+            endingLineNumber = "713"
+            landmarkName = "didCompleteProgress()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79650AC4-B615-47BD-9E9F-49A92392D7A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/StoryHeaderView &amp; ProgressView/IGSnapProgressView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "stop()"
+=======
+            startingLineNumber = "1164"
+            endingLineNumber = "1164"
+            landmarkName = "viewCoverPhoto()"
+>>>>>>> 573b7fa2d9922ae6a12f13f7a7bd464b1ea9a638
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0EB0D89-A9C5-4B91-9413-ADE24735FA82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Modules/StoryPreview/IGStoryPreviewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
+            startingLineNumber = "374"
+            endingLineNumber = "374"
+            landmarkName = "didCompletePreview()"
+=======
+            startingLineNumber = "2950"
+            endingLineNumber = "2950"
+            landmarkName = "callingServiceToUpload(imageParamName:fileType:filePath:)"
+>>>>>>> 573b7fa2d9922ae6a12f13f7a7bd464b1ea9a638
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71C0F77A-2B00-45EF-9E57-6FD524DD1A4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "680"
+            endingLineNumber = "680"
+            landmarkName = "didEnterBackground()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A739F66-58B2-4B05-AC4D-02643A77FF07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Utilities/XQAudioPlayer/XQAudioPlayer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "observeValue(forKeyPath:of:change:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+<<<<<<< HEAD
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74ACD494-A6EC-4843-9ED5-313F160B50EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/IGPlayerView1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "playerItem"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4C18B41-95AB-446A-8BE6-6BF2FA7AD6DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/ViewModel/FeedViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "910"
+            endingLineNumber = "910"
+            landmarkName = "playVideo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA93B301-3E3F-4D8E-BFAE-9E0A3435DA7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/ViewModel/FeedViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "tableView(_:didEndDisplaying:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "584CBB86-B521-448F-BA0E-CA0A1EF8E904"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/StoryHeaderView &amp; ProgressView/IGSnapProgressView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "reset()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "995DB8D0-5ACD-4DFB-82D7-219BC40E9A9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Model/FeedVideoModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "removeCachedFile(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9D66C44-2F47-4E7E-B874-D306DF83742F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Model/FeedVideoModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "removeAllVideoFilesFromCache()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9906F5F-4A38-42BB-B89C-17C3227A9920"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "729"
+            endingLineNumber = "729"
+            landmarkName = "fillupLastPlayedSnap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "900FDC7B-2A53-4A3E-A51A-487A9CFE36B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "719"
+            endingLineNumber = "719"
+            landmarkName = "fillUpMissingImageViews(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4DEFE7A-00AD-4886-A84F-DC2901B63870"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "754"
+            endingLineNumber = "754"
+            landmarkName = "clearLastPlayedSnaps(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C22DBCD1-F8C8-4861-9BFE-0D6700202693"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "744"
+            endingLineNumber = "744"
+            landmarkName = "fillupLastPlayedSnaps(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "841D3D92-982A-4783-87E3-0BF3CEE8879D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "780"
+            endingLineNumber = "780"
+            landmarkName = "gearupTheProgressors(type:playerView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A8DE0EA-3235-4A65-A161-762C3AE2A7BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "883"
+            endingLineNumber = "883"
+            landmarkName = "stopSnapProgressors(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CBC9DF5-01A3-46D5-8609-9D606AEBFC69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Modules/StoryPreview/IGStoryPreviewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
+            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9DC9E5B-661D-4265-919E-2C73EE34869A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1042"
+            endingLineNumber = "1042"
+            landmarkName = "didStartPlaying()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACB29AE6-BE28-4E27-9864-766D7C1B7795"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/IGPlayerView1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "setupPlayerPeriodicTimeObserver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BEDC2FD-81D7-4D87-93EF-87CD9A3BC3C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Modules/StoryPreview/IGStoryPreviewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "init(layout:stories:handPickedStoryIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AF12B33-CBE9-4D85-A2F7-3C3DB4427A4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/StoryHeaderView &amp; ProgressView/IGStoryPreviewHeaderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "clearTheProgressorSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15C4B305-F365-431A-A92C-20559A727D79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Source/CollectionViewCell/IGStoryPreviewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "snapIndex"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53C4B3C8-4148-4E3E-8586-E31048F5342F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Modules/StoryPreview/IGStoryPreviewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "collectionView(_:willDisplay:forItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A187AF5-F2E5-4DC2-8A2D-45A861CBC920"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/StoryModuleVC/StoryPreview/InstagramStories/Modules/StoryPreview/IGStoryPreviewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "531"
+            endingLineNumber = "531"
+            landmarkName = "callingStoriesService(action:param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+=======
+>>>>>>> 573b7fa2d9922ae6a12f13f7a7bd464b1ea9a638
+   </Breakpoints>
+</Bucket>

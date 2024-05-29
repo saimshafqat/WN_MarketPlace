@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ktMessenger.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="FriendSuggestionTableViewCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCY-dO-bMi" userLabel="container View">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_icon" translatesAutoresizingMaskIntoConstraints="NO" id="tak-C7-ctv">
+                                <rect key="frame" x="16" y="10" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.89411764709999997" green="0.8980392157" blue="0.91764705879999997" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="GG3-8e-J7R"/>
+                                    <constraint firstAttribute="width" constant="70" id="hgj-g2-V9v"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" text="omnia samy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNv-68-8G4" userLabel="name Label">
+                                <rect key="frame" x="100" y="7.9999999999999982" width="92.666666666666686" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mutual friend" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YI-zH-1dB" userLabel="date Label">
+                                <rect key="frame" x="100" y="31.333333333333332" width="77.333333333333314" height="12.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8ek-qn-aCc">
+                                <rect key="frame" x="100" y="53.666666666666657" width="208" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fe-dD-813">
+                                        <rect key="frame" x="0.0" y="0.0" width="62.666666666666664" height="36"/>
+                                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="epl-PM-pgs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Add Friend">
+                                            <color key="titleColor" red="0.0" green="0.58823529411764708" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Add Friend"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="addFriendTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Htj-Kj-0i3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="779-4g-G9C">
+                                        <rect key="frame" x="72.666666666666657" y="0.0" width="62.666666666666657" height="36"/>
+                                        <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="IEq-1t-Joi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Remove">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Remove"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="removeTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FT9-Z0-7bl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpQ-NH-eRa">
+                                        <rect key="frame" x="145.33333333333334" y="0.0" width="62.666666666666657" height="36"/>
+                                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="SoP-rU-TPm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Cancel"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="cancelFriendRequestTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lp1-y3-R4A"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tak-C7-ctv" firstAttribute="leading" secondItem="PCY-dO-bMi" secondAttribute="leading" constant="16" id="1g1-Yu-gYB"/>
+                            <constraint firstAttribute="bottom" secondItem="8ek-qn-aCc" secondAttribute="bottom" constant="10.33" id="8Hn-kV-oNT"/>
+                            <constraint firstItem="0YI-zH-1dB" firstAttribute="leading" secondItem="gNv-68-8G4" secondAttribute="leading" id="K3m-qp-kuP"/>
+                            <constraint firstItem="0YI-zH-1dB" firstAttribute="top" secondItem="gNv-68-8G4" secondAttribute="bottom" constant="4" id="PhK-G4-CqW"/>
+                            <constraint firstItem="gNv-68-8G4" firstAttribute="top" secondItem="PCY-dO-bMi" secondAttribute="top" constant="8" id="XYy-T0-ooR"/>
+                            <constraint firstItem="tak-C7-ctv" firstAttribute="top" secondItem="PCY-dO-bMi" secondAttribute="top" constant="10" id="Ydh-n3-nPC"/>
+                            <constraint firstItem="gNv-68-8G4" firstAttribute="leading" secondItem="tak-C7-ctv" secondAttribute="trailing" constant="14" id="gTk-Ir-32L"/>
+                            <constraint firstItem="8ek-qn-aCc" firstAttribute="top" secondItem="0YI-zH-1dB" secondAttribute="bottom" constant="10" id="kGf-el-tVI"/>
+                            <constraint firstAttribute="trailing" secondItem="8ek-qn-aCc" secondAttribute="trailing" constant="12" id="qHD-dh-j9x"/>
+                            <constraint firstItem="8ek-qn-aCc" firstAttribute="leading" secondItem="tak-C7-ctv" secondAttribute="trailing" constant="14" id="uP3-X0-YeV"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gNv-68-8G4" secondAttribute="trailing" constant="20" id="ywx-LP-i2k"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="PCY-dO-bMi" secondAttribute="bottom" id="4H2-bV-Mn5"/>
+                    <constraint firstAttribute="trailing" secondItem="PCY-dO-bMi" secondAttribute="trailing" id="HuC-DB-Vwr"/>
+                    <constraint firstItem="PCY-dO-bMi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Vtg-u9-Qpz"/>
+                    <constraint firstItem="PCY-dO-bMi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jsA-xn-R7a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addFriendButton" destination="8fe-dD-813" id="fBs-ND-25I"/>
+                <outlet property="cancelFriendRequestButton" destination="TpQ-NH-eRa" id="zRm-eo-gnZ"/>
+                <outlet property="descriptionLabel" destination="0YI-zH-1dB" id="0lq-yY-eki"/>
+                <outlet property="nameLabel" destination="gNv-68-8G4" id="HNg-lI-ksm"/>
+                <outlet property="removeButton" destination="779-4g-G9C" id="acL-hu-Ac2"/>
+                <outlet property="userImageView" destination="tak-C7-ctv" id="f6X-mL-Ft5"/>
+            </connections>
+            <point key="canvasLocation" x="97.70992366412213" y="19.718309859154932"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="profile_icon" width="83.333335876464844" height="83.333335876464844"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

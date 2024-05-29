@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SignupTextCell" rowHeight="50" id="msV-1n-CzK" customClass="SignupTextCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="msV-1n-CzK" id="ME3-UO-h4e">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egf-id-Ls7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter First Name" textAlignment="center" minimumFontSize="17" background="Top_input" translatesAutoresizingMaskIntoConstraints="NO" id="9CF-xa-J8Y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Enter First Name"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.82352941176470584" green="0.82352941176470584" blue="0.82352941176470584" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Maa-bB-dVD"/>
+                            <constraint firstAttribute="bottom" secondItem="9CF-xa-J8Y" secondAttribute="bottom" id="Y89-a4-MZC"/>
+                            <constraint firstItem="9CF-xa-J8Y" firstAttribute="leading" secondItem="egf-id-Ls7" secondAttribute="leading" id="hU9-4k-g5g"/>
+                            <constraint firstAttribute="trailing" secondItem="9CF-xa-J8Y" secondAttribute="trailing" id="oe0-Ny-SzV"/>
+                            <constraint firstItem="9CF-xa-J8Y" firstAttribute="top" secondItem="egf-id-Ls7" secondAttribute="top" id="xxM-an-plB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="egf-id-Ls7" secondAttribute="trailing" id="IpZ-kl-T3H"/>
+                    <constraint firstItem="egf-id-Ls7" firstAttribute="leading" secondItem="ME3-UO-h4e" secondAttribute="leading" id="NWV-UJ-ySl"/>
+                    <constraint firstItem="egf-id-Ls7" firstAttribute="top" secondItem="ME3-UO-h4e" secondAttribute="top" id="lRN-mX-cXj"/>
+                    <constraint firstAttribute="bottom" secondItem="egf-id-Ls7" secondAttribute="bottom" id="y2h-Ym-3kW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tfMain" destination="9CF-xa-J8Y" id="6gf-mP-ncS"/>
+            </connections>
+            <point key="canvasLocation" x="-255.07246376811597" y="-8.0357142857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Top_input" width="310" height="53.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

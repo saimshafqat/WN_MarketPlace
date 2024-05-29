@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewSingleVideoCell" rowHeight="196" id="aoO-ah-DTd" customClass="NewSingleVideoCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aoO-ah-DTd" id="W7c-pa-4jy">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHa-TT-2b6">
+                        <rect key="frame" x="0.0" y="5" width="320" height="320"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YFq-Gh-ZTw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cb-K7-Fpw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                                <connections>
+                                    <action selector="openImageWithSender:" destination="aoO-ah-DTd" eventType="touchUpInside" id="9mD-Q5-LIu"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play-gray" translatesAutoresizingMaskIntoConstraints="NO" id="O6y-3W-zAM">
+                                <rect key="frame" x="145" y="145" width="30" height="30"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="livestream has ended " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJo-Cd-yY2">
+                                <rect key="frame" x="56" y="149.5" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="livestream has ended "/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AJo-Cd-yY2" firstAttribute="width" secondItem="DHa-TT-2b6" secondAttribute="width" multiplier="0.65" id="0z3-Rq-7FN"/>
+                            <constraint firstItem="3cb-K7-Fpw" firstAttribute="height" secondItem="YFq-Gh-ZTw" secondAttribute="height" id="1Vr-TF-haO"/>
+                            <constraint firstItem="AJo-Cd-yY2" firstAttribute="centerX" secondItem="O6y-3W-zAM" secondAttribute="centerX" id="1xV-to-3FP"/>
+                            <constraint firstItem="O6y-3W-zAM" firstAttribute="centerX" secondItem="YFq-Gh-ZTw" secondAttribute="centerX" id="953-MX-3Uq"/>
+                            <constraint firstItem="AJo-Cd-yY2" firstAttribute="centerY" secondItem="O6y-3W-zAM" secondAttribute="centerY" id="CkB-1L-oqg"/>
+                            <constraint firstItem="3cb-K7-Fpw" firstAttribute="centerY" secondItem="YFq-Gh-ZTw" secondAttribute="centerY" id="Ct7-aH-Jvz"/>
+                            <constraint firstItem="YFq-Gh-ZTw" firstAttribute="top" secondItem="DHa-TT-2b6" secondAttribute="top" id="J5j-sQ-dAd"/>
+                            <constraint firstItem="3cb-K7-Fpw" firstAttribute="centerX" secondItem="YFq-Gh-ZTw" secondAttribute="centerX" id="MJu-CU-g11"/>
+                            <constraint firstAttribute="height" constant="320" id="aP9-FQ-LlY"/>
+                            <constraint firstItem="3cb-K7-Fpw" firstAttribute="width" secondItem="YFq-Gh-ZTw" secondAttribute="width" id="an2-D3-9rY"/>
+                            <constraint firstAttribute="bottom" secondItem="YFq-Gh-ZTw" secondAttribute="bottom" id="miU-uY-mlz"/>
+                            <constraint firstAttribute="trailing" secondItem="YFq-Gh-ZTw" secondAttribute="trailing" id="qqQ-Gn-8kF"/>
+                            <constraint firstItem="O6y-3W-zAM" firstAttribute="centerY" secondItem="YFq-Gh-ZTw" secondAttribute="centerY" id="wps-uX-Yxd"/>
+                            <constraint firstItem="YFq-Gh-ZTw" firstAttribute="leading" secondItem="DHa-TT-2b6" secondAttribute="leading" id="zvp-Ju-mUU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="DHa-TT-2b6" firstAttribute="leading" secondItem="W7c-pa-4jy" secondAttribute="leading" id="ORe-84-Vtc"/>
+                    <constraint firstAttribute="trailing" secondItem="DHa-TT-2b6" secondAttribute="trailing" id="Uqp-EL-cjn"/>
+                    <constraint firstItem="DHa-TT-2b6" firstAttribute="top" secondItem="W7c-pa-4jy" secondAttribute="top" constant="5" id="YKu-EA-qHc"/>
+                    <constraint firstAttribute="bottom" secondItem="DHa-TT-2b6" secondAttribute="bottom" constant="5" id="Z7b-gg-ehO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnImgView" destination="3cb-K7-Fpw" id="Wx6-Cu-MhJ"/>
+                <outlet property="imgPlay" destination="O6y-3W-zAM" id="GDj-QQ-NgC"/>
+                <outlet property="imgViewMain" destination="YFq-Gh-ZTw" id="HfH-Lp-PvV"/>
+                <outlet property="lblMain" destination="AJo-Cd-yY2" id="7SR-MJ-y8V"/>
+            </connections>
+            <point key="canvasLocation" x="162.31884057971016" y="128.57142857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="play-gray" width="30" height="30"/>
+    </resources>
+</document>

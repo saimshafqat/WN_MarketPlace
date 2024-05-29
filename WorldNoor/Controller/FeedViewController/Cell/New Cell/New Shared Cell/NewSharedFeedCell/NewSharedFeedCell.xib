@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewSharedFeedCell" rowHeight="318" id="Ovi-eV-EiJ" customClass="NewSharedFeedCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="318"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ovi-eV-EiJ" id="qBB-aM-b6O">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="318"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKY-TE-Jxo">
+                        <rect key="frame" x="8" y="3" width="398" height="312"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EnB-ES-xgq" customClass="NestedTableView" customModule="WorldNoor" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="398" height="312"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ovi-eV-EiJ" id="JnQ-AI-uOE"/>
+                                    <outlet property="delegate" destination="Ovi-eV-EiJ" id="Fu3-cF-2a8"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EnB-ES-xgq" firstAttribute="top" secondItem="xKY-TE-Jxo" secondAttribute="top" id="05o-za-iKi"/>
+                            <constraint firstItem="EnB-ES-xgq" firstAttribute="leading" secondItem="xKY-TE-Jxo" secondAttribute="leading" id="81d-9G-ybd"/>
+                            <constraint firstAttribute="bottom" secondItem="EnB-ES-xgq" secondAttribute="bottom" id="Nb7-2D-ree"/>
+                            <constraint firstAttribute="trailing" secondItem="EnB-ES-xgq" secondAttribute="trailing" id="oZv-fa-e7V"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="xb0-Bx-pjK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.8626509309" green="0.86279940610000005" blue="0.86264163260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="xKY-TE-Jxo" secondAttribute="bottom" constant="3" id="Lrb-O3-rui"/>
+                    <constraint firstItem="xKY-TE-Jxo" firstAttribute="top" secondItem="qBB-aM-b6O" secondAttribute="top" constant="3" id="UtY-gL-gAZ"/>
+                    <constraint firstItem="xKY-TE-Jxo" firstAttribute="leading" secondItem="qBB-aM-b6O" secondAttribute="leading" constant="8" id="WbV-wc-MG7"/>
+                    <constraint firstAttribute="trailing" secondItem="xKY-TE-Jxo" secondAttribute="trailing" constant="8" id="m7r-FF-PKd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="tblViewImg" destination="EnB-ES-xgq" id="BTq-kH-Drv"/>
+            </connections>
+            <point key="canvasLocation" x="-91.304347826086968" y="-45.535714285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

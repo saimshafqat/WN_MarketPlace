@@ -1,0 +1,3430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7736F0FA-7CAF-41FB-B61A-6334113DF530"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Cell/New Cell/New Image Cell/New Text Header Cell/NewTextHeaderCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "reloadHeaderData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65afb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "378"
+                  endingLineNumber = "378"
+                  offsetFromSymbolStart = "22323">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65afb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "378"
+                  endingLineNumber = "378"
+                  offsetFromSymbolStart = "22560">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "22323">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "22560">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "19928">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "20160">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65b87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "19928">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b65b87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "20160">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b6569f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "15992">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b6569f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "16224">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - 18c7da7758b6569f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "15056">
+               </Location>
+               <Location
+                  uuid = "E1A4041E-B41A-40B5-ABE1-38D39C2A9559 - fbd466b8797df46d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.translateAction(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "384E3919-624B-4F6E-B534-3219A104253E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Cell/New Cell/New Image Cell/New Text Header Cell/NewTextHeaderCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "reloadHeaderData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65afb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "378"
+                  endingLineNumber = "378"
+                  offsetFromSymbolStart = "22323">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65afb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "378"
+                  endingLineNumber = "378"
+                  offsetFromSymbolStart = "22560">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "22323">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "22560">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "19928">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65b64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "375"
+                  endingLineNumber = "375"
+                  offsetFromSymbolStart = "20160">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65b87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "19928">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b65b87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "374"
+                  endingLineNumber = "374"
+                  offsetFromSymbolStart = "20160">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b6569f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "15992">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b6569f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "16224">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - 18c7da7758b6569f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.reloadHeaderData() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "350"
+                  endingLineNumber = "350"
+                  offsetFromSymbolStart = "15056">
+               </Location>
+               <Location
+                  uuid = "384E3919-624B-4F6E-B534-3219A104253E - fbd466b8797df1df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewTextHeaderCell.translateAction(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Text%20Header%20Cell/NewTextHeaderCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "4628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8934F450-810B-43DD-A489-F8536547E7DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Cell/New Cell/New Image Cell/New Single Image Cell/NewSingleImageCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "downloadImage(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8934F450-810B-43DD-A489-F8536547E7DC - a3bfb8066dadf76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewSingleImageCell.downloadImage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Single%20Image%20Cell/NewSingleImageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "8934F450-810B-43DD-A489-F8536547E7DC - a3bfb8066dadf76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewSingleImageCell.downloadImage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Single%20Image%20Cell/NewSingleImageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "8934F450-810B-43DD-A489-F8536547E7DC - a3bfb8066dadf34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewSingleImageCell.downloadImage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Image%20Cell/New%20Single%20Image%20Cell/NewSingleImageCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C59E898-0BD7-4C9D-91DE-103DEBBCB86F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Cell/New Cell/New Gallery Cell/NewSingleGalleryCell/NewSingleGalleryCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "manageCellData(feedObj:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C59E898-0BD7-4C9D-91DE-103DEBBCB86F - 810dd5e609db7b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewSingleGalleryCell.playVideo() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Gallery%20Cell/NewSingleGalleryCell/NewSingleGalleryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "11579">
+               </Location>
+               <Location
+                  uuid = "5C59E898-0BD7-4C9D-91DE-103DEBBCB86F - 810dd5e609db7b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewSingleGalleryCell.playVideo() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Gallery%20Cell/NewSingleGalleryCell/NewSingleGalleryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "9796">
+               </Location>
+               <Location
+                  uuid = "5C59E898-0BD7-4C9D-91DE-103DEBBCB86F - 810dd5e609db7b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewSingleGalleryCell.playVideo() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Gallery%20Cell/NewSingleGalleryCell/NewSingleGalleryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "9348">
+               </Location>
+               <Location
+                  uuid = "5C59E898-0BD7-4C9D-91DE-103DEBBCB86F - e76e009ec491b017"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewSingleGalleryCell.manageCellData(feedObj: WorldNoor.FeedData) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/FeedViewController/Cell/New%20Cell/New%20Gallery%20Cell/NewSingleGalleryCell/NewSingleGalleryCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "2580">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "889C138C-728E-4854-ABDF-5AF68A55810F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Cell/GalleryCell/GalleryCollectionCell/GalleryCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "managePostData(postObj:mainIndex:currentIndex:isAppearFrom:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83700FAC-747C-45D7-B71C-63BE61E9AE17"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/FeedViewController/Cell/GalleryCell/GalleryCollectionCell/GalleryCollectionCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "addImageView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA6BF63E-4E49-4677-ADEF-DBD7F2B46AC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Utilities/Extension/Detail Page Push Extension/ImageViewerExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "showdetail(feedObj:currentIndex:ShowWatch:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA6BF63E-4E49-4677-ADEF-DBD7F2B46AC6 - 3031e4867ade9c00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.showdetail(feedObj: WorldNoor.FeedData, currentIndex: Swift.Int, ShowWatch: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Utilities/Extension/Detail%20Page%20Push%20Extension/ImageViewerExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1248">
+               </Location>
+               <Location
+                  uuid = "FA6BF63E-4E49-4677-ADEF-DBD7F2B46AC6 - 3031e4867ade9c00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.showdetail(feedObj: WorldNoor.FeedData, currentIndex: Swift.Int, ShowWatch: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Utilities/Extension/Detail%20Page%20Push%20Extension/ImageViewerExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32BDF22E-C43F-4A1F-925B-C9EB1E117CE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/HashTag VC/HashTagVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "HashTagVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9883BAD0-1625-413E-AA80-DD50023E2BD9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Model/CoreDbManager/ChatDBManager/ChatDBManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "processChatData(chatData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9883BAD0-1625-413E-AA80-DD50023E2BD9 - d519696bf1aca326"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WorldNoor.ConversationModel) -&gt; () in WorldNoor.ChatDBManager.processChatData(chatData: Swift.Array&lt;WorldNoor.ConversationModel&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Model/CoreDbManager/ChatDBManager/ChatDBManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "9883BAD0-1625-413E-AA80-DD50023E2BD9 - d519696bf1aca307"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WorldNoor.ConversationModel) -&gt; () in WorldNoor.ChatDBManager.processChatData(chatData: Swift.Array&lt;WorldNoor.ConversationModel&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Model/CoreDbManager/ChatDBManager/ChatDBManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC3392C6-B8CC-4A32-872C-7055AB3E2B66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Model/CoreDbManager/CoreDbManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "persistentContainer"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1838EBAD-666A-4FEF-8E94-72EB6513F1FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Model/CoreDbManager/CoreDbManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "deleteEverything()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "020C83A0-66C6-40E3-833F-1204015D695E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Model/CoreDbManager/CoreDbManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "persistentContainer"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01AE23D4-F2CA-413A-9B64-EFAA6543507B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Model/CoreDbManager/CoreDbManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "persistentContainer"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "01AE23D4-F2CA-413A-9B64-EFAA6543507B - 7c4f53bf3fee245d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.CoreDbManager.persistentContainer.getter : __C.NSPersistentContainer"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Model/CoreDbManager/CoreDbManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "171">
+               </Location>
+               <Location
+                  uuid = "01AE23D4-F2CA-413A-9B64-EFAA6543507B - 7f1467796bab639e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.NSPersistentContainer in WorldNoor.CoreDbManager.persistentContainer.getter : __C.NSPersistentContainer"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Model/CoreDbManager/CoreDbManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "01AE23D4-F2CA-413A-9B64-EFAA6543507B - fa3d64b36412a849"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.CoreDbManager.persistentContainer.setter : __C.NSPersistentContainer"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Model/CoreDbManager/CoreDbManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C1AAE44-7411-4713-99A3-2099855F5876"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Model/CoreDbManager/NSCustomPersistentContainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "defaultDirectoryURL()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67AFB9E2-CD7C-472A-A767-FFBFFAA89136"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Model/CoreDbManager/ChatDBManager/ChatDBManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "processChatData(chatData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67AFB9E2-CD7C-472A-A767-FFBFFAA89136 - 8e3741712d596068"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatDBManager.processChatData(chatData: Swift.Array&lt;WorldNoor.ConversationModel&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Model/CoreDbManager/ChatDBManager/ChatDBManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "67AFB9E2-CD7C-472A-A767-FFBFFAA89136 - d519696bf1aca3e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WorldNoor.ConversationModel) -&gt; () in WorldNoor.ChatDBManager.processChatData(chatData: Swift.Array&lt;WorldNoor.ConversationModel&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Model/CoreDbManager/ChatDBManager/ChatDBManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/Chat New Cell/Image Cell/Send Image Chat Cell/SendImagewithBodyNewChatCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "357"
+            endingLineNumber = "357"
+            landmarkName = "VideoPlayWithURL(URLVideo:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9 - e27fc55b6baab22f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SendImagewithBodyNewChatCell.showimage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/Chat%20New%20Cell/Image%20Cell/Send%20Image%20Chat%20Cell/SendImagewithBodyNewChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "358"
+                  endingLineNumber = "358"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9 - e27fc55b6baab22f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SendImagewithBodyNewChatCell.showimage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/Chat%20New%20Cell/Image%20Cell/Send%20Image%20Chat%20Cell/SendImagewithBodyNewChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "358"
+                  endingLineNumber = "358"
+                  offsetFromSymbolStart = "3819">
+               </Location>
+               <Location
+                  uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9 - e27fc55b6baab208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SendImagewithBodyNewChatCell.showimage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/Chat%20New%20Cell/Image%20Cell/Send%20Image%20Chat%20Cell/SendImagewithBodyNewChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "357"
+                  endingLineNumber = "357"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9 - e27fc55b6baab208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SendImagewithBodyNewChatCell.showimage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/Chat%20New%20Cell/Image%20Cell/Send%20Image%20Chat%20Cell/SendImagewithBodyNewChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "357"
+                  endingLineNumber = "357"
+                  offsetFromSymbolStart = "3819">
+               </Location>
+               <Location
+                  uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9 - e27fc55b6baab208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SendImagewithBodyNewChatCell.showimage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/Chat%20New%20Cell/Image%20Cell/Send%20Image%20Chat%20Cell/SendImagewithBodyNewChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "357"
+                  endingLineNumber = "357"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9 - e27fc55b6baab208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SendImagewithBodyNewChatCell.showimage(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/Chat%20New%20Cell/Image%20Cell/Send%20Image%20Chat%20Cell/SendImagewithBodyNewChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "357"
+                  endingLineNumber = "357"
+                  offsetFromSymbolStart = "3200">
+               </Location>
+               <Location
+                  uuid = "B82E4F54-64B9-4ABD-8F59-CE928862AEC9 - e7c0d20426771bd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SendImagewithBodyNewChatCell.handleLongPress(longPressGesture: __C.UILongPressGestureRecognizer) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/Chat%20New%20Cell/Image%20Cell/Send%20Image%20Chat%20Cell/SendImagewithBodyNewChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "356"
+                  endingLineNumber = "356"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "AF7C75CC-0D46-4A6C-B413-12FFE6890C0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6240BD84-C479-4F39-AB92-96043908F081"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatListController/Old Chat List VC/ChatListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "638"
+            endingLineNumber = "638"
+            landmarkName = "chatMessageReceived(res:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6240BD84-C479-4F39-AB92-96043908F081 - e2ab0dabf060174c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatListController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatListController/Old%20Chat%20List%20VC/ChatListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "215">
+               </Location>
+               <Location
+                  uuid = "6240BD84-C479-4F39-AB92-96043908F081 - e2ab0dabf060174c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatListController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatListController/Old%20Chat%20List%20VC/ChatListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "6240BD84-C479-4F39-AB92-96043908F081 - e2ab0dabf060172f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatListController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatListController/Old%20Chat%20List%20VC/ChatListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "639"
+                  endingLineNumber = "639"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "6240BD84-C479-4F39-AB92-96043908F081 - e2ab0dabf060172f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatListController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatListController/Old%20Chat%20List%20VC/ChatListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "639"
+                  endingLineNumber = "639"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "6240BD84-C479-4F39-AB92-96043908F081 - e2ab0dabf060174c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatListController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatListController/Old%20Chat%20List%20VC/ChatListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "638"
+                  endingLineNumber = "638"
+                  offsetFromSymbolStart = "724">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EE84D16-DAE3-4826-8C6A-DF58957892B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Resource/DB/Stack/CoreDbManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "saveContext()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1EE84D16-DAE3-4826-8C6A-DF58957892B3 - dc9d3facbbc2342c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.CoreDbManager.saveContext() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Resource/DB/Stack/CoreDbManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "1EE84D16-DAE3-4826-8C6A-DF58957892B3 - dc9d3facbbc2342c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.CoreDbManager.saveContext() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Resource/DB/Stack/CoreDbManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "1EE84D16-DAE3-4826-8C6A-DF58957892B3 - dc9d3facbbc2342c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.CoreDbManager.saveContext() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Resource/DB/Stack/CoreDbManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "817"
+            endingLineNumber = "817"
+            landmarkName = "editandemmitChatText()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59eccba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "816"
+                  endingLineNumber = "816"
+                  offsetFromSymbolStart = "880">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59eccba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "816"
+                  endingLineNumber = "816"
+                  offsetFromSymbolStart = "2568">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59ecb74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "814"
+                  endingLineNumber = "814"
+                  offsetFromSymbolStart = "2568">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59ecb74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "814"
+                  endingLineNumber = "814"
+                  offsetFromSymbolStart = "2523">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59ecb74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "814"
+                  endingLineNumber = "814"
+                  offsetFromSymbolStart = "2232">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59ecb74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "814"
+                  endingLineNumber = "814"
+                  offsetFromSymbolStart = "2260">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59ecb74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "814"
+                  endingLineNumber = "814"
+                  offsetFromSymbolStart = "2557">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59ecb57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "813"
+                  endingLineNumber = "813"
+                  offsetFromSymbolStart = "2260">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59ecb57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "813"
+                  endingLineNumber = "813"
+                  offsetFromSymbolStart = "2232">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59eccba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "816"
+                  endingLineNumber = "816"
+                  offsetFromSymbolStart = "2232">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59eccba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "816"
+                  endingLineNumber = "816"
+                  offsetFromSymbolStart = "2260">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59eccf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "818"
+                  endingLineNumber = "818"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "D6E66AB5-29FE-4BA7-85AF-46EA3568437E - 4e513abf59eccf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.sendMessage() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "818"
+                  endingLineNumber = "818"
+                  offsetFromSymbolStart = "644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "145C2F3B-B910-4342-9361-AF96B059A5E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1219"
+            endingLineNumber = "1219"
+            landmarkName = "viewTranscript(fileID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "145C2F3B-B910-4342-9361-AF96B059A5E7 - 5e71fef9c40d6b21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.dowloadConvertedURL(fileID: Swift.String) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1218"
+                  endingLineNumber = "1218"
+                  offsetFromSymbolStart = "2516">
+               </Location>
+               <Location
+                  uuid = "145C2F3B-B910-4342-9361-AF96B059A5E7 - 5e71fef9c40d6b21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.dowloadConvertedURL(fileID: Swift.String) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1218"
+                  endingLineNumber = "1218"
+                  offsetFromSymbolStart = "1660">
+               </Location>
+               <Location
+                  uuid = "145C2F3B-B910-4342-9361-AF96B059A5E7 - 5e71fef9c40d6b21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.dowloadConvertedURL(fileID: Swift.String) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1218"
+                  endingLineNumber = "1218"
+                  offsetFromSymbolStart = "1712">
+               </Location>
+               <Location
+                  uuid = "145C2F3B-B910-4342-9361-AF96B059A5E7 - 5e71fef9c40d6b67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.dowloadConvertedURL(fileID: Swift.String) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1220"
+                  endingLineNumber = "1220"
+                  offsetFromSymbolStart = "2212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D22F3F8-4DB6-4AA7-9199-6C11A0B614CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2231"
+            endingLineNumber = "2231"
+            landmarkName = "textView(_:shouldChangeTextIn:replacementText:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D22F3F8-4DB6-4AA7-9199-6C11A0B614CB - 28687c67219ed589"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2182"
+                  endingLineNumber = "2182"
+                  offsetFromSymbolStart = "22964">
+               </Location>
+               <Location
+                  uuid = "7D22F3F8-4DB6-4AA7-9199-6C11A0B614CB - 28687c67219ed589"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2182"
+                  endingLineNumber = "2182"
+                  offsetFromSymbolStart = "22624">
+               </Location>
+               <Location
+                  uuid = "7D22F3F8-4DB6-4AA7-9199-6C11A0B614CB - 28687c67219ed557"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2184"
+                  endingLineNumber = "2184"
+                  offsetFromSymbolStart = "22228">
+               </Location>
+               <Location
+                  uuid = "7D22F3F8-4DB6-4AA7-9199-6C11A0B614CB - 28687c67219ed799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2198"
+                  endingLineNumber = "2198"
+                  offsetFromSymbolStart = "22228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B874B900-0B6B-49AF-87B8-E9BE9A5041AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3148"
+            endingLineNumber = "3148">
+            <Locations>
+               <Location
+                  uuid = "B874B900-0B6B-49AF-87B8-E9BE9A5041AB - 7c037ca55ac60c48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3102"
+                  endingLineNumber = "3102"
+                  offsetFromSymbolStart = "3152">
+               </Location>
+               <Location
+                  uuid = "B874B900-0B6B-49AF-87B8-E9BE9A5041AB - 7c037ca55ac60c48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3102"
+                  endingLineNumber = "3102"
+                  offsetFromSymbolStart = "2840">
+               </Location>
+               <Location
+                  uuid = "B874B900-0B6B-49AF-87B8-E9BE9A5041AB - 7c037ca55ac60c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3101"
+                  endingLineNumber = "3101"
+                  offsetFromSymbolStart = "2808">
+               </Location>
+               <Location
+                  uuid = "B874B900-0B6B-49AF-87B8-E9BE9A5041AB - 7c037ca55ac60a3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3115"
+                  endingLineNumber = "3115"
+                  offsetFromSymbolStart = "2808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1C43729-0A2B-4A39-960C-112BDD429142"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3146"
+            endingLineNumber = "3146">
+            <Locations>
+               <Location
+                  uuid = "F1C43729-0A2B-4A39-960C-112BDD429142 - 7c037ca55ac60c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3101"
+                  endingLineNumber = "3101"
+                  offsetFromSymbolStart = "2852">
+               </Location>
+               <Location
+                  uuid = "F1C43729-0A2B-4A39-960C-112BDD429142 - 7c037ca55ac60c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3101"
+                  endingLineNumber = "3101"
+                  offsetFromSymbolStart = "3056">
+               </Location>
+               <Location
+                  uuid = "F1C43729-0A2B-4A39-960C-112BDD429142 - 7c037ca55ac60c48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3102"
+                  endingLineNumber = "3102"
+                  offsetFromSymbolStart = "2840">
+               </Location>
+               <Location
+                  uuid = "F1C43729-0A2B-4A39-960C-112BDD429142 - 7c037ca55ac60c2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3099"
+                  endingLineNumber = "3099"
+                  offsetFromSymbolStart = "2780">
+               </Location>
+               <Location
+                  uuid = "F1C43729-0A2B-4A39-960C-112BDD429142 - 7c037ca55ac60aff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.encodeVideo(videoURL: Foundation.URL, completion: (Swift.Optional&lt;Foundation.URL&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3113"
+                  endingLineNumber = "3113"
+                  offsetFromSymbolStart = "2780">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6FA272C-7222-435A-9DA6-7225E38C6686"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2171"
+            endingLineNumber = "2171"
+            landmarkName = "delegateTapCellAction(chatObj:indexRow:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6FA272C-7222-435A-9DA6-7225E38C6686 - 28687c67219edd74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2123"
+                  endingLineNumber = "2123"
+                  offsetFromSymbolStart = "17064">
+               </Location>
+               <Location
+                  uuid = "F6FA272C-7222-435A-9DA6-7225E38C6686 - 28687c67219edd55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2122"
+                  endingLineNumber = "2122"
+                  offsetFromSymbolStart = "16712">
+               </Location>
+               <Location
+                  uuid = "F6FA272C-7222-435A-9DA6-7225E38C6686 - 28687c67219edd74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2123"
+                  endingLineNumber = "2123"
+                  offsetFromSymbolStart = "16364">
+               </Location>
+               <Location
+                  uuid = "F6FA272C-7222-435A-9DA6-7225E38C6686 - 28687c67219edf46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.selectedActionAtIndex(actionIndex: Swift.Int) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2137"
+                  endingLineNumber = "2137"
+                  offsetFromSymbolStart = "16364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D218664C-57B2-497A-9B01-2D9CB9919BF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2824"
+            endingLineNumber = "2824"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D218664C-57B2-497A-9B01-2D9CB9919BF3 - 50139ab2e5312cb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.uploadFile(filePath: Swift.String, fileType: Swift.String, imageMAin: __C.UIImage) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2778"
+                  endingLineNumber = "2778"
+                  offsetFromSymbolStart = "4524">
+               </Location>
+               <Location
+                  uuid = "D218664C-57B2-497A-9B01-2D9CB9919BF3 - 50139ab2e5312cb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.uploadFile(filePath: Swift.String, fileType: Swift.String, imageMAin: __C.UIImage) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2778"
+                  endingLineNumber = "2778"
+                  offsetFromSymbolStart = "3896">
+               </Location>
+               <Location
+                  uuid = "D218664C-57B2-497A-9B01-2D9CB9919BF3 - 50139ab2e5312cb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.uploadFile(filePath: Swift.String, fileType: Swift.String, imageMAin: __C.UIImage) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2778"
+                  endingLineNumber = "2778"
+                  offsetFromSymbolStart = "4140">
+               </Location>
+               <Location
+                  uuid = "D218664C-57B2-497A-9B01-2D9CB9919BF3 - 50139ab2e5312c94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.uploadFile(filePath: Swift.String, fileType: Swift.String, imageMAin: __C.UIImage) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2777"
+                  endingLineNumber = "2777"
+                  offsetFromSymbolStart = "4392">
+               </Location>
+               <Location
+                  uuid = "D218664C-57B2-497A-9B01-2D9CB9919BF3 - 50139ab2e5312f5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.uploadFile(filePath: Swift.String, fileType: Swift.String, imageMAin: __C.UIImage) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2791"
+                  endingLineNumber = "2791"
+                  offsetFromSymbolStart = "4392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Network/SocketSharedManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "652"
+            endingLineNumber = "652"
+            landmarkName = "emitLiveStreamingStayLive(dict:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - 8b92acc318230886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "652"
+                  endingLineNumber = "652"
+                  offsetFromSymbolStart = "421">
+               </Location>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - 308c59365c24db8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;) -&gt; () in WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "653"
+                  endingLineNumber = "653"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - 8b92acc318230886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "652"
+                  endingLineNumber = "652"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - 308c59365c24db8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;) -&gt; () in WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "653"
+                  endingLineNumber = "653"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - f0b02e37bebd3c65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitFeedComment(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - 9a303a99cb05b5bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitSaveLiveStream(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - 8b92acc318230961"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "653"
+                  endingLineNumber = "653"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "244D397F-6E9C-4D03-AAC8-9BA051AA7FC6 - ba3857add1ce2b51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitLiveStreamingStayLive(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "652"
+                  endingLineNumber = "652"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Network/SocketSharedManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "654"
+            endingLineNumber = "654"
+            landmarkName = "SocketSharedManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - 308c59365c24dbae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;) -&gt; () in WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - 308c59365c24dbae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;) -&gt; () in WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - f0b02e37bebd3c65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitFeedComment(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - f0b02e37bebd3c65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitFeedComment(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - 9a303a99cb05b5bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitSaveLiveStream(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - 8b92acc318230940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "654"
+                  endingLineNumber = "654"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - 308c59365c24dbcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;) -&gt; () in WorldNoor.SocketSharedManager.emitChatText(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "655"
+                  endingLineNumber = "655"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "1DDA9C3E-D7D6-4ABF-BB68-DE7C585C8CCD - f0b02e37bebd3c27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SocketSharedManager.emitFeedComment(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Network/SocketSharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "656"
+                  endingLineNumber = "656"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58B30626-2B32-490A-B862-2DE8F3650BA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1232"
+            endingLineNumber = "1232"
+            landmarkName = "viewTranscript(fileID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "58B30626-2B32-490A-B862-2DE8F3650BA5 - 5e71fef9c40d6a9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.dowloadConvertedURL(fileID: Swift.String) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1231"
+                  endingLineNumber = "1231"
+                  offsetFromSymbolStart = "3672">
+               </Location>
+               <Location
+                  uuid = "58B30626-2B32-490A-B862-2DE8F3650BA5 - 5e71fef9c40d6a9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.dowloadConvertedURL(fileID: Swift.String) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1231"
+                  endingLineNumber = "1231"
+                  offsetFromSymbolStart = "3648">
+               </Location>
+               <Location
+                  uuid = "58B30626-2B32-490A-B862-2DE8F3650BA5 - 5e71fef9c40d6af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.dowloadConvertedURL(fileID: Swift.String) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1232"
+                  endingLineNumber = "1232"
+                  offsetFromSymbolStart = "2540">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2707"
+            endingLineNumber = "2707"
+            landmarkName = "UploadGifOnSocket(mainURL:newTime:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF - ce68724ba9689799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2661"
+                  endingLineNumber = "2661"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF - d941d14a54627210"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2662"
+                  endingLineNumber = "2662"
+                  offsetFromSymbolStart = "2352">
+               </Location>
+               <Location
+                  uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF - ce68724ba96897db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2663"
+                  endingLineNumber = "2663"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF - d941d14a546271f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2659"
+                  endingLineNumber = "2659"
+                  offsetFromSymbolStart = "2308">
+               </Location>
+               <Location
+                  uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF - ce68724ba9689478"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2660"
+                  endingLineNumber = "2660"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF - d941d14a546273a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2673"
+                  endingLineNumber = "2673"
+                  offsetFromSymbolStart = "2308">
+               </Location>
+               <Location
+                  uuid = "54045CB6-A48B-40BC-ACED-D71B7B0C2DBF - ce68724ba968962e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2674"
+                  endingLineNumber = "2674"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "001B60B2-5315-41F7-812E-ACE66160B059"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Managers/SharedManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "802"
+            endingLineNumber = "802"
+            landmarkName = "saveToDocuments(filename:imageMain:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "001B60B2-5315-41F7-812E-ACE66160B059 - dd2f847b9c047cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SharedManager.saveImage(image: __C.UIImage, fileName: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Managers/SharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "802"
+                  endingLineNumber = "802"
+                  offsetFromSymbolStart = "269">
+               </Location>
+               <Location
+                  uuid = "001B60B2-5315-41F7-812E-ACE66160B059 - dd2f847b9c047cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SharedManager.saveImage(image: __C.UIImage, fileName: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Managers/SharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "802"
+                  endingLineNumber = "802"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "001B60B2-5315-41F7-812E-ACE66160B059 - dd2f847b9c047cc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SharedManager.saveImage(image: __C.UIImage, fileName: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Managers/SharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "802"
+                  endingLineNumber = "802"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "001B60B2-5315-41F7-812E-ACE66160B059 - 827d1ffdcc0bcdad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SharedManager.saveToDocuments(filename: Swift.String, imageMain: __C.UIImage) -&gt; Swift.Bool"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Managers/SharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "803"
+                  endingLineNumber = "803"
+                  offsetFromSymbolStart = "1268">
+               </Location>
+               <Location
+                  uuid = "001B60B2-5315-41F7-812E-ACE66160B059 - 827d1ffdcc0bcdca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SharedManager.saveToDocuments(filename: Swift.String, imageMain: __C.UIImage) -&gt; Swift.Bool"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Managers/SharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "802"
+                  endingLineNumber = "802"
+                  offsetFromSymbolStart = "1268">
+               </Location>
+               <Location
+                  uuid = "001B60B2-5315-41F7-812E-ACE66160B059 - 827d1ffdcc0bcdad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SharedManager.saveToDocuments(filename: Swift.String, imageMain: __C.UIImage) -&gt; Swift.Bool"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Managers/SharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "803"
+                  endingLineNumber = "803"
+                  offsetFromSymbolStart = "1328">
+               </Location>
+               <Location
+                  uuid = "001B60B2-5315-41F7-812E-ACE66160B059 - 827d1ffdcc0bcdad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.SharedManager.saveToDocuments(filename: Swift.String, imageMain: __C.UIImage) -&gt; Swift.Bool"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Managers/SharedManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "803"
+                  endingLineNumber = "803"
+                  offsetFromSymbolStart = "1272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3052"
+            endingLineNumber = "3052"
+            landmarkName = "showShareActivity(msg:image:data:url:anyObject:sourceRect:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3 - feaad6225c43461"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;, __C.UIImageOrientation, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in WorldNoor.ChatViewController.getImageFromAsset(asset: __C.PHAsset) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3006"
+                  endingLineNumber = "3006"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3 - feaad6225c43461"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;, __C.UIImageOrientation, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in WorldNoor.ChatViewController.getImageFromAsset(asset: __C.PHAsset) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3006"
+                  endingLineNumber = "3006"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3 - d3f187909147c4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.getImageFromAsset(asset: __C.PHAsset) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3006"
+                  endingLineNumber = "3006"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3 - d3f187909147c8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.getImageFromAsset(asset: __C.PHAsset) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3004"
+                  endingLineNumber = "3004"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3 - feaad6225c43778"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;, __C.UIImageOrientation, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in WorldNoor.ChatViewController.getImageFromAsset(asset: __C.PHAsset) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2999"
+                  endingLineNumber = "2999"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3 - d3f1879091472da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.getImageFromAsset(asset: __C.PHAsset) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3018"
+                  endingLineNumber = "3018"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "EEE64506-630F-4F0F-924C-A1B3308036F3 - feaad6225c4358a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.String&gt;, __C.UIImageOrientation, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in WorldNoor.ChatViewController.getImageFromAsset(asset: __C.PHAsset) -&gt; Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3013"
+                  endingLineNumber = "3013"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "030213C1-B90A-4E19-953F-956CCCB996DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2693"
+            endingLineNumber = "2693"
+            landmarkName = "sendAttachOnSocket(mainURL:newTime:fileType:thumbnailURL:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "030213C1-B90A-4E19-953F-956CCCB996DD - d941d14a54627001"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2647"
+                  endingLineNumber = "2647"
+                  offsetFromSymbolStart = "1052">
+               </Location>
+               <Location
+                  uuid = "030213C1-B90A-4E19-953F-956CCCB996DD - d941d14a546270bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2649"
+                  endingLineNumber = "2649"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "030213C1-B90A-4E19-953F-956CCCB996DD - d941d14a54627020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2646"
+                  endingLineNumber = "2646"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "030213C1-B90A-4E19-953F-956CCCB996DD - d941d14a546271d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.videoSave(urlMain: Foundation.URL) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2660"
+                  endingLineNumber = "2660"
+                  offsetFromSymbolStart = "864">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F6F4DB8-5C6B-4FDD-830D-79553B9E6DEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Resource/DB/Manager/DBMessageManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "mapMessageFile(msgObj:msgFile:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3268E0F-40B1-40EA-988B-F6C78ECEF62D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Resource/DB/Manager/DBMessageManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "mapMessageFile(msgObj:msgFile:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B1AFEB4-1D89-4449-AE52-A92409B46564"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ContactListViewController/ContactListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "goChat(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B1AFEB4-1D89-4449-AE52-A92409B46564 - 7e3321e3c2229e60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ContactListViewController.goChat(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ContactListViewController/ContactListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "1188">
+               </Location>
+               <Location
+                  uuid = "6B1AFEB4-1D89-4449-AE52-A92409B46564 - 7e3321e3c2229e60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ContactListViewController.goChat(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ContactListViewController/ContactListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "1403">
+               </Location>
+               <Location
+                  uuid = "6B1AFEB4-1D89-4449-AE52-A92409B46564 - 7e3321e3c2229e60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ContactListViewController.goChat(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ContactListViewController/ContactListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+               <Location
+                  uuid = "6B1AFEB4-1D89-4449-AE52-A92409B46564 - 7e3321e3c2229e60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ContactListViewController.goChat(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ContactListViewController/ContactListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18686953-A99B-41C9-9099-C0FADA36AE93"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatListController/New Chat List VC/New Chat List Extension/OnlineUsersCollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA0A6773-C30E-493F-A1CC-C1B383C61F80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatListController/New Chat List VC/New Chat List Extension/OnlineUsersCollectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2447CACD-AD77-4B15-88D3-C5D528D9C47D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatSettings/ArchivedChatsVC/ArchivedChatsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "settingOptionsChoose(chatSetting:indexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2447CACD-AD77-4B15-88D3-C5D528D9C47D - 1f515f852a3fc061"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ArchivedChatsVC.settingOptionsChoose(chatSetting: WorldNoor.ChatSettingModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatSettings/ArchivedChatsVC/ArchivedChatsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "2132">
+               </Location>
+               <Location
+                  uuid = "2447CACD-AD77-4B15-88D3-C5D528D9C47D - 1f515f852a3fc1cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ArchivedChatsVC.settingOptionsChoose(chatSetting: WorldNoor.ChatSettingModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatSettings/ArchivedChatsVC/ArchivedChatsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "269"
+                  endingLineNumber = "269"
+                  offsetFromSymbolStart = "2132">
+               </Location>
+               <Location
+                  uuid = "2447CACD-AD77-4B15-88D3-C5D528D9C47D - 1f515f852a3fc023"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ArchivedChatsVC.settingOptionsChoose(chatSetting: WorldNoor.ChatSettingModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatSettings/ArchivedChatsVC/ArchivedChatsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "2132">
+               </Location>
+               <Location
+                  uuid = "2447CACD-AD77-4B15-88D3-C5D528D9C47D - 1f515f852a3fc023"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ArchivedChatsVC.settingOptionsChoose(chatSetting: WorldNoor.ChatSettingModel, indexPath: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatSettings/ArchivedChatsVC/ArchivedChatsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "2112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05747C0F-AC96-49E7-8138-6FF936324D7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/PinnedVC/PinnedVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "886"
+            endingLineNumber = "886">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA19BF27-CE2A-41C9-B929-1FE710E65700"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/Chat New Cell/Text Cell/Send Text Cell/SendTextNewChatCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "speakerButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4ED6ACA-9991-47B2-B484-D8A671682F9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2409"
+            endingLineNumber = "2409"
+            landmarkName = "GettingConvertedURLAudio(postfileID:textToSpeech:languageCode:rowReload:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4ED6ACA-9991-47B2-B484-D8A671682F9B - 88432ebfb79b6a55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addChild(asChildViewController: __C.UIViewController, selectedView: __C.UIView) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2361"
+                  endingLineNumber = "2361"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "C4ED6ACA-9991-47B2-B484-D8A671682F9B - 88432ebfb79b6a55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addChild(asChildViewController: __C.UIViewController, selectedView: __C.UIView) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2361"
+                  endingLineNumber = "2361"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "C4ED6ACA-9991-47B2-B484-D8A671682F9B - 88432ebfb79b6a55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addChild(asChildViewController: __C.UIViewController, selectedView: __C.UIView) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2361"
+                  endingLineNumber = "2361"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C4ED6ACA-9991-47B2-B484-D8A671682F9B - 88432ebfb79b6c1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addChild(asChildViewController: __C.UIViewController, selectedView: __C.UIView) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2375"
+                  endingLineNumber = "2375"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8C70176-49DD-4E18-972A-799A8CF9D4A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1025"
+            endingLineNumber = "1025"
+            landmarkName = "callingService(parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8C70176-49DD-4E18-972A-799A8CF9D4A3 - 7fcec39dec7128ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.callingService(parameters: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1024"
+                  endingLineNumber = "1024"
+                  offsetFromSymbolStart = "3760">
+               </Location>
+               <Location
+                  uuid = "E8C70176-49DD-4E18-972A-799A8CF9D4A3 - 7fcec39dec7128ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.callingService(parameters: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1024"
+                  endingLineNumber = "1024"
+                  offsetFromSymbolStart = "3876">
+               </Location>
+               <Location
+                  uuid = "E8C70176-49DD-4E18-972A-799A8CF9D4A3 - 7fcec39dec7128bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in WorldNoor.ChatViewController.callingService(parameters: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1026"
+                  endingLineNumber = "1026"
+                  offsetFromSymbolStart = "3868">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F303FF2A-F970-45F9-A982-2FB9243CBEB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1253"
+            endingLineNumber = "1253"
+            landmarkName = "dowloadConvertedURL(fileID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F303FF2A-F970-45F9-A982-2FB9243CBEB7 - e72504ea7ffbb311"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1252"
+                  endingLineNumber = "1252"
+                  offsetFromSymbolStart = "3060">
+               </Location>
+               <Location
+                  uuid = "F303FF2A-F970-45F9-A982-2FB9243CBEB7 - e72504ea7ffbb311"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1252"
+                  endingLineNumber = "1252"
+                  offsetFromSymbolStart = "3596">
+               </Location>
+               <Location
+                  uuid = "F303FF2A-F970-45F9-A982-2FB9243CBEB7 - e72504ea7ffbb311"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1252"
+                  endingLineNumber = "1252"
+                  offsetFromSymbolStart = "2024">
+               </Location>
+               <Location
+                  uuid = "F303FF2A-F970-45F9-A982-2FB9243CBEB7 - e72504ea7ffbb3f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1253"
+                  endingLineNumber = "1253"
+                  offsetFromSymbolStart = "2516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "909F5E2C-DDEE-4B19-BA39-B329EECE6641"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1286"
+            endingLineNumber = "1286"
+            landmarkName = "addNewMessage(dict:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "909F5E2C-DDEE-4B19-BA39-B329EECE6641 - 28e70a0359e4303c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1284"
+                  endingLineNumber = "1284"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "909F5E2C-DDEE-4B19-BA39-B329EECE6641 - e72504ea7ffbbff1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1284"
+                  endingLineNumber = "1284"
+                  offsetFromSymbolStart = "6252">
+               </Location>
+               <Location
+                  uuid = "909F5E2C-DDEE-4B19-BA39-B329EECE6641 - e72504ea7ffbbfd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1285"
+                  endingLineNumber = "1285"
+                  offsetFromSymbolStart = "6232">
+               </Location>
+               <Location
+                  uuid = "909F5E2C-DDEE-4B19-BA39-B329EECE6641 - 28e70a0359e4307e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1286"
+                  endingLineNumber = "1286"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "909F5E2C-DDEE-4B19-BA39-B329EECE6641 - e72504ea7ffbbf92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.addNewMessage(dict: __C.NSDictionary) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1287"
+                  endingLineNumber = "1287"
+                  offsetFromSymbolStart = "960">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "779F001B-048B-409E-9B2B-CB0EF5F0C4A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1037"
+            endingLineNumber = "1037"
+            landmarkName = "callingService(parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93D89BAB-6C56-4679-9A9A-9DDA156AC71D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/ContactGroupController/ContactGroupController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BDA1E00-5B8B-4B78-BB95-8DF15D377FAF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Group/Controller/GroupListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "123975A1-7A1E-49F8-9F8F-17F3675369E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ContactListViewController/ContactListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A97A10B-B6FA-4083-9BCC-760B69899882"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ContactListViewController/ContactListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "goChat(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F69C7DD-EFA7-4164-AE7E-B4376DD1B67D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatListController/New Chat List VC/NewChatListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F69C7DD-EFA7-4164-AE7E-B4376DD1B67D - 5567840348ab084"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewChatListVC.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatListController/New%20Chat%20List%20VC/NewChatListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "2F69C7DD-EFA7-4164-AE7E-B4376DD1B67D - 5567840348ab084"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.NewChatListVC.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatListController/New%20Chat%20List%20VC/NewChatListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6F1CBAD-E22D-49B3-8B50-D07FEEAF109B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3208"
+            endingLineNumber = "3208">
+            <Locations>
+               <Location
+                  uuid = "D6F1CBAD-E22D-49B3-8B50-D07FEEAF109B - e34f2a8830a10e1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3160"
+                  endingLineNumber = "3160"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "D6F1CBAD-E22D-49B3-8B50-D07FEEAF109B - e34f2a8830a10e1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3160"
+                  endingLineNumber = "3160"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "D6F1CBAD-E22D-49B3-8B50-D07FEEAF109B - e34f2a8830a10854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3174"
+                  endingLineNumber = "3174"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "D6F1CBAD-E22D-49B3-8B50-D07FEEAF109B - e34f2a8830a10854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.ChatViewController.chatMessageReceived(res: __C.NSArray) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/razanajam/Projects/GitLab/WorldNoor_IOS/WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3174"
+                  endingLineNumber = "3174"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB952D6C-9FE8-479B-9962-2B39E67CA984"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Chat/ChatViewController/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2847"
+            endingLineNumber = "2847"
+            landmarkName = "encodeVideo(videoURL:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

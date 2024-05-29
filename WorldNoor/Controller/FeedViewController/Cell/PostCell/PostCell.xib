@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="205" id="sFc-jI-bsC" customClass="PostCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="205"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sFc-jI-bsC" id="9Kt-Pa-zKj">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="205"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gf5-96-lfS" customClass="DesignableView" customModule="WorldNoor" customModuleProvider="target">
+                        <rect key="frame" x="6" y="3" width="363" height="199"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qt3-IQ-t40">
+                                <rect key="frame" x="0.0" y="0.0" width="363" height="102"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bFF-mi-DcR">
+                                <rect key="frame" x="0.0" y="121" width="363" height="75"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="yqq-4d-A58"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qwu-vZ-ftK"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bFF-mi-DcR" firstAttribute="bottom" secondItem="qwu-vZ-ftK" secondAttribute="bottom" constant="-3" id="CKo-KF-Sd1"/>
+                            <constraint firstItem="Qt3-IQ-t40" firstAttribute="top" secondItem="qwu-vZ-ftK" secondAttribute="top" id="KU7-7H-yR4"/>
+                            <constraint firstItem="bFF-mi-DcR" firstAttribute="top" secondItem="Qt3-IQ-t40" secondAttribute="bottom" constant="19" id="RLV-rr-gCd"/>
+                            <constraint firstItem="bFF-mi-DcR" firstAttribute="trailing" secondItem="qwu-vZ-ftK" secondAttribute="trailing" id="fa6-Q3-AzA"/>
+                            <constraint firstItem="Qt3-IQ-t40" firstAttribute="leading" secondItem="qwu-vZ-ftK" secondAttribute="leading" id="gSO-Dc-VlB"/>
+                            <constraint firstItem="bFF-mi-DcR" firstAttribute="leading" secondItem="qwu-vZ-ftK" secondAttribute="leading" id="p9I-wa-E3C"/>
+                            <constraint firstItem="Qt3-IQ-t40" firstAttribute="trailing" secondItem="qwu-vZ-ftK" secondAttribute="trailing" id="xLb-Rw-a4L"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Gf5-96-lfS" secondAttribute="trailing" constant="6" id="Cyd-m6-fiF"/>
+                    <constraint firstItem="Gf5-96-lfS" firstAttribute="leading" secondItem="9Kt-Pa-zKj" secondAttribute="leading" constant="6" id="DG7-Xx-HKv"/>
+                    <constraint firstAttribute="bottom" secondItem="Gf5-96-lfS" secondAttribute="bottom" constant="3" id="XEY-Ra-yPP"/>
+                    <constraint firstItem="Gf5-96-lfS" firstAttribute="top" secondItem="9Kt-Pa-zKj" secondAttribute="top" constant="3" id="hXs-Ud-S7u"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bgView" destination="Gf5-96-lfS" id="sbR-nd-ObO"/>
+                <outlet property="commentView" destination="bFF-mi-DcR" id="WyG-hl-6o1"/>
+                <outlet property="topBar" destination="Qt3-IQ-t40" id="XWy-6R-Tti"/>
+            </connections>
+            <point key="canvasLocation" x="-405.07246376811599" y="-678.68303571428567"/>
+        </tableViewCell>
+    </objects>
+</document>

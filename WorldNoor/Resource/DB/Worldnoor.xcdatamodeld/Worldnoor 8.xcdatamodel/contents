@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Chat" representedClassName="Chat" syncable="YES">
+        <attribute name="arrayAdmin_ids" optional="YES" attributeType="Transformable"/>
+        <attribute name="author_id" attributeType="String" defaultValueString=""/>
+        <attribute name="conversation_id" attributeType="String" defaultValueString=""/>
+        <attribute name="conversation_type" attributeType="String" defaultValueString=""/>
+        <attribute name="group_image" attributeType="String" defaultValueString=""/>
+        <attribute name="has_blocked_me" attributeType="String" defaultValueString=""/>
+        <attribute name="is_blocked" optional="YES" attributeType="String"/>
+        <attribute name="is_leave" optional="YES" attributeType="String"/>
+        <attribute name="is_mute" attributeType="String" defaultValueString=""/>
+        <attribute name="is_online" attributeType="String" defaultValueString=""/>
+        <attribute name="is_unread" attributeType="String" defaultValueString=""/>
+        <attribute name="isArchive" attributeType="String" defaultValueString=""/>
+        <attribute name="isSpam" attributeType="String" defaultValueString=""/>
+        <attribute name="last_updated" attributeType="String" defaultValueString=""/>
+        <attribute name="latest_conversation_id" attributeType="String" defaultValueString=""/>
+        <attribute name="latest_message" attributeType="String" defaultValueString=""/>
+        <attribute name="latest_message_language_id" attributeType="String" defaultValueString=""/>
+        <attribute name="latest_message_time" attributeType="String" defaultValueString=""/>
+        <attribute name="member_id" attributeType="String" defaultValueString=""/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="profile_image" attributeType="String" defaultValueString=""/>
+        <attribute name="theme_color" optional="YES" attributeType="String"/>
+        <attribute name="unread_messages_count" attributeType="String" defaultValueString=""/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="toMember" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Member"/>
+        <relationship name="toMessage" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Message" inverseName="toChat" inverseEntity="Message"/>
+    </entity>
+    <entity name="Member" representedClassName="Member" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="is_admin" optional="YES" attributeType="String"/>
+        <attribute name="is_online" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="profile_image" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="toChat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chat"/>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES">
+        <attribute name="audio_file" attributeType="String" defaultValueString=""/>
+        <attribute name="audio_msg_url" attributeType="String" defaultValueString=""/>
+        <attribute name="audio_translation" attributeType="String" defaultValueString=""/>
+        <attribute name="author_id" attributeType="String" defaultValueString=""/>
+        <attribute name="auto_translate" attributeType="String" defaultValueString=""/>
+        <attribute name="body" attributeType="String" defaultValueString=""/>
+        <attribute name="conversation_id" attributeType="String" defaultValueString=""/>
+        <attribute name="created_at" attributeType="String" defaultValueString=""/>
+        <attribute name="full_name" attributeType="String" defaultValueString=""/>
+        <attribute name="id" attributeType="String" defaultValueString=""/>
+        <attribute name="identifierString" attributeType="String" defaultValueString=""/>
+        <attribute name="is_pinned" optional="YES" attributeType="String"/>
+        <attribute name="isOriginal" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isShowMessageTime" optional="YES" attributeType="String"/>
+        <attribute name="messageTime" attributeType="String" defaultValueString=""/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="new_message_id" attributeType="String" defaultValueString=""/>
+        <attribute name="original_body" attributeType="String" defaultValueString=""/>
+        <attribute name="original_speech_to_text" attributeType="String" defaultValueString=""/>
+        <attribute name="pinnedBy" attributeType="String" defaultValueString=""/>
+        <attribute name="post_type" attributeType="String" defaultValueString=""/>
+        <attribute name="profile_image" attributeType="String" defaultValueString=""/>
+        <attribute name="replied_to_message_id" attributeType="String" defaultValueString=""/>
+        <attribute name="sender_id" attributeType="String" defaultValueString=""/>
+        <attribute name="speech_to_text" attributeType="String" defaultValueString=""/>
+        <attribute name="status" attributeType="String" defaultValueString=""/>
+        <attribute name="uploadingStatus" attributeType="String" defaultValueString=""/>
+        <relationship name="reply_to" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message"/>
+        <relationship name="toChat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chat" inverseName="toMessage" inverseEntity="Chat"/>
+        <relationship name="toMessageFile" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MessageFile" inverseName="toMessage" inverseEntity="MessageFile"/>
+        <relationship name="toReaction" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reaction" inverseName="toMessage" inverseEntity="Reaction"/>
+    </entity>
+    <entity name="MessageFile" representedClassName="MessageFile" syncable="YES">
+        <attribute name="convertedUrl" attributeType="String" defaultValueString=""/>
+        <attribute name="id" attributeType="String" defaultValueString=""/>
+        <attribute name="localimage" attributeType="String" defaultValueString=""/>
+        <attribute name="localthumbnailimage" attributeType="String" defaultValueString=""/>
+        <attribute name="localVideoURL" attributeType="String" defaultValueString=""/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="post_type" attributeType="String" defaultValueString=""/>
+        <attribute name="size" attributeType="String" defaultValueString=""/>
+        <attribute name="thumbnail_url" attributeType="String" defaultValueString=""/>
+        <attribute name="url" attributeType="String" defaultValueString=""/>
+        <relationship name="toMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message" inverseName="toMessageFile" inverseEntity="Message"/>
+    </entity>
+    <entity name="MPChat" representedClassName="MPChat" syncable="YES">
+        <attribute name="buyerName" optional="YES" attributeType="String"/>
+        <attribute name="conversationId" optional="YES" attributeType="String"/>
+        <attribute name="conversationName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="deletedAt" optional="YES" attributeType="String"/>
+        <attribute name="deletedLastMessage" optional="YES" attributeType="String"/>
+        <attribute name="groupImage" optional="YES" attributeType="String"/>
+        <attribute name="isArchive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isGroupLeave" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isOwner" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="label" optional="YES" attributeType="String"/>
+        <attribute name="lastMessage" optional="YES" attributeType="String"/>
+        <attribute name="lastMessageLabel" optional="YES" attributeType="String"/>
+        <attribute name="lastMessageTime" optional="YES" attributeType="String"/>
+        <attribute name="lastMessengerId" optional="YES" attributeType="String"/>
+        <attribute name="mutedAt" optional="YES" attributeType="String"/>
+        <attribute name="mutedTill" optional="YES" attributeType="String"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="offerStatus" optional="YES" attributeType="String"/>
+        <attribute name="ownerId" optional="YES" attributeType="String"/>
+        <attribute name="productPrice" optional="YES" attributeType="String"/>
+        <relationship name="toMember" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MPMember" inverseName="toChat" inverseEntity="MPMember"/>
+        <relationship name="toMessage" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MPMessage" inverseName="toChat" inverseEntity="MPMessage"/>
+    </entity>
+    <entity name="MPChatBuyerInfo" representedClassName="MPChatBuyerInfo" syncable="YES">
+        <attribute name="buttonText" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="token" optional="YES" attributeType="String"/>
+        <attribute name="worldnoorUserId" optional="YES" attributeType="String"/>
+        <relationship name="toMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPMessage" inverseName="toBuyerInfo" inverseEntity="MPMessage"/>
+    </entity>
+    <entity name="MPChatHeaderInfo" representedClassName="MPChatHeaderInfo" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="groupImage" optional="YES" attributeType="String"/>
+        <attribute name="groupInfo" optional="YES" attributeType="String"/>
+        <attribute name="groupTitle" optional="YES" attributeType="String"/>
+        <relationship name="toMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPMessage" inverseName="toHeaderInfo" inverseEntity="MPMessage"/>
+    </entity>
+    <entity name="MPChatOfferInfo" representedClassName="MPChatOfferInfo" syncable="YES">
+        <attribute name="offerDescription" optional="YES" attributeType="String"/>
+        <attribute name="offerId" optional="YES" attributeType="String"/>
+        <attribute name="offerInfo" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <relationship name="toMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPMessage" inverseName="toOfferInfo" inverseEntity="MPMessage"/>
+    </entity>
+    <entity name="MPMember" representedClassName="MPMember" syncable="YES">
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="leaveBy" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <attribute name="worldnoorUserId" optional="YES" attributeType="String"/>
+        <relationship name="toChat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPChat" inverseName="toMember" inverseEntity="MPChat"/>
+    </entity>
+    <entity name="MPMessage" representedClassName="MPMessage" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="conversationCreatedAt" optional="YES" attributeType="String"/>
+        <attribute name="conversationId" optional="YES" attributeType="String"/>
+        <attribute name="conversationName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="groupImage" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="identifier" optional="YES" attributeType="String"/>
+        <attribute name="isPinned" optional="YES" attributeType="String"/>
+        <attribute name="isShowMessageTime" optional="YES" attributeType="String"/>
+        <attribute name="marketImages" optional="YES" attributeType="String"/>
+        <attribute name="messageLabel" optional="YES" attributeType="String"/>
+        <attribute name="messageType" optional="YES" attributeType="String"/>
+        <attribute name="pinnedBy" optional="YES" attributeType="String"/>
+        <attribute name="reaction" optional="YES" attributeType="String"/>
+        <attribute name="receiverId" optional="YES" attributeType="String"/>
+        <attribute name="repliedToContent" optional="YES" attributeType="String"/>
+        <attribute name="repliedToMessageId" optional="YES" attributeType="String"/>
+        <attribute name="senderId" optional="YES" attributeType="String"/>
+        <attribute name="senderImage" optional="YES" attributeType="String"/>
+        <attribute name="senderName" optional="YES" attributeType="String"/>
+        <attribute name="uploadingStatus" optional="YES" attributeType="String"/>
+        <relationship name="replyTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPMessage"/>
+        <relationship name="toBuyerInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPChatBuyerInfo" inverseName="toMessage" inverseEntity="MPChatBuyerInfo"/>
+        <relationship name="toChat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPChat" inverseName="toMessage" inverseEntity="MPChat"/>
+        <relationship name="toHeaderInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPChatHeaderInfo" inverseName="toMessage" inverseEntity="MPChatHeaderInfo"/>
+        <relationship name="toMessageFile" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MPMessageFile" inverseName="toMessage" inverseEntity="MPMessageFile"/>
+        <relationship name="toMessageReaction" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MPMessageReaction" inverseName="toMessage" inverseEntity="MPMessageReaction"/>
+        <relationship name="toOfferInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPChatOfferInfo" inverseName="toMessage" inverseEntity="MPChatOfferInfo"/>
+    </entity>
+    <entity name="MPMessageFile" representedClassName="MPMessageFile" syncable="YES">
+        <attribute name="audioWaveform" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="localFileURL" optional="YES" attributeType="String"/>
+        <attribute name="localthumbnailimage" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="size" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailUrl" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <relationship name="toMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPMessage" inverseName="toMessageFile" inverseEntity="MPMessage"/>
+    </entity>
+    <entity name="MPMessageReaction" representedClassName="MPMessageReaction" syncable="YES">
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="messageId" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="reactedBy" optional="YES" attributeType="String"/>
+        <attribute name="reaction" optional="YES" attributeType="String"/>
+        <relationship name="toMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPMessage" inverseName="toMessageReaction" inverseEntity="MPMessage"/>
+    </entity>
+    <entity name="Reaction" representedClassName="Reaction" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="messageID" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="reactedBy" optional="YES" attributeType="String"/>
+        <attribute name="reaction" optional="YES" attributeType="String"/>
+        <attribute name="reactionID" optional="YES" attributeType="String"/>
+        <relationship name="toMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Message" inverseName="toReaction" inverseEntity="Message"/>
+    </entity>
+</model>

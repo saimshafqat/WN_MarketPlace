@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoSlab-Regular.ttf">
+            <string>RobotoSlab-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MYo-Tv-7lE" customClass="BuyerGroupEmptyView" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpS-GR-1e9" userLabel="Empty People">
+                    <rect key="frame" x="39" y="373.33333333333331" width="312" height="97.666666666666686"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_icon" translatesAutoresizingMaskIntoConstraints="NO" id="csy-Tc-tUH">
+                            <rect key="frame" x="131" y="8" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="RIl-Y4-vwm"/>
+                                <constraint firstAttribute="width" constant="50" id="mvm-pn-F33"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No data found" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmn-ux-1M3">
+                            <rect key="frame" x="0.0" y="76" width="312" height="17.666666666666671"/>
+                            <fontDescription key="fontDescription" name="RobotoSlab-Regular" family="Roboto Slab" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="No data found"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Pmn-ux-1M3" secondAttribute="trailing" id="AYX-oR-BUQ"/>
+                        <constraint firstAttribute="bottom" secondItem="Pmn-ux-1M3" secondAttribute="bottom" constant="4" id="G3c-at-wcM"/>
+                        <constraint firstAttribute="width" constant="312" id="OAn-Bb-M9Y"/>
+                        <constraint firstItem="csy-Tc-tUH" firstAttribute="top" secondItem="dpS-GR-1e9" secondAttribute="top" constant="8" id="Pza-HW-vsQ"/>
+                        <constraint firstItem="csy-Tc-tUH" firstAttribute="centerX" secondItem="dpS-GR-1e9" secondAttribute="centerX" id="RKk-po-oEc"/>
+                        <constraint firstItem="Pmn-ux-1M3" firstAttribute="top" secondItem="csy-Tc-tUH" secondAttribute="bottom" constant="18" id="fUx-cd-DMA"/>
+                        <constraint firstItem="Pmn-ux-1M3" firstAttribute="leading" secondItem="dpS-GR-1e9" secondAttribute="leading" id="xW2-UJ-FSu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Tii-M5-7N9"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dpS-GR-1e9" firstAttribute="centerY" secondItem="MYo-Tv-7lE" secondAttribute="centerY" id="2kp-xa-tCv"/>
+                <constraint firstItem="dpS-GR-1e9" firstAttribute="centerX" secondItem="MYo-Tv-7lE" secondAttribute="centerX" id="riC-dK-dOp"/>
+            </constraints>
+            <point key="canvasLocation" x="413.04347826086962" y="-10.044642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="search_icon" width="32" height="32"/>
+    </resources>
+</document>

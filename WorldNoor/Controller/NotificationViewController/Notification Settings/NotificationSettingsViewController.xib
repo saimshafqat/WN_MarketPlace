@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotificationSettingsViewController" customModule="WorldNoor" customModuleProvider="target">
+            <connections>
+                <outlet property="allNotificationSwitch" destination="Bwn-F8-OxR" id="fwP-xA-n0u"/>
+                <outlet property="tableView" destination="dDz-S0-yQ1" id="4qp-Vo-oxW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lIv-V9-v5n" userLabel="Container View">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nyG-NB-6hn" userLabel="general turn off View">
+                            <rect key="frame" x="14" y="9.9999999999999964" width="365" height="49.666666666666657"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allow  all notifications in WorldNoor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="3Py-6t-tOW">
+                                    <rect key="frame" x="0.0" y="14.000000000000002" width="290.66666666666669" height="21.666666666666671"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Allow  all notifications in WorldNoor"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bwn-F8-OxR">
+                                    <rect key="frame" x="316" y="9.3333333333333286" width="51" height="31"/>
+                                    <color key="onTintColor" systemColor="tintColor"/>
+                                    <connections>
+                                        <action selector="allNotificationSwitch:" destination="-1" eventType="valueChanged" id="R15-4T-B76"/>
+                                    </connections>
+                                </switch>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="3Py-6t-tOW" secondAttribute="bottom" constant="14" id="QkF-Bh-msI"/>
+                                <constraint firstItem="Bwn-F8-OxR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3Py-6t-tOW" secondAttribute="trailing" constant="10" id="iCa-je-F4P"/>
+                                <constraint firstAttribute="trailing" secondItem="Bwn-F8-OxR" secondAttribute="trailing" id="jQw-Fm-b0h"/>
+                                <constraint firstItem="3Py-6t-tOW" firstAttribute="top" secondItem="nyG-NB-6hn" secondAttribute="top" constant="14" id="q16-us-IaF"/>
+                                <constraint firstItem="3Py-6t-tOW" firstAttribute="leading" secondItem="nyG-NB-6hn" secondAttribute="leading" id="sEo-Ml-PTY"/>
+                                <constraint firstItem="Bwn-F8-OxR" firstAttribute="centerY" secondItem="3Py-6t-tOW" secondAttribute="centerY" id="tfg-nN-Fp9"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dDz-S0-yQ1">
+                            <rect key="frame" x="0.0" y="65.666666666666686" width="393" height="693.33333333333326"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="dDz-S0-yQ1" secondAttribute="bottom" id="GMf-rn-Qhw"/>
+                        <constraint firstItem="nyG-NB-6hn" firstAttribute="leading" secondItem="lIv-V9-v5n" secondAttribute="leading" constant="14" id="JWG-cn-o23"/>
+                        <constraint firstAttribute="trailing" secondItem="dDz-S0-yQ1" secondAttribute="trailing" id="Ncp-XV-Mtw"/>
+                        <constraint firstAttribute="trailing" secondItem="nyG-NB-6hn" secondAttribute="trailing" constant="14" id="WW2-ky-Lfh"/>
+                        <constraint firstItem="nyG-NB-6hn" firstAttribute="top" secondItem="lIv-V9-v5n" secondAttribute="top" constant="10" id="kUf-Am-bCv"/>
+                        <constraint firstItem="dDz-S0-yQ1" firstAttribute="leading" secondItem="lIv-V9-v5n" secondAttribute="leading" id="sqm-9S-Vr7"/>
+                        <constraint firstItem="dDz-S0-yQ1" firstAttribute="top" secondItem="nyG-NB-6hn" secondAttribute="bottom" constant="6" id="ymC-8z-ZFT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="lIv-V9-v5n" secondAttribute="bottom" id="DJ4-DX-JMb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lIv-V9-v5n" secondAttribute="trailing" id="JpO-fv-M6u"/>
+                <constraint firstItem="lIv-V9-v5n" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="WmY-p5-qDQ"/>
+                <constraint firstItem="lIv-V9-v5n" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="g7c-S1-OH9"/>
+            </constraints>
+            <point key="canvasLocation" x="101.5267175572519" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

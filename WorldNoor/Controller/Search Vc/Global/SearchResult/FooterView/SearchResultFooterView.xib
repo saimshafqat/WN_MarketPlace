@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SearchResultFooterView" id="U6b-Vx-4bR" customClass="SearchResultFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2j-Ny-ECI">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7v-Ev-cNF">
+                            <rect key="frame" x="16" y="6" width="288" height="35"/>
+                            <color key="backgroundColor" systemColor="systemGray6Color"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="plu-uJ-CkC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="See All">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="See All"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="onClickViewMore:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="jZ3-ZA-7jT"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgA-1K-VIC">
+                            <rect key="frame" x="0.0" y="53" width="320" height="8"/>
+                            <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="lSB-Vt-gKD"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="B7v-Ev-cNF" secondAttribute="trailing" constant="16" id="2DV-h4-sMW"/>
+                        <constraint firstAttribute="trailing" secondItem="cgA-1K-VIC" secondAttribute="trailing" id="Mxm-CX-q0I"/>
+                        <constraint firstItem="B7v-Ev-cNF" firstAttribute="leading" secondItem="H2j-Ny-ECI" secondAttribute="leading" constant="16" id="ZvU-l9-64m"/>
+                        <constraint firstItem="cgA-1K-VIC" firstAttribute="top" secondItem="B7v-Ev-cNF" secondAttribute="bottom" constant="12" id="aCz-iX-t4o"/>
+                        <constraint firstItem="cgA-1K-VIC" firstAttribute="leading" secondItem="H2j-Ny-ECI" secondAttribute="leading" id="g95-Te-uhJ"/>
+                        <constraint firstItem="B7v-Ev-cNF" firstAttribute="top" secondItem="H2j-Ny-ECI" secondAttribute="top" constant="6" id="kiE-lr-vdA"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cgA-1K-VIC" secondAttribute="bottom" id="mv0-OE-c35"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstItem="H2j-Ny-ECI" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="22f-Yr-vhL"/>
+                <constraint firstAttribute="bottom" secondItem="H2j-Ny-ECI" secondAttribute="bottom" id="3Lb-PV-veR"/>
+                <constraint firstItem="H2j-Ny-ECI" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="Yuq-uI-8Kn"/>
+                <constraint firstAttribute="trailing" secondItem="H2j-Ny-ECI" secondAttribute="trailing" id="qb1-gN-vgW"/>
+            </constraints>
+            <connections>
+                <outlet property="seeAllBtn" destination="B7v-Ev-cNF" id="jrM-Np-sVJ"/>
+                <outlet property="spacerView" destination="cgA-1K-VIC" id="OqW-bm-QiU"/>
+            </connections>
+            <point key="canvasLocation" x="16.793893129770993" y="6.3380281690140849"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

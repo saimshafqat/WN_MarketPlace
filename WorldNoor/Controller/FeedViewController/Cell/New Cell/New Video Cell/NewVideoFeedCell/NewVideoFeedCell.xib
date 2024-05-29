@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewVideoFeedCell" rowHeight="366" id="3RQ-zF-wsj" customClass="NewVideoFeedCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="366"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3RQ-zF-wsj" id="7xb-vD-xAd">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="366"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H8Y-sl-75u">
+                        <rect key="frame" x="8" y="3" width="398" height="360"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bMJ-pz-l5n" customClass="NestedTableView" customModule="WorldNoor" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="398" height="360"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="3RQ-zF-wsj" id="kN8-ty-1iE"/>
+                                    <outlet property="delegate" destination="3RQ-zF-wsj" id="trd-tE-ELV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bMJ-pz-l5n" secondAttribute="trailing" id="7BT-Li-x3E"/>
+                            <constraint firstItem="bMJ-pz-l5n" firstAttribute="top" secondItem="H8Y-sl-75u" secondAttribute="top" id="NpO-a4-VXI"/>
+                            <constraint firstItem="bMJ-pz-l5n" firstAttribute="leading" secondItem="H8Y-sl-75u" secondAttribute="leading" id="kWa-tS-5Tn"/>
+                            <constraint firstAttribute="bottom" secondItem="bMJ-pz-l5n" secondAttribute="bottom" id="m52-P8-uW4"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="480" id="mae-PF-cgA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.8626509309" green="0.86279940610000005" blue="0.86264163260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="H8Y-sl-75u" secondAttribute="trailing" constant="8" id="ANc-3J-Qso"/>
+                    <constraint firstItem="H8Y-sl-75u" firstAttribute="top" secondItem="7xb-vD-xAd" secondAttribute="top" constant="3" id="DdE-0X-G3z"/>
+                    <constraint firstItem="H8Y-sl-75u" firstAttribute="leading" secondItem="7xb-vD-xAd" secondAttribute="leading" constant="8" id="gsf-v2-xaO"/>
+                    <constraint firstAttribute="bottom" secondItem="H8Y-sl-75u" secondAttribute="bottom" constant="3" id="vTN-1B-Ufy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="tblViewImg" destination="bMJ-pz-l5n" id="IKo-F2-lXw"/>
+            </connections>
+            <point key="canvasLocation" x="26.086956521739133" y="64.285714285714278"/>
+        </tableViewCell>
+    </objects>
+</document>

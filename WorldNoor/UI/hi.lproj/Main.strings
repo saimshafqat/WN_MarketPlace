@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "Choose the method you want to authenticate your account with."; ObjectID = "3dy-RC-LpL"; */
+"3dy-RC-LpL.text" = "Choose the method you want to authenticate your account with.";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "4ch-Ao-wTh"; */
+"4ch-Ao-wTh.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Resend Code"; ObjectID = "Aub-Bu-oJR"; */
+"Aub-Bu-oJR.normalTitle" = "Resend Code";
+
+/* Class = "UIButton"; normalTitle = "Verify me"; ObjectID = "F4p-SI-OoA"; */
+"F4p-SI-OoA.normalTitle" = "Verify me";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "Ihw-wX-Jq4"; */
+"Ihw-wX-Jq4.placeholder" = "Email Address";
+
+/* Class = "UILabel"; text = "EN"; ObjectID = "No0-u1-2yX"; */
+"No0-u1-2yX.text" = "EN";
+
+/* Class = "UILabel"; text = "Don't have an account"; ObjectID = "P90-cn-4XX"; */
+"P90-cn-4XX.text" = "Don't have an account";
+
+/* Class = "UIButton"; normalTitle = "Skip For now"; ObjectID = "Sgk-yE-Ghp"; */
+"Sgk-yE-Ghp.normalTitle" = "Skip For now";
+
+/* Class = "UILabel"; text = "call test grup"; ObjectID = "TSl-h4-FHa"; */
+"TSl-h4-FHa.text" = "call test grup";
+
+/* Class = "UINavigationItem"; title = "Forget Password"; ObjectID = "TqE-bL-48T"; */
+"TqE-bL-48T.title" = "Forget Password";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "Zw0-tw-B9w"; */
+"Zw0-tw-B9w.normalTitle" = "LOG IN";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "ZxB-eW-ZOR"; */
+"ZxB-eW-ZOR.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Forgot Password?"; ObjectID = "aCU-qw-ng9"; */
+"aCU-qw-ng9.text" = "Forgot Password?";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "bfs-i4-Em2"; */
+"bfs-i4-Em2.title" = "Login";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "fVj-oq-FdV"; */
+"fVj-oq-FdV.text" = "label";
+
+/* Class = "UILabel"; text = "ringing"; ObjectID = "pIY-qg-Usb"; */
+"pIY-qg-Usb.text" = "ringing";
+
+/* Class = "UITextField"; placeholder = "Email or Phone"; ObjectID = "qoE-Ab-ceF"; */
+"qoE-Ab-ceF.placeholder" = "Email or Phone";
+
+/* Class = "UIButton"; normalTitle = "Send an sms on ......."; ObjectID = "u4f-Yg-cJA"; */
+"u4f-Yg-cJA.normalTitle" = "Send an sms on .......";
+
+/* Class = "UILabel"; text = "Signup"; ObjectID = "uiM-d4-Va4"; */
+"uiM-d4-Va4.text" = "Signup";
+
+/* Class = "UITextField"; placeholder = "xxxx"; ObjectID = "vjB-TI-ZWo"; */
+"vjB-TI-ZWo.placeholder" = "xxxx";
+
+/* Class = "UILabel"; text = "Worldnoor audio call"; ObjectID = "wlR-Z6-yh1"; */
+"wlR-Z6-yh1.text" = "Worldnoor audio call";
+
+/* Class = "UIButton"; normalTitle = "Send an sms on"; ObjectID = "xyW-cY-kpp"; */
+"xyW-cY-kpp.normalTitle" = "Send an sms on";
+
+/* Class = "UILabel"; text = "Please enter the four digit code."; ObjectID = "yx2-h7-uNR"; */
+"yx2-h7-uNR.text" = "Please enter the four digit code.";

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>753663186569-p33rf0orjjm1v9bv4ek0da8294nosbnv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.753663186569-p33rf0orjjm1v9bv4ek0da8294nosbnv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>753663186569-1oabm0i0pukoqnoq46g8bt22l3t1tpa9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBfDobh1fT1jRwRxU8jTucYLKB6ngqCNFk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>753663186569</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ogoul.worldnoor</string>
+	<key>PROJECT_ID</key>
+	<string>worldnoor-74254</string>
+	<key>STORAGE_BUCKET</key>
+	<string>worldnoor-74254.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:753663186569:ios:14d70629bc145064e39858</string>
+	<key>DATABASE_URL</key>
+	<string>https://worldnoor-74254.firebaseio.com</string>
+</dict>
+</plist>

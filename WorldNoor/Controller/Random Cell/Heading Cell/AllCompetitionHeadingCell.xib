@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllCompetitionHeadingCell" rowHeight="40" id="y6s-n1-ioh" customClass="AllCompetitionHeadingCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="y6s-n1-ioh" id="qiR-jZ-6cI">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilr-sb-dH3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Competitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToQ-rK-F07">
+                                <rect key="frame" x="10" y="12" width="394" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89794141049999998" green="0.89809560779999997" blue="0.89793163539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="HJ6-yK-rhI"/>
+                            <constraint firstItem="ToQ-rK-F07" firstAttribute="leading" secondItem="ilr-sb-dH3" secondAttribute="leading" constant="10" id="Oub-yi-ar9"/>
+                            <constraint firstItem="ToQ-rK-F07" firstAttribute="centerY" secondItem="ilr-sb-dH3" secondAttribute="centerY" id="mtG-1w-5lw"/>
+                            <constraint firstAttribute="trailing" secondItem="ToQ-rK-F07" secondAttribute="trailing" constant="10" id="pU5-yc-kQI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ilr-sb-dH3" secondAttribute="trailing" id="3Wg-Dd-Yu0"/>
+                    <constraint firstItem="ilr-sb-dH3" firstAttribute="top" secondItem="qiR-jZ-6cI" secondAttribute="top" id="3zc-z4-X6u"/>
+                    <constraint firstItem="ilr-sb-dH3" firstAttribute="leading" secondItem="qiR-jZ-6cI" secondAttribute="leading" id="9v1-qy-org"/>
+                    <constraint firstAttribute="bottom" secondItem="ilr-sb-dH3" secondAttribute="bottom" id="Rc1-SA-pcE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblInfo" destination="ToQ-rK-F07" id="eTR-vw-ep9"/>
+                <outlet property="viewBG" destination="ilr-sb-dH3" id="kts-vU-wyF"/>
+            </connections>
+            <point key="canvasLocation" x="266.66666666666669" y="53.571428571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

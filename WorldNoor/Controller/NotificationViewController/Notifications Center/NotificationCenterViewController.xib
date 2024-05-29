@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotificationCenterViewController" customModule="WorldNoor" customModuleProvider="target">
+            <connections>
+                <outlet property="allButton" destination="zhg-uh-2eN" id="IHb-Sw-2hX"/>
+                <outlet property="appsButton" destination="bvK-Tz-Igt" id="fqV-Wr-UM0"/>
+                <outlet property="tableView" destination="fHg-d7-kls" id="Shu-rZ-n12"/>
+                <outlet property="unReadButton" destination="Jjr-Ib-gqT" id="ysJ-SU-tsf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xli-Dn-mAp" userLabel="conatiner View">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhg-uh-2eN">
+                            <rect key="frame" x="10" y="10" width="54" height="36"/>
+                            <color key="backgroundColor" red="0.90588235294117647" green="0.94901960784313721" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="mVD-HN-hm8"/>
+                                <constraint firstAttribute="width" constant="54" id="va2-3n-Z1Q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="All">
+                                <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="All"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="tabsTapped:" destination="-1" eventType="touchUpInside" id="I8v-bt-MlW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjr-Ib-gqT">
+                            <rect key="frame" x="74" y="10" width="76" height="36"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="hPJ-wJ-R6E"/>
+                                <constraint firstAttribute="height" constant="36" id="tZe-Z6-jBY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Unread">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Unread"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="tabsTapped:" destination="-1" eventType="touchUpInside" id="6Z0-K5-z1V"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvK-Tz-Igt">
+                            <rect key="frame" x="160" y="10" width="100" height="36"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Ldc-lZ-qoQ"/>
+                                <constraint firstAttribute="height" constant="36" id="jgV-Hh-B2F"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Posh Apps">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Posh Apps"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="tabsTapped:" destination="-1" eventType="touchUpInside" id="l4K-AI-kzS"/>
+                            </connections>
+                        </button>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fHg-d7-kls">
+                            <rect key="frame" x="0.0" y="48" width="393" height="745"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Jjr-Ib-gqT" firstAttribute="leading" secondItem="zhg-uh-2eN" secondAttribute="trailing" constant="10" id="86v-5P-dnn"/>
+                        <constraint firstItem="Jjr-Ib-gqT" firstAttribute="top" secondItem="zhg-uh-2eN" secondAttribute="top" id="F8Q-hP-v8c"/>
+                        <constraint firstAttribute="trailing" secondItem="fHg-d7-kls" secondAttribute="trailing" id="N5F-FJ-jPm"/>
+                        <constraint firstItem="fHg-d7-kls" firstAttribute="top" secondItem="zhg-uh-2eN" secondAttribute="bottom" constant="2" id="UUk-Xk-EGI"/>
+                        <constraint firstItem="bvK-Tz-Igt" firstAttribute="top" secondItem="zhg-uh-2eN" secondAttribute="top" id="UsH-3K-n0c"/>
+                        <constraint firstItem="fHg-d7-kls" firstAttribute="leading" secondItem="xli-Dn-mAp" secondAttribute="leading" id="VhX-fS-SHe"/>
+                        <constraint firstItem="zhg-uh-2eN" firstAttribute="leading" secondItem="xli-Dn-mAp" secondAttribute="leading" constant="10" id="gLr-f7-mtB"/>
+                        <constraint firstItem="bvK-Tz-Igt" firstAttribute="leading" secondItem="Jjr-Ib-gqT" secondAttribute="trailing" constant="10" id="nAt-db-V5C"/>
+                        <constraint firstAttribute="bottom" secondItem="fHg-d7-kls" secondAttribute="bottom" id="pSC-oo-1FM"/>
+                        <constraint firstItem="zhg-uh-2eN" firstAttribute="top" secondItem="xli-Dn-mAp" secondAttribute="top" constant="10" id="vPl-7X-C7e"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xli-Dn-mAp" secondAttribute="trailing" id="08P-9L-AtY"/>
+                <constraint firstItem="xli-Dn-mAp" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="FxX-lD-Cby"/>
+                <constraint firstAttribute="bottom" secondItem="xli-Dn-mAp" secondAttribute="bottom" id="VVW-u4-IbW"/>
+                <constraint firstItem="xli-Dn-mAp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="uSl-qd-CSt"/>
+            </constraints>
+            <point key="canvasLocation" x="96.946564885496173" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

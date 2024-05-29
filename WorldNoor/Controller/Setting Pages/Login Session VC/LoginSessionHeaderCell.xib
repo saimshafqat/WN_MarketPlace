@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LoginSessionHeaderCell" rowHeight="50" id="a2y-Id-b1W" customClass="LoginSessionHeaderCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a2y-Id-b1W" id="N16-DS-Qbw">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QFz-BS-9Ml">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where You're Logged In" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxT-bg-19y">
+                                <rect key="frame" x="15" y="5" width="345" height="40"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Where You're Logged In"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4uF-dq-UTQ">
+                                <rect key="frame" x="0.0" y="48" width="375" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="BuS-8g-5ad"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fxT-bg-19y" secondAttribute="trailing" constant="15" id="BvI-PX-pix"/>
+                            <constraint firstItem="4uF-dq-UTQ" firstAttribute="leading" secondItem="QFz-BS-9Ml" secondAttribute="leading" id="IQD-ZJ-NmQ"/>
+                            <constraint firstItem="fxT-bg-19y" firstAttribute="top" secondItem="QFz-BS-9Ml" secondAttribute="top" constant="5" id="OFh-tO-drI"/>
+                            <constraint firstAttribute="bottom" secondItem="fxT-bg-19y" secondAttribute="bottom" constant="5" id="WCY-3b-Qjm"/>
+                            <constraint firstAttribute="bottom" secondItem="4uF-dq-UTQ" secondAttribute="bottom" constant="1" id="dwe-xO-yoN"/>
+                            <constraint firstAttribute="trailing" secondItem="4uF-dq-UTQ" secondAttribute="trailing" id="fgR-gl-3dx"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="pjp-hg-kUu"/>
+                            <constraint firstItem="fxT-bg-19y" firstAttribute="leading" secondItem="QFz-BS-9Ml" secondAttribute="leading" constant="15" id="v0i-WH-2fX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="QFz-BS-9Ml" secondAttribute="bottom" id="4jj-vT-KLn"/>
+                    <constraint firstAttribute="trailing" secondItem="QFz-BS-9Ml" secondAttribute="trailing" id="Gi2-a6-tbR"/>
+                    <constraint firstItem="QFz-BS-9Ml" firstAttribute="leading" secondItem="N16-DS-Qbw" secondAttribute="leading" id="Yeb-Ou-mSP"/>
+                    <constraint firstItem="QFz-BS-9Ml" firstAttribute="top" secondItem="N16-DS-Qbw" secondAttribute="top" id="wqG-ix-Wlt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblName" destination="fxT-bg-19y" id="d4R-YL-967"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="108"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

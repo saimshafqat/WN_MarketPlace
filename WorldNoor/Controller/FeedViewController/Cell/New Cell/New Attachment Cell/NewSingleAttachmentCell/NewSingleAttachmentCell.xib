@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewSingleAttachmentCell" rowHeight="97" id="ZFo-cc-auz" customClass="NewSingleAttachmentCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="97"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZFo-cc-auz" id="pEy-wu-w2q">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOC-tP-6Ym">
+                        <rect key="frame" x="0.0" y="5" width="414" height="87"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="File name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-is-I3L">
+                                <rect key="frame" x="65" y="10" width="65.5" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gzj-iR-Pw4">
+                                <rect key="frame" x="10" y="5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="I2E-or-wMv"/>
+                                    <constraint firstAttribute="width" constant="50" id="poA-J8-L0R"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdx-XY-nBx">
+                                <rect key="frame" x="65" y="49" width="73" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.078431372550000003" green="0.25098039220000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3v-m6-6L5">
+                                <rect key="frame" x="65" y="49" width="73" height="34"/>
+                                <connections>
+                                    <action selector="downloadActionWithSender:" destination="ZFo-cc-auz" eventType="touchUpInside" id="bUd-od-D2J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="sdx-XY-nBx" secondAttribute="bottom" constant="4" id="0cA-Ui-YGE"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oc9-is-I3L" secondAttribute="trailing" constant="5" id="9fD-MS-Yq5"/>
+                            <constraint firstItem="B3v-m6-6L5" firstAttribute="centerX" secondItem="sdx-XY-nBx" secondAttribute="centerX" id="AEP-Lt-Ep2"/>
+                            <constraint firstItem="B3v-m6-6L5" firstAttribute="width" secondItem="sdx-XY-nBx" secondAttribute="width" id="FYV-VG-wcv"/>
+                            <constraint firstItem="B3v-m6-6L5" firstAttribute="height" secondItem="sdx-XY-nBx" secondAttribute="height" id="M48-Rz-3yB"/>
+                            <constraint firstItem="sdx-XY-nBx" firstAttribute="top" secondItem="oc9-is-I3L" secondAttribute="bottom" constant="4" id="MVQ-17-lNi"/>
+                            <constraint firstItem="Gzj-iR-Pw4" firstAttribute="top" secondItem="gOC-tP-6Ym" secondAttribute="top" constant="5" id="ScN-am-rzB"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="YgR-vh-cnt"/>
+                            <constraint firstItem="Gzj-iR-Pw4" firstAttribute="leading" secondItem="gOC-tP-6Ym" secondAttribute="leading" constant="10" id="idD-qW-z6T"/>
+                            <constraint firstItem="B3v-m6-6L5" firstAttribute="centerY" secondItem="sdx-XY-nBx" secondAttribute="centerY" id="mxW-0Z-j4M"/>
+                            <constraint firstItem="oc9-is-I3L" firstAttribute="top" secondItem="gOC-tP-6Ym" secondAttribute="top" constant="10" id="nnc-uF-G16"/>
+                            <constraint firstItem="oc9-is-I3L" firstAttribute="leading" secondItem="Gzj-iR-Pw4" secondAttribute="trailing" constant="5" id="tZV-DS-Hj2"/>
+                            <constraint firstItem="sdx-XY-nBx" firstAttribute="leading" secondItem="oc9-is-I3L" secondAttribute="leading" id="xNE-RA-Pa0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gOC-tP-6Ym" secondAttribute="bottom" constant="5" id="Ifs-Q1-pFH"/>
+                    <constraint firstItem="gOC-tP-6Ym" firstAttribute="top" secondItem="pEy-wu-w2q" secondAttribute="top" constant="5" id="f4O-qZ-Gpl"/>
+                    <constraint firstAttribute="trailing" secondItem="gOC-tP-6Ym" secondAttribute="trailing" id="sMl-U4-hU5"/>
+                    <constraint firstItem="gOC-tP-6Ym" firstAttribute="leading" secondItem="pEy-wu-w2q" secondAttribute="leading" id="yhz-Xo-xpm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnDownload" destination="B3v-m6-6L5" id="f8X-HW-lOd"/>
+                <outlet property="imgviewFileIcon" destination="Gzj-iR-Pw4" id="Cvk-gU-oMt"/>
+                <outlet property="lblDownload" destination="sdx-XY-nBx" id="2Lz-Gn-uzw"/>
+                <outlet property="lblFileName" destination="oc9-is-I3L" id="OdF-lF-W5l"/>
+            </connections>
+            <point key="canvasLocation" x="-236.23188405797103" y="79.352678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

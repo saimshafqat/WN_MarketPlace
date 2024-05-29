@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="NotificationSettingDetailsTableViewCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JzN-jw-vH4" userLabel="general turn off View">
+                        <rect key="frame" x="20" y="0.0" width="280" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allow notifications " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rI-sH-6qW">
+                                <rect key="frame" x="0.0" y="14" width="133" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Allow notifications On Worldnoor"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jUB-og-wtv">
+                                <rect key="frame" x="231" y="6.6666666666666679" width="51" height="31.000000000000004"/>
+                                <color key="onTintColor" systemColor="tintColor"/>
+                                <connections>
+                                    <action selector="statusChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="0MW-YL-EWa"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="7rI-sH-6qW" secondAttribute="bottom" constant="14" id="B5v-0i-nVS"/>
+                            <constraint firstItem="jUB-og-wtv" firstAttribute="centerY" secondItem="7rI-sH-6qW" secondAttribute="centerY" id="CpV-9u-Ayy"/>
+                            <constraint firstItem="7rI-sH-6qW" firstAttribute="top" secondItem="JzN-jw-vH4" secondAttribute="top" constant="14" id="Fee-cz-b4o"/>
+                            <constraint firstAttribute="trailing" secondItem="jUB-og-wtv" secondAttribute="trailing" id="GFM-6w-eQL"/>
+                            <constraint firstItem="jUB-og-wtv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7rI-sH-6qW" secondAttribute="trailing" constant="10" id="Qgo-3b-zyM"/>
+                            <constraint firstItem="7rI-sH-6qW" firstAttribute="leading" secondItem="JzN-jw-vH4" secondAttribute="leading" id="Y6V-ex-Vvq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="JzN-jw-vH4" secondAttribute="trailing" constant="20" id="8hv-C2-hUU"/>
+                    <constraint firstAttribute="bottom" secondItem="JzN-jw-vH4" secondAttribute="bottom" id="Ppt-Pq-Pbc"/>
+                    <constraint firstItem="JzN-jw-vH4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mDY-Xz-eND"/>
+                    <constraint firstItem="JzN-jw-vH4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="pbm-fx-opc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="typeNameLabel" destination="7rI-sH-6qW" id="8u5-qN-xuv"/>
+                <outlet property="typeSwitch" destination="jUB-og-wtv" id="e7u-df-4CT"/>
+            </connections>
+            <point key="canvasLocation" x="104" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

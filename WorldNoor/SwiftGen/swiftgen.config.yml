@@ -1,0 +1,12 @@
+input_dir: ${PROJECT_DIR}/WorldNoor
+output_dir: ${PROJECT_DIR}/WorldNoor/SwiftGen
+xcassets:
+    inputs:
+    - Resource/Assets.xcassets
+    - Resource/NewExtraAsset.xcassets
+    - Resource/ExtraAsset.xcassets
+    outputs:
+    - templatePath: ${PROJECT_DIR}/WorldNoor/SwiftGen/template.stencil
+        params:
+        publicAccess: true
+        output: Assets.generated.swift

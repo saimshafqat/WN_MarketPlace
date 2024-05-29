@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdCell" rowHeight="128" id="6Uy-42-B9N" customClass="AdCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Uy-42-B9N" id="UWl-uy-M2S">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVB-Vv-tLu">
+                        <rect key="frame" x="5" y="5" width="404" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ads loading...." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOk-kJ-YIE">
+                                <rect key="frame" x="0.0" y="0.0" width="404" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="yOk-kJ-YIE" secondAttribute="bottom" id="CIb-nR-2yH"/>
+                            <constraint firstItem="yOk-kJ-YIE" firstAttribute="leading" secondItem="EVB-Vv-tLu" secondAttribute="leading" id="LEO-aG-QjP"/>
+                            <constraint firstItem="yOk-kJ-YIE" firstAttribute="top" secondItem="EVB-Vv-tLu" secondAttribute="top" id="NXF-LH-Tue"/>
+                            <constraint firstAttribute="trailing" secondItem="yOk-kJ-YIE" secondAttribute="trailing" id="WAS-s6-ZYi"/>
+                            <constraint firstAttribute="height" constant="100" id="sJw-ps-Izc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAt-Ac-wZ5" customClass="GADBannerView">
+                        <rect key="frame" x="5" y="5" width="404" height="100"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="EVB-Vv-tLu" firstAttribute="top" secondItem="UWl-uy-M2S" secondAttribute="top" constant="5" id="0r6-gN-C9N"/>
+                    <constraint firstItem="OAt-Ac-wZ5" firstAttribute="height" secondItem="EVB-Vv-tLu" secondAttribute="height" id="2zP-hQ-JCs"/>
+                    <constraint firstItem="EVB-Vv-tLu" firstAttribute="leading" secondItem="UWl-uy-M2S" secondAttribute="leading" constant="5" id="6en-I1-6UH"/>
+                    <constraint firstItem="OAt-Ac-wZ5" firstAttribute="centerX" secondItem="EVB-Vv-tLu" secondAttribute="centerX" id="DlE-tw-QVx"/>
+                    <constraint firstItem="OAt-Ac-wZ5" firstAttribute="centerY" secondItem="EVB-Vv-tLu" secondAttribute="centerY" id="RIS-oG-eUf"/>
+                    <constraint firstItem="OAt-Ac-wZ5" firstAttribute="width" secondItem="EVB-Vv-tLu" secondAttribute="width" id="Ruc-DI-JrL"/>
+                    <constraint firstAttribute="trailing" secondItem="EVB-Vv-tLu" secondAttribute="trailing" constant="5" id="aaA-81-rwY"/>
+                    <constraint firstAttribute="bottom" secondItem="EVB-Vv-tLu" secondAttribute="bottom" constant="5" id="kLX-tn-MIG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bannerView" destination="OAt-Ac-wZ5" id="0mr-aO-NyT"/>
+                <outlet property="lblLoading" destination="yOk-kJ-YIE" id="lu5-l8-G9f"/>
+                <outlet property="viewBG" destination="EVB-Vv-tLu" id="Ncz-uB-MCd"/>
+            </connections>
+            <point key="canvasLocation" x="-91.304347826086968" y="-54.910714285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

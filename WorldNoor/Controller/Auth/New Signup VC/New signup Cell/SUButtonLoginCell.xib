@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SUButtonLoginCell" rowHeight="89" id="ell-qP-oEL" customClass="SUButtonLoginCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ell-qP-oEL" id="oaw-Em-ERl">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SXb-TN-SUj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NS7-q4-FGG">
+                                <rect key="frame" x="119.5" y="0.0" width="175.5" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-78-kgm">
+                                        <rect key="frame" x="0.0" y="16" width="40.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" name="Blue Color"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Login"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c69-Ka-dl4">
+                                        <rect key="frame" x="0.0" y="34" width="40.5" height="1"/>
+                                        <color key="backgroundColor" name="Blue Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="ifE-M2-rDa"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to existing account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhW-SQ-nvO">
+                                        <rect key="frame" x="45.5" y="16" width="130" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="to existing account"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8D-LR-93S">
+                                        <rect key="frame" x="0.0" y="0.0" width="40.5" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="I8D-LR-93S" firstAttribute="height" secondItem="NS7-q4-FGG" secondAttribute="height" id="8k8-sq-ElB"/>
+                                    <constraint firstItem="I8D-LR-93S" firstAttribute="centerY" secondItem="VKg-78-kgm" secondAttribute="centerY" id="9rt-cU-tLe"/>
+                                    <constraint firstAttribute="trailing" secondItem="LhW-SQ-nvO" secondAttribute="trailing" id="EMd-XY-4vr"/>
+                                    <constraint firstItem="I8D-LR-93S" firstAttribute="width" secondItem="VKg-78-kgm" secondAttribute="width" id="J3D-nh-MBX"/>
+                                    <constraint firstItem="c69-Ka-dl4" firstAttribute="top" secondItem="VKg-78-kgm" secondAttribute="bottom" id="Phi-pT-7Hw"/>
+                                    <constraint firstItem="c69-Ka-dl4" firstAttribute="centerX" secondItem="VKg-78-kgm" secondAttribute="centerX" id="T18-Uw-bbN"/>
+                                    <constraint firstItem="LhW-SQ-nvO" firstAttribute="centerY" secondItem="VKg-78-kgm" secondAttribute="centerY" id="Wa8-Yn-uoR"/>
+                                    <constraint firstItem="c69-Ka-dl4" firstAttribute="width" secondItem="VKg-78-kgm" secondAttribute="width" id="XRc-Oq-DNH"/>
+                                    <constraint firstItem="LhW-SQ-nvO" firstAttribute="leading" secondItem="VKg-78-kgm" secondAttribute="trailing" constant="5" id="jLF-EP-ASK"/>
+                                    <constraint firstItem="VKg-78-kgm" firstAttribute="leading" secondItem="NS7-q4-FGG" secondAttribute="leading" id="mZ4-Xh-Y3v"/>
+                                    <constraint firstItem="LhW-SQ-nvO" firstAttribute="height" secondItem="VKg-78-kgm" secondAttribute="height" id="p6K-Fm-hVE"/>
+                                    <constraint firstItem="I8D-LR-93S" firstAttribute="centerX" secondItem="VKg-78-kgm" secondAttribute="centerX" id="riE-DY-ukf"/>
+                                    <constraint firstItem="VKg-78-kgm" firstAttribute="centerY" secondItem="NS7-q4-FGG" secondAttribute="centerY" id="yRW-9b-Cwn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NS7-q4-FGG" firstAttribute="centerX" secondItem="SXb-TN-SUj" secondAttribute="centerX" id="YLB-RK-3rc"/>
+                            <constraint firstAttribute="bottom" secondItem="NS7-q4-FGG" secondAttribute="bottom" id="uDG-7g-fDA"/>
+                            <constraint firstAttribute="height" constant="50" id="wB1-Rf-ktx"/>
+                            <constraint firstItem="NS7-q4-FGG" firstAttribute="top" secondItem="SXb-TN-SUj" secondAttribute="top" id="zGc-np-ozo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="SXb-TN-SUj" secondAttribute="bottom" id="9ka-Qz-cFG"/>
+                    <constraint firstItem="SXb-TN-SUj" firstAttribute="top" secondItem="oaw-Em-ERl" secondAttribute="top" id="K1A-md-aPl"/>
+                    <constraint firstAttribute="trailing" secondItem="SXb-TN-SUj" secondAttribute="trailing" id="Zop-UP-ZBk"/>
+                    <constraint firstItem="SXb-TN-SUj" firstAttribute="leading" secondItem="oaw-Em-ERl" secondAttribute="leading" id="xaM-c8-n11"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnLogin" destination="I8D-LR-93S" id="V2e-ZW-8Se"/>
+                <outlet property="lblHeading" destination="LhW-SQ-nvO" id="xzw-O5-ecT"/>
+                <outlet property="lblLogin" destination="VKg-78-kgm" id="TL6-bx-Iy1"/>
+            </connections>
+            <point key="canvasLocation" x="124.6376811594203" y="53.90625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Blue Color">
+            <color red="0.096000000834465027" green="0.39899998903274536" blue="0.84399998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

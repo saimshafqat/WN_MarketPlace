@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatAdCell" rowHeight="72" id="Ixi-lC-9by" userLabel="ChatAdCell" customClass="ChatAdCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ixi-lC-9by" id="8l9-e2-gJA">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBJ-pq-9Ok">
+                        <rect key="frame" x="5" y="5" width="404" height="68"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ads loading...." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBs-1k-X8a">
+                                <rect key="frame" x="0.0" y="0.0" width="404" height="68"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="68" id="LOj-uG-L8Z"/>
+                            <constraint firstAttribute="trailing" secondItem="lBs-1k-X8a" secondAttribute="trailing" id="Oia-5w-em3"/>
+                            <constraint firstItem="lBs-1k-X8a" firstAttribute="leading" secondItem="sBJ-pq-9Ok" secondAttribute="leading" id="nTs-b9-q0h"/>
+                            <constraint firstAttribute="bottom" secondItem="lBs-1k-X8a" secondAttribute="bottom" id="sKk-t5-CUX"/>
+                            <constraint firstItem="lBs-1k-X8a" firstAttribute="top" secondItem="sBJ-pq-9Ok" secondAttribute="top" id="syZ-HQ-aW7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g72-8P-kQv" customClass="GADBannerView">
+                        <rect key="frame" x="5" y="5" width="404" height="68"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sBJ-pq-9Ok" secondAttribute="bottom" constant="5" id="990-5f-NVc"/>
+                    <constraint firstItem="sBJ-pq-9Ok" firstAttribute="top" secondItem="8l9-e2-gJA" secondAttribute="top" constant="5" id="ZAk-fq-KPS"/>
+                    <constraint firstItem="g72-8P-kQv" firstAttribute="centerX" secondItem="sBJ-pq-9Ok" secondAttribute="centerX" id="b1a-5g-e4g"/>
+                    <constraint firstItem="g72-8P-kQv" firstAttribute="centerY" secondItem="sBJ-pq-9Ok" secondAttribute="centerY" id="hH4-be-LKj"/>
+                    <constraint firstItem="g72-8P-kQv" firstAttribute="height" secondItem="sBJ-pq-9Ok" secondAttribute="height" id="nwM-2g-prz"/>
+                    <constraint firstAttribute="trailing" secondItem="sBJ-pq-9Ok" secondAttribute="trailing" constant="5" id="vpJ-uy-rMN"/>
+                    <constraint firstItem="g72-8P-kQv" firstAttribute="width" secondItem="sBJ-pq-9Ok" secondAttribute="width" id="wpb-sb-aBr"/>
+                    <constraint firstItem="sBJ-pq-9Ok" firstAttribute="leading" secondItem="8l9-e2-gJA" secondAttribute="leading" constant="5" id="zgd-UX-2Kq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bannerView" destination="g72-8P-kQv" id="FFp-Gs-pQx"/>
+                <outlet property="lblLoading" destination="lBs-1k-X8a" id="Cwh-My-wli"/>
+                <outlet property="viewBG" destination="sBJ-pq-9Ok" id="k4T-aH-m1h"/>
+            </connections>
+            <point key="canvasLocation" x="-91.603053435114504" y="-46.126760563380287"/>
+        </tableViewCell>
+    </objects>
+</document>

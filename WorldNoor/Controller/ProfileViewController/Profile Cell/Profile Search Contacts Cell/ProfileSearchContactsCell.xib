@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileSearchContactsCell" rowHeight="60" id="Oea-pD-qzQ" customClass="ProfileSearchContactsCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Oea-pD-qzQ" id="l0h-rn-lX9">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-u5-OaO">
+                        <rect key="frame" x="1" y="1" width="412" height="58"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRV-7N-d7K">
+                                <rect key="frame" x="15" y="5" width="382" height="48"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewLogo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f7w-c3-RrH">
+                                        <rect key="frame" x="0.0" y="9" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="Jk3-e2-NaG"/>
+                                            <constraint firstAttribute="height" constant="30" id="dbY-Am-0m2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHP-lT-lri">
+                                        <rect key="frame" x="337" y="4" width="45" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="NoW-Hc-fcq"/>
+                                            <constraint firstAttribute="height" constant="40" id="mGh-PY-m0a"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search by contact name or group" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ev3-5t-jgO">
+                                        <rect key="frame" x="40" y="6.5" width="287" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="ADr-i9-vkf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeHolderText" value="Search by contact name or group"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="f7w-c3-RrH" firstAttribute="centerY" secondItem="bRV-7N-d7K" secondAttribute="centerY" id="0yO-C0-G6x"/>
+                                    <constraint firstAttribute="height" constant="48" id="Mfx-JI-gEd"/>
+                                    <constraint firstItem="f7w-c3-RrH" firstAttribute="leading" secondItem="bRV-7N-d7K" secondAttribute="leading" id="OJy-M4-aHa"/>
+                                    <constraint firstItem="XHP-lT-lri" firstAttribute="leading" secondItem="ev3-5t-jgO" secondAttribute="trailing" constant="10" id="bXj-kh-wN3"/>
+                                    <constraint firstItem="ev3-5t-jgO" firstAttribute="centerY" secondItem="f7w-c3-RrH" secondAttribute="centerY" id="g7a-Wf-9AU"/>
+                                    <constraint firstItem="XHP-lT-lri" firstAttribute="centerY" secondItem="bRV-7N-d7K" secondAttribute="centerY" id="jsX-Bc-DhQ"/>
+                                    <constraint firstItem="ev3-5t-jgO" firstAttribute="leading" secondItem="f7w-c3-RrH" secondAttribute="trailing" constant="10" id="kZ4-ed-xTc"/>
+                                    <constraint firstAttribute="trailing" secondItem="XHP-lT-lri" secondAttribute="trailing" id="v4g-Rd-Gzv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gE6-Qz-Xs2">
+                                <rect key="frame" x="0.0" y="56" width="412" height="1"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="MK8-UG-C0H"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gE6-Qz-Xs2" firstAttribute="leading" secondItem="6Pp-u5-OaO" secondAttribute="leading" id="04D-Um-s4i"/>
+                            <constraint firstAttribute="bottom" secondItem="gE6-Qz-Xs2" secondAttribute="bottom" constant="1" id="0H4-jB-9sv"/>
+                            <constraint firstItem="bRV-7N-d7K" firstAttribute="top" secondItem="6Pp-u5-OaO" secondAttribute="top" constant="5" id="M4U-XA-Bjh"/>
+                            <constraint firstAttribute="trailing" secondItem="bRV-7N-d7K" secondAttribute="trailing" constant="15" id="OEp-YY-g9Y"/>
+                            <constraint firstAttribute="bottom" secondItem="bRV-7N-d7K" secondAttribute="bottom" constant="5" id="jAp-th-zYb"/>
+                            <constraint firstItem="bRV-7N-d7K" firstAttribute="leading" secondItem="6Pp-u5-OaO" secondAttribute="leading" constant="15" id="nfg-KL-ePr"/>
+                            <constraint firstAttribute="trailing" secondItem="gE6-Qz-Xs2" secondAttribute="trailing" id="oAJ-z6-YuZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6Pp-u5-OaO" firstAttribute="leading" secondItem="l0h-rn-lX9" secondAttribute="leading" constant="1" id="7bs-YU-bsw"/>
+                    <constraint firstAttribute="bottom" secondItem="6Pp-u5-OaO" secondAttribute="bottom" constant="1" id="B9M-IR-xGr"/>
+                    <constraint firstAttribute="trailing" secondItem="6Pp-u5-OaO" secondAttribute="trailing" constant="1" id="IEb-lW-wa6"/>
+                    <constraint firstItem="6Pp-u5-OaO" firstAttribute="top" secondItem="l0h-rn-lX9" secondAttribute="top" constant="1" id="YG3-N9-0MR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="txtFieldSearch" destination="ev3-5t-jgO" id="F8Q-a4-QrN"/>
+            </connections>
+            <point key="canvasLocation" x="-130.43478260869566" y="277.90178571428572"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="NewLogo" width="458" height="254"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

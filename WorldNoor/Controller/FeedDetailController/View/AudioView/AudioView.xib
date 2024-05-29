@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="veB-kl-6sa" customClass="AudioView" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1oF-vf-aaj">
+                    <rect key="frame" x="30" y="81" width="315" height="48"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="eZM-H1-Y0A"/>
+                    </constraints>
+                </view>
+                <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2e-X2-kyG">
+                    <rect key="frame" x="35" y="133" width="315" height="64"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="icc-VO-Ix7"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCS-re-LX7">
+                    <rect key="frame" x="29" y="47" width="84" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="ee8-0Q-dDj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="View Orignal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" title="View Translated">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="origTransBtnClicked:" destination="veB-kl-6sa" eventType="touchUpInside" id="ZDN-Eg-1iI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="J2e-X2-kyG" firstAttribute="top" secondItem="1oF-vf-aaj" secondAttribute="bottom" constant="4" id="97Y-K9-yDU"/>
+                <constraint firstItem="1oF-vf-aaj" firstAttribute="centerY" secondItem="veB-kl-6sa" secondAttribute="centerY" id="GKo-j1-coB"/>
+                <constraint firstItem="mCS-re-LX7" firstAttribute="leading" secondItem="veB-kl-6sa" secondAttribute="leading" constant="29" id="IcX-YV-wH4"/>
+                <constraint firstItem="1oF-vf-aaj" firstAttribute="top" secondItem="mCS-re-LX7" secondAttribute="bottom" constant="4" id="WfL-pT-GaJ"/>
+                <constraint firstItem="1oF-vf-aaj" firstAttribute="centerX" secondItem="veB-kl-6sa" secondAttribute="centerX" id="XOd-IA-Fwx"/>
+                <constraint firstItem="J2e-X2-kyG" firstAttribute="leading" secondItem="veB-kl-6sa" secondAttribute="leading" constant="35" id="c43-S8-7P3"/>
+                <constraint firstAttribute="trailing" secondItem="J2e-X2-kyG" secondAttribute="trailing" constant="25" id="q8b-FA-PK7"/>
+                <constraint firstItem="1oF-vf-aaj" firstAttribute="leading" secondItem="veB-kl-6sa" secondAttribute="leading" constant="30" id="tgf-PX-zYO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgView" destination="1oF-vf-aaj" id="mvK-lc-X1L"/>
+                <outlet property="origTransBtn" destination="mCS-re-LX7" id="mLI-mr-0pL"/>
+                <outlet property="speechTxtView" destination="J2e-X2-kyG" id="qZZ-xP-OEU"/>
+            </connections>
+            <point key="canvasLocation" x="-628.26086956521749" y="-164.0625"/>
+        </view>
+    </objects>
+</document>

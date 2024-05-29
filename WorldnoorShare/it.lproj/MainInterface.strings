@@ -1,0 +1,27 @@
+
+/* Class = "UITextView"; text = "Write...."; ObjectID = "1ZV-0D-ooX"; */
+"1ZV-0D-ooX.text" = "Write....";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "4RD-RN-2ag"; */
+"4RD-RN-2ag.text" = "User Name";
+
+/* Class = "UIButton"; normalTitle = "Public"; ObjectID = "GMo-Uo-8aK"; */
+"GMo-Uo-8aK.normalTitle" = "Public";
+
+/* Class = "UILabel"; text = "Select the language"; ObjectID = "Ij1-JT-vQB"; */
+"Ij1-JT-vQB.text" = "Select the language";
+
+/* Class = "UILabel"; text = "Privacy Options"; ObjectID = "SWO-SQ-XlJ"; */
+"SWO-SQ-XlJ.text" = "Privacy Options";
+
+/* Class = "UILabel"; text = "Create Post"; ObjectID = "XxO-6G-2Vf"; */
+"XxO-6G-2Vf.text" = "Create Post";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "utE-uH-rca"; */
+"utE-uH-rca.text" = "Label";
+
+/* Class = "UILabel"; text = "Groups"; ObjectID = "vCb-qP-9sg"; */
+"vCb-qP-9sg.text" = "Groups";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "zks-An-q10"; */
+"zks-An-q10.normalTitle" = "Done";

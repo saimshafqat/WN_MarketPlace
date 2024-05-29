@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CreateReelCollectionViewCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mkt-Vg-8VB" userLabel="content View">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ayj-cm-a9S">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="120"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewAdd" translatesAutoresizingMaskIntoConstraints="NO" id="UxK-6X-5ji">
+                                <rect key="frame" x="56.333333333333329" y="130" width="37.333333333333329" height="37.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UxK-6X-5ji" secondAttribute="height" multiplier="1:1" id="UBG-b4-Gku"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Reel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgp-Z3-xbn">
+                                <rect key="frame" x="5" y="172.66666666666666" width="140" height="27.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                                <color key="textColor" red="0.05770393461" green="0.389921248" blue="0.86005586389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Create Reel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08c-RE-3Hw">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="08c-RE-3Hw" firstAttribute="width" secondItem="Mkt-Vg-8VB" secondAttribute="width" id="2gJ-UT-HPN"/>
+                            <constraint firstItem="UxK-6X-5ji" firstAttribute="top" secondItem="Ayj-cm-a9S" secondAttribute="bottom" constant="10" id="8Hw-B3-7t8"/>
+                            <constraint firstItem="08c-RE-3Hw" firstAttribute="centerY" secondItem="Mkt-Vg-8VB" secondAttribute="centerY" id="AaB-4L-iCS"/>
+                            <constraint firstItem="UxK-6X-5ji" firstAttribute="centerX" secondItem="Mkt-Vg-8VB" secondAttribute="centerX" id="BIF-3Y-bwT"/>
+                            <constraint firstItem="Ayj-cm-a9S" firstAttribute="top" secondItem="Mkt-Vg-8VB" secondAttribute="top" id="Ib1-6C-1e9"/>
+                            <constraint firstAttribute="trailing" secondItem="dgp-Z3-xbn" secondAttribute="trailing" constant="5" id="Jw6-ZP-pZx"/>
+                            <constraint firstAttribute="trailing" secondItem="Ayj-cm-a9S" secondAttribute="trailing" id="RTX-Gr-IkB"/>
+                            <constraint firstItem="08c-RE-3Hw" firstAttribute="centerX" secondItem="Mkt-Vg-8VB" secondAttribute="centerX" id="TL0-YP-J1J"/>
+                            <constraint firstItem="UxK-6X-5ji" firstAttribute="width" secondItem="Mkt-Vg-8VB" secondAttribute="width" multiplier="0.25" id="UhT-PC-sBn"/>
+                            <constraint firstItem="08c-RE-3Hw" firstAttribute="height" secondItem="Mkt-Vg-8VB" secondAttribute="height" id="XT3-tj-ftP"/>
+                            <constraint firstItem="dgp-Z3-xbn" firstAttribute="leading" secondItem="Mkt-Vg-8VB" secondAttribute="leading" constant="5" id="gBJ-pq-fM3"/>
+                            <constraint firstItem="dgp-Z3-xbn" firstAttribute="top" secondItem="UxK-6X-5ji" secondAttribute="bottom" constant="5" id="hDq-uX-V2O"/>
+                            <constraint firstItem="Ayj-cm-a9S" firstAttribute="leading" secondItem="Mkt-Vg-8VB" secondAttribute="leading" id="qCs-ve-ZKf"/>
+                            <constraint firstAttribute="bottom" secondItem="dgp-Z3-xbn" secondAttribute="bottom" id="rxG-NN-dPp"/>
+                            <constraint firstItem="Ayj-cm-a9S" firstAttribute="height" secondItem="Mkt-Vg-8VB" secondAttribute="height" multiplier="0.6" id="u6h-Tq-Nid"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Mkt-Vg-8VB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ECI-Xi-8N5"/>
+                <constraint firstAttribute="trailing" secondItem="Mkt-Vg-8VB" secondAttribute="trailing" id="avM-3x-umr"/>
+                <constraint firstItem="Mkt-Vg-8VB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iFp-TV-RsX"/>
+                <constraint firstAttribute="bottom" secondItem="Mkt-Vg-8VB" secondAttribute="bottom" id="yr2-Ky-09h"/>
+            </constraints>
+            <connections>
+                <outlet property="btnUpload" destination="08c-RE-3Hw" id="x43-Zy-Uth"/>
+                <outlet property="imgViewUser" destination="Ayj-cm-a9S" id="7qa-me-Kkq"/>
+                <outlet property="lblText" destination="dgp-Z3-xbn" id="6Cl-GP-8Op"/>
+            </connections>
+            <point key="canvasLocation" x="41" y="21"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="NewAdd" width="170.66667175292969" height="170.66667175292969"/>
+    </resources>
+</document>

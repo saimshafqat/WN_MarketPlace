@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileInfoTextCell" id="YIM-iL-Xci" customClass="ProfileInfoTextCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YIM-iL-Xci" id="7Wa-Gl-RhZ">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJO-hs-JYT">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWP-Wy-oSW">
+                                <rect key="frame" x="10" y="10" width="370" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gWP-Wy-oSW" secondAttribute="trailing" constant="10" id="28h-YU-nHO"/>
+                            <constraint firstAttribute="bottom" secondItem="gWP-Wy-oSW" secondAttribute="bottom" constant="10" id="4d6-5j-6mZ"/>
+                            <constraint firstItem="gWP-Wy-oSW" firstAttribute="leading" secondItem="FJO-hs-JYT" secondAttribute="leading" constant="10" id="DFl-aD-lQa"/>
+                            <constraint firstItem="gWP-Wy-oSW" firstAttribute="top" secondItem="FJO-hs-JYT" secondAttribute="top" constant="10" id="GQP-89-s8a"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="FJO-hs-JYT" secondAttribute="trailing" id="919-ev-QnD"/>
+                    <constraint firstAttribute="bottom" secondItem="FJO-hs-JYT" secondAttribute="bottom" id="JwB-pP-nid"/>
+                    <constraint firstItem="FJO-hs-JYT" firstAttribute="leading" secondItem="7Wa-Gl-RhZ" secondAttribute="leading" id="PG3-F5-33f"/>
+                    <constraint firstItem="FJO-hs-JYT" firstAttribute="top" secondItem="7Wa-Gl-RhZ" secondAttribute="top" id="aa9-m8-6FH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblInfo" destination="gWP-Wy-oSW" id="Wja-9x-LwQ"/>
+            </connections>
+            <point key="canvasLocation" x="166" y="-4"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

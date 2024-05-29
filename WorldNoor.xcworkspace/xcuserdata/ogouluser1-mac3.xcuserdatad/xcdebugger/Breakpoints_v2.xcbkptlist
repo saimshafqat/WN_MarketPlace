@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FD568AFD-B293-497F-A4AA-6554923B2D6C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C59B1FE5-5F42-41DD-B20C-AA8869F61217"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Reels VC/Reels Cell/ReelsVideoCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "dimissReportSheetForCommentsClicked(type:currentIndex:isReply:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22C2C1D9-76D2-40C6-9049-03D6B95B25BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Group Profile VC/Group Profile New VC/GroupProfileNewVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
+            landmarkName = "dismissPhotoPicker(withTLPHAssets:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "22C2C1D9-76D2-40C6-9049-03D6B95B25BA - c95bdd6a370b8f32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.GroupProfileNewVC.dismissPhotoPicker(withTLPHAssets: Swift.Array&lt;TLPhotoPicker.TLPHAsset&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ogouluser1-mac3/Desktop/Git/WN/WorldNoor_IOS/WorldNoor/Controller/Group%20Profile%20VC/Group%20Profile%20New%20VC/GroupProfileNewVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "550"
+                  endingLineNumber = "550"
+                  offsetFromSymbolStart = "975">
+               </Location>
+               <Location
+                  uuid = "22C2C1D9-76D2-40C6-9049-03D6B95B25BA - f230478bca5e705"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;) -&gt; () in WorldNoor.GroupProfileNewVC.dismissPhotoPicker(withTLPHAssets: Swift.Array&lt;TLPhotoPicker.TLPHAsset&gt;) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ogouluser1-mac3/Desktop/Git/WN/WorldNoor_IOS/WorldNoor/Controller/Group%20Profile%20VC/Group%20Profile%20New%20VC/GroupProfileNewVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "550"
+                  endingLineNumber = "550"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D497B6B-4346-4B3C-A285-11AC96C079A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Group Profile VC/Group Profile New VC/GroupProfileNewVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "489"
+            endingLineNumber = "489"
+            landmarkName = "uploadFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1BDDD01-AD3A-44F6-9F60-5E290AD47E2C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/Group Profile VC/Group Profile New VC/GroupProfileNewVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "553"
+            endingLineNumber = "553"
+            landmarkName = "dismissPhotoPicker(withTLPHAssets:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

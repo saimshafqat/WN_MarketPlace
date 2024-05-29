@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewSingleAudioCell" rowHeight="60" id="v2G-Iu-b1L" customClass="NewSingleAudioCell" customModule="WorldNoor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v2G-Iu-b1L" id="7i0-cx-qiB">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96b-mU-O6k">
+                        <rect key="frame" x="5" y="5" width="404" height="50"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="IdS-gZ-KaN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="96b-mU-O6k" firstAttribute="leading" secondItem="7i0-cx-qiB" secondAttribute="leading" constant="5" id="MCv-FI-1xg"/>
+                    <constraint firstItem="96b-mU-O6k" firstAttribute="top" secondItem="7i0-cx-qiB" secondAttribute="top" constant="5" id="Xz5-TL-lWY"/>
+                    <constraint firstAttribute="trailing" secondItem="96b-mU-O6k" secondAttribute="trailing" constant="5" id="kkc-6i-T5L"/>
+                    <constraint firstAttribute="bottom" secondItem="96b-mU-O6k" secondAttribute="bottom" constant="5" id="ykN-CU-JWf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="audioView" destination="96b-mU-O6k" id="JJH-2B-9S3"/>
+            </connections>
+            <point key="canvasLocation" x="-94.20289855072464" y="77.008928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
