@@ -106,6 +106,7 @@ class MPProductListingViewController: UIViewController {
     }
     
     @IBAction func onClickBack(_ sender: UIButton) {
+        SharedManager.shared.filterItem.removeAll()
         navigationController?.popViewController(animated: true)
     }
 }

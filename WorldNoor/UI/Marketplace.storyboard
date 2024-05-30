@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -1432,13 +1432,13 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FW9-8G-bWK">
                                                             <rect key="frame" x="56" y="38.333333333333336" width="194" height="38.000000000000007"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muhammad Asher Azeem" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hma-qn-1d8" userLabel="heading">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Muhammad Asher Azeem" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hma-qn-1d8" userLabel="heading">
                                                                     <rect key="frame" x="0.0" y="0.0" width="194" height="21"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joined Facebook in 2012" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5K-DH-qqV" userLabel="heading">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Joined Facebook in 2012" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5K-DH-qqV" userLabel="heading">
                                                                     <rect key="frame" x="0.0" y="21" width="194" height="17"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
                                                                     <nil key="textColor"/>
@@ -4048,6 +4048,12 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="EXp-dA-ds1">
+                                <rect key="frame" x="12" y="114" width="369" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Xfq-fd-0ZT"/>
+                                </constraints>
+                            </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGH-pG-8Wp" userLabel="Header">
                                 <rect key="frame" x="0.0" y="59" width="393" height="50"/>
                                 <subviews>
@@ -4205,14 +4211,17 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                         <constraints>
                             <constraint firstItem="gGH-pG-8Wp" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" id="1fH-o2-pLQ"/>
                             <constraint firstItem="fHY-dn-ukd" firstAttribute="top" secondItem="gGH-pG-8Wp" secondAttribute="bottom" constant="1" id="3aN-WC-Ons"/>
+                            <constraint firstItem="c47-9K-neW" firstAttribute="trailing" secondItem="EXp-dA-ds1" secondAttribute="trailing" constant="12" id="3bq-4r-tw6"/>
                             <constraint firstItem="YJa-do-sUc" firstAttribute="top" secondItem="gGH-pG-8Wp" secondAttribute="bottom" constant="12" id="3lc-QV-Zsg"/>
                             <constraint firstItem="gGH-pG-8Wp" firstAttribute="top" secondItem="c47-9K-neW" secondAttribute="top" id="5hq-y5-UVu"/>
+                            <constraint firstItem="EXp-dA-ds1" firstAttribute="top" secondItem="fHY-dn-ukd" secondAttribute="bottom" constant="2" id="9ph-6s-Qdp"/>
                             <constraint firstItem="c47-9K-neW" firstAttribute="trailing" secondItem="ymO-4t-Amq" secondAttribute="trailing" constant="16" id="B5b-ob-fMr"/>
                             <constraint firstItem="YJa-do-sUc" firstAttribute="trailing" secondItem="c47-9K-neW" secondAttribute="trailing" id="Cnp-EZ-Ymc"/>
                             <constraint firstItem="ymO-4t-Amq" firstAttribute="top" secondItem="lY1-gE-B2s" secondAttribute="bottom" constant="14" id="OBL-mc-1vY"/>
                             <constraint firstItem="fHY-dn-ukd" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" id="Rni-ki-JLo"/>
                             <constraint firstItem="c47-9K-neW" firstAttribute="bottom" secondItem="ymO-4t-Amq" secondAttribute="bottom" constant="14" id="TjU-P4-5VI"/>
                             <constraint firstItem="ymO-4t-Amq" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" constant="16" id="WSw-rm-8dp"/>
+                            <constraint firstItem="EXp-dA-ds1" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" constant="12" id="itf-uN-a3N"/>
                             <constraint firstItem="lY1-gE-B2s" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" id="kg4-zS-lEE"/>
                             <constraint firstItem="YJa-do-sUc" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" id="ldt-UH-BC3"/>
                             <constraint firstItem="lY1-gE-B2s" firstAttribute="top" secondItem="gGH-pG-8Wp" secondAttribute="bottom" constant="5" id="oie-lT-7Xf"/>
@@ -4226,6 +4235,8 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                         <outlet property="lblTitle" destination="8es-eZ-8Fa" id="42a-5E-9gr"/>
                         <outlet property="maximumPriceText" destination="Mwx-ri-rFn" id="mwh-23-r21"/>
                         <outlet property="minimumPriceText" destination="M2X-qX-V2f" id="srR-6e-btc"/>
+                        <outlet property="stackHeight" destination="Xfq-fd-0ZT" id="qlc-24-rov"/>
+                        <outlet property="stackView" destination="EXp-dA-ds1" id="bpJ-MP-EJp"/>
                         <outlet property="tblView" destination="lY1-gE-B2s" id="Q86-nk-95O"/>
                         <outlet property="viewOfPrice" destination="YJa-do-sUc" id="Itx-qJ-xzj"/>
                     </connections>

@@ -206,8 +206,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
             endingLineNumber = "133"
-            landmarkName = "searchResult(_:)"
-            landmarkType = "7">
+            landmarkName = "MPProductListingViewController"
+            landmarkType = "21">
             <Locations>
                <Location
                   uuid = "BA9C1AB9-271B-42E9-B6F0-AD135A84F080 - e4762e638038483a"
