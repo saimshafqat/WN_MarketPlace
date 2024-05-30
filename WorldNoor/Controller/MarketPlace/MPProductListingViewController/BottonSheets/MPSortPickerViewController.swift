@@ -1,14 +1,15 @@
 //
-//  MPBottomAvailabilityVC.swift
+//  SortPickerViewController.swift
 //  WorldNoor
 //
-//  Created by Awais on 09/05/2024.
+//  Created by moeez akram on 29/05/2024.
 //  Copyright © 2024 Raza najam. All rights reserved.
+//
 //
 
 import UIKit
 
-class MPBottomAvailabilityVC: UIViewController, RadioButtonDelegate {
+class MPSortPickerViewController: UIViewController, RadioButtonDelegate {
     
     @IBOutlet weak var stackView: UIStackView!
     
@@ -19,10 +20,12 @@ class MPBottomAvailabilityVC: UIViewController, RadioButtonDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let options = [RadioButtonItem(radioId: "1", radioTitle: "List as signle item", radioDescription: "if you're selling one item, show \"Only one\" on your listing.", radioButtonValue: ""),
-                       RadioButtonItem(radioId: "2", radioTitle: "List as in stock", radioDescription: "if you're selling more than one item, show \"In stock\" on your listing.", radioButtonValue: "")
+        let options = [RadioButtonItem(radioId: "1", radioTitle: "Recommended", radioDescription: "",radioButtonValue: "recommended"),
+                       RadioButtonItem(radioId: "2", radioTitle: "Price - Lowest first", radioDescription: "",radioButtonValue: "price_ascend"),
+                       RadioButtonItem(radioId: "3", radioTitle: "Price - Highest first", radioDescription: "",radioButtonValue: "price_descend"),
+                       RadioButtonItem(radioId: "4", radioTitle: "Date listed - Newest first", radioDescription: "",radioButtonValue: "creation_time_descend"),
+                       RadioButtonItem(radioId: "5", radioTitle: "Date listed - Oldest first", radioDescription: "",radioButtonValue: "creation_time_ascend")
         ]
-        
         options.forEach { option in
             let radioButton = RadioButton(radioItem: option)
             radioButton.delegate = self
@@ -31,10 +34,10 @@ class MPBottomAvailabilityVC: UIViewController, RadioButtonDelegate {
             radioButtons.append(radioButton)
         }
     }
-    
-    @IBAction func onCrossBtnPressed(_ sender: Any) {
+    @IBAction func onCrossTapped(_ sender: UIButton) {
         dismiss(animated: true)
     }
+    
     
     func radioButtonDidSelect(_ radioButton: RadioButton) {
         
@@ -46,11 +49,10 @@ class MPBottomAvailabilityVC: UIViewController, RadioButtonDelegate {
         
         if radioButton.isSelected {
             if let selectedOption = selectedOption, let radioButtonItem = radioButton.radioButtonItem {
-                LogClass.debugLog("Selected Option: \(radioButtonItem.radioTitle)")
+                LogClass.debugLog("Selected Option: \(radioButtonItem)")
                 selectedOption(radioButtonItem)
             }
         }
-        
         dismiss(animated: true)
     }
 }

@@ -114,6 +114,38 @@ extension MPProductListingViewController: FilterViewDelegate {
         }
         openBottomSheet(controller, sheetSize: [.fixed(UIScreen.main.bounds.height * 0.7)], animated: false)
     }
+    func sortTapped() {
+        let controller = MPSortPickerViewController.instantiate(fromAppStoryboard: .Marketplace)
+        controller.selectedOptionId = selectedSortItem?.radioId ?? "1"
+        controller.selectedOption = { [weak self] item in
+            guard let self = self else { return }
+            self.selectedSortItem = item
+            viewModel.updateParam["sortBy"] = self.selectedSortItem?.radioButtonValue
+            applyFilterOnSelectedItem(params: viewModel.updateParam)
+        }
+        openBottomSheet(controller, sheetSize: [.fixed(350)], animated: false)
+    }
+    func createListingTapped() {
+        openCreateListingBottomView()
+    }
+    func openCreateListingBottomView() {
+        let controller = MPBottomCreateListingVC.instantiate(fromAppStoryboard: .Marketplace)
+        controller.itemSelected = { item in
+            LogClass.debugLog("Item: \(item.name)")
+            
+            if let currentVC = UIApplication.topViewController() as? SheetViewController {
+                currentVC.dismiss(animated: false) { [weak self] in
+                    let vc = MPCreateListingFormVC.instantiate(fromAppStoryboard: .Marketplace)
+                    vc.modalPresentationStyle = .fullScreen
+                    self?.presentVC(vc)
+                }
+            }
+        }
+        openBottomSheet(controller, sheetSize: [.fixed(250)], animated: false)
+    }
+    func locationTapped() {
+        #warning("open location screen and refresh the api on the screen")
+    }
 }
 
 extension MPProductListingViewController: ApplyFilterViewDelegate {
@@ -128,8 +160,7 @@ extension MPProductListingViewController: ApplyFilterViewDelegate {
     }
     
     func applyFilterOnSelectedItem(params: [String: Any]) {
-        viewModel.updateParam = params
-
+        viewModel.updateParam.mergeAndUpdate(from: params)
         let name = self.viewModel.searchText.count != 0 ? self.viewModel.searchText : (self.viewModel.categoryItem?.slug ?? "")
         if viewModel.categoryItem == nil {
             viewModel.updateParam["name"] = name
@@ -138,7 +169,14 @@ extension MPProductListingViewController: ApplyFilterViewDelegate {
         }
         viewModel.updateParam["productsPerCategory"] = viewModel.productsPerCategory
         viewModel.updateParam["productPage"] = viewModel.productPage
-
         viewModel.getAllProduct(endPointName: viewModel.endPointSelected(), params: viewModel.updateParam)
+    }
+}
+
+extension Dictionary {
+    mutating func mergeAndUpdate(from other: Dictionary) {
+        for (key, value) in other {
+            self[key] = value
+        }
     }
 }

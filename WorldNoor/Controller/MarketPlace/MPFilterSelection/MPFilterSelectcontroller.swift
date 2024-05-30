@@ -63,7 +63,7 @@ class MPFilterSelectcontroller: UIViewController {
     private func goinBackVc() {
         let context = (self)
         self.dismissVC {
-            //context.setTheFilterItem(applyFilterParameter: false)
+            context.setTheFilterItem(applyFilterParameter: false)
         }
     }
     

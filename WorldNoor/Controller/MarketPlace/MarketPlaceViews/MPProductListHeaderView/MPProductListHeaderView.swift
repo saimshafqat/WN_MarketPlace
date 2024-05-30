@@ -14,12 +14,25 @@ class MPProductListHeaderView: UICollectionReusableView {
     @IBOutlet weak var categoryNameLabel: UILabel!
     @IBOutlet weak var locationView: UIView!
     @IBOutlet weak var locationLabel: UILabel!
-    @IBOutlet weak var filterView: UIView!
     @IBOutlet weak var filterLabel: UILabel!
-    
+    @IBOutlet weak var filterView: UIView!{
+        didSet{
+            filterView.roundCorners(radius: 5, bordorColor: .lightGray, borderWidth: 1)
+        }
+    }
+    @IBOutlet weak var listingView: UIView!{
+        didSet{
+            listingView.roundCorners(radius: 5, bordorColor: .lightGray, borderWidth: 1)
+        }
+    }
+    @IBOutlet weak var sortingView: UIView!{
+        didSet{
+            sortingView.roundCorners(radius: 5, bordorColor: .lightGray, borderWidth: 1)
+        }
+    }
     @IBOutlet weak var categorySelectorBtn: UIButton!
-    static let headerName = "MPProductListHeaderView"
 
+    static let headerName = "MPProductListHeaderView"
     weak var filterViewDelegate: FilterViewDelegate?
 
     @IBAction func categoryBtnTapped(_ sender: UIButton) {
@@ -32,6 +45,12 @@ class MPProductListHeaderView: UICollectionReusableView {
         AppLogger.log("location tapped from category")
     }
 
+    @IBAction func sortBtnTapped(_ sender: UIButton) {
+        filterViewDelegate?.sortTapped()
+    }
+    @IBAction func newlistingTapped(_ sender: UIButton) {
+        filterViewDelegate?.createListingTapped()
+    }
     // MARK: - Initializers
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -50,14 +69,12 @@ class MPProductListHeaderView: UICollectionReusableView {
     
     // MARK: - Public Methods
     func configure(viewModel:MPProductListingViewModel) {
-        if(viewModel.selectedApi != .category_items){
-            categoryNameLabel.isHidden = true
-            categorySelectorBtn.isHidden = true
-        }else{
-            categoryNameLabel.text = viewModel.categoryItem?.name
-            let count = SharedManager.shared.filterItem.count
-            filterLabel.text = count == 0 ? "Filters" : "Filters (\(count)"
-            filterView.roundCorners(radius: 5, bordorColor: .lightGray, borderWidth: 1)
+        categoryNameLabel.text = viewModel.categoryItem?.name
+        let count = SharedManager.shared.filterItem.count
+        filterLabel.text = count == 0 ? "Filters" : "Filters (\(count)"
+        if viewModel.categoryItem?.slug != "vehicles" {
+            self.sortingView.isHidden = true
+            self.listingView.isHidden = true
         }
     }
 

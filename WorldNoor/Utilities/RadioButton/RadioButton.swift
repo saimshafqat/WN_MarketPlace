@@ -17,6 +17,7 @@ struct RadioButtonItem {
     let radioId: String
     let radioTitle: String
     let radioDescription: String?
+    let radioButtonValue: String?
 }
 
 class RadioButton: UIView {

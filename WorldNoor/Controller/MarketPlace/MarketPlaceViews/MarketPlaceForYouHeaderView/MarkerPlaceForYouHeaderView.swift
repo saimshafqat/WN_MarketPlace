@@ -10,6 +10,9 @@ import UIKit
 protocol FilterViewDelegate: AnyObject {
     func filterViewDelegate()
     func categoryClicked()
+    func createListingTapped()
+    func sortTapped()
+    func locationTapped()
 }
 @objc(MarkerPlaceForYouHeaderView)
 class MarkerPlaceForYouHeaderView: SSBaseCollectionReusableView {

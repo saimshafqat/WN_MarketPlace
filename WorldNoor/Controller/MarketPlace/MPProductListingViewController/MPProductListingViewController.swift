@@ -22,6 +22,8 @@ class MPProductListingViewController: UIViewController {
     var viewModel = MPProductListingViewModel()
     private var isAPICall = false
     private var isRefresh: Bool = false
+    var selectedSortItem: RadioButtonItem?
+
 //    var refresher:UIRefreshControl!
     
 //    lazy var loadMoreHandler: LoadMoreHandler = {
