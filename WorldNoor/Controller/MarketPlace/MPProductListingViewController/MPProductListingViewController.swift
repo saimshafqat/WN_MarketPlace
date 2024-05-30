@@ -126,6 +126,12 @@ extension MPProductListingViewController: ProductListDelegate {
         if avalaible {
             self.refreshControlHandler.endRefreshing()
             self.collectionView?.reloadData()
+            if(viewModel.getNumberOfRowsInSections() == 0){
+                self.collectionView?.setEmptyMessage("No products found".localized())
+            }else{
+                self.collectionView?.restore()
+            }
+
         }
     }
 }

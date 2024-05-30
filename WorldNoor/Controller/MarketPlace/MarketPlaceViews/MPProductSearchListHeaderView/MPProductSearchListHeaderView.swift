@@ -13,7 +13,11 @@ class MPProductSearchListHeaderView: UICollectionReusableView {
     // MARK: - IBOutlets
     @IBOutlet weak var locationView: UIView!
     @IBOutlet weak var locationLabel: UILabel!
-    @IBOutlet weak var filterView: UIView!
+    @IBOutlet weak var filterView: UIView!{
+        didSet{
+            filterView.roundCorners(radius: 5, bordorColor: .lightGray, borderWidth: 1)
+        }
+    }
     @IBOutlet weak var filterLabel: UILabel!
     
     static let headerName = "MPProductSearchListHeaderView"
@@ -44,9 +48,8 @@ class MPProductSearchListHeaderView: UICollectionReusableView {
     
     // MARK: - Public Methods
     func configure(viewModel:MPProductListingViewModel) {
-        let count = SharedManager.shared.filterItem.count
-        filterLabel.text = count == 0 ? "Filters" : "Filters (\(count)"
-        filterView.roundCorners(radius: 5, bordorColor: .lightGray, borderWidth: 1)
+        let appliedFilterCount = SharedManager.shared.filterItem.filter { $0.isApplyFilter }.count
+        filterLabel.text = appliedFilterCount == 0 ? "Filters" : "Filters (\(appliedFilterCount))"
     }
     
 }

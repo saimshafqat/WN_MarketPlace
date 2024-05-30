@@ -103,7 +103,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-Q3-Uyz">
                                     <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="80" id="HkN-Ea-zxv"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="HkN-Ea-zxv"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -131,8 +131,10 @@
                             <color key="backgroundColor" systemColor="systemGray5Color"/>
                             <constraints>
                                 <constraint firstItem="2Rq-Ft-ck0" firstAttribute="leading" secondItem="DUn-aG-0hx" secondAttribute="trailing" constant="5" id="1dl-Ay-pY9"/>
-                                <constraint firstAttribute="width" constant="80" id="9KL-eB-eQx"/>
+                                <constraint firstAttribute="trailing" secondItem="Hwg-Q3-Uyz" secondAttribute="trailing" id="5lb-Tm-WnH"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="9KL-eB-eQx"/>
                                 <constraint firstAttribute="bottom" secondItem="Hwg-Q3-Uyz" secondAttribute="bottom" id="Gr6-r9-OSP"/>
+                                <constraint firstAttribute="trailing" secondItem="2Rq-Ft-ck0" secondAttribute="trailing" constant="3.6699999999999999" id="bxq-oq-VuD"/>
                                 <constraint firstItem="DUn-aG-0hx" firstAttribute="centerY" secondItem="2Rq-Ft-ck0" secondAttribute="centerY" id="cdA-fG-dgN"/>
                                 <constraint firstItem="Hwg-Q3-Uyz" firstAttribute="leading" secondItem="uQt-qb-UKF" secondAttribute="leading" id="dRz-vN-yAv"/>
                                 <constraint firstItem="Hwg-Q3-Uyz" firstAttribute="top" secondItem="uQt-qb-UKF" secondAttribute="top" id="g3o-IH-mjh"/>

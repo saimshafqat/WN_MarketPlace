@@ -2,7 +2,7 @@
 //  MPProductListingView.swift
 //  WorldNoor
 //
-//  Created by Ahmad on 14/05/2024.
+//  created by Moeez akram on 14/05/2024.
 //  Copyright © 2024 Raza najam. All rights reserved.
 //
 
@@ -152,8 +152,10 @@ extension MPProductListingViewController: ApplyFilterViewDelegate {
     func resetApplyFilter() {
         if viewModel.categoryItem == nil {
             viewModel.selectedApi = .search_products
+            viewModel.updateParam = [:]
             viewModel.fetchProductListOnSearchResult(viewModel.searchText)
         }else{
+            viewModel.updateParam = [:]
             viewModel.selectedApi = .category_items
             viewModel.fetchProductListOnCategorieSelection()
         }

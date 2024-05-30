@@ -70,8 +70,8 @@ class MPProductListHeaderView: UICollectionReusableView {
     // MARK: - Public Methods
     func configure(viewModel:MPProductListingViewModel) {
         categoryNameLabel.text = viewModel.categoryItem?.name
-        let count = SharedManager.shared.filterItem.count
-        filterLabel.text = count == 0 ? "Filters" : "Filters (\(count)"
+        let appliedFilterCount = SharedManager.shared.filterItem.filter { $0.isApplyFilter }.count
+        filterLabel.text = appliedFilterCount == 0 ? "Filters" : "Filters (\(appliedFilterCount))"
         if viewModel.categoryItem?.slug != "vehicles" {
             self.sortingView.isHidden = true
             self.listingView.isHidden = true
