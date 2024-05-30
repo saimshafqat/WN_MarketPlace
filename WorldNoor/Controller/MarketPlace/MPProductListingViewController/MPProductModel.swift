@@ -20,10 +20,10 @@ struct CategoryDetailDataResponse: Codable {
 }
 
 struct ReturnResponse: Codable {
-    let groups: [MPProductDetailGroupModel]?
+    var groups: [MPProductDetailGroupModel]?
     var products: [MarketPlaceForYouItem]?
-    let total_pages: Int?
-    let current_page: String?
+    var total_pages: Int?
+    var current_page: String?
 }
 
 

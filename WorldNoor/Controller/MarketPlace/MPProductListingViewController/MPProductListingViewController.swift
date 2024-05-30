@@ -87,6 +87,7 @@ class MPProductListingViewController: UIViewController {
     func fetchProductListCategorieBase() {
         if NetworkReachabilityManager()!.isReachable {
             viewModel.selectedApi = .category_items
+            viewModel.productPage = 1
             viewModel.fetchProductListOnCategorieSelection()
         }else {
             SharedManager.shared.showAlert(message: Const.networkProblemMessage, view: self)
@@ -96,6 +97,7 @@ class MPProductListingViewController: UIViewController {
     func fetchProductListSearchBase(_ text: String) {
         if NetworkReachabilityManager()!.isReachable {
             viewModel.selectedApi = .search_products
+            viewModel.productPage = 1
             viewModel.fetchProductListOnSearchResult(text)
         }else {
             SharedManager.shared.showAlert(message: Const.networkProblemMessage, view: self)

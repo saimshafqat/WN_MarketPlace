@@ -26,6 +26,7 @@ final class MPProductListingViewModel {
     var searchText: String = ""
     var productsPerCategory = 20
     var productPage = 1
+    var isLoading = false
     var selectedApi: ReCallApiSelection = .category_items
     var updateParam: [String: Any] = [:]
     private var productInfo: ReturnResponse?
@@ -55,6 +56,24 @@ final class MPProductListingViewModel {
         getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "name", paramNameValue: search)
     }
     
+    func loadMoreData(){
+        if !isLoading && self.productPage < productInfo?.total_pages ?? 0{
+            self.isLoading = true
+            self.productPage += 1
+            switch selectedApi {
+            case .category_items:
+                fetchProductListOnCategorieSelection()
+                break
+            case .search_products:
+                fetchProductListOnSearchResult(searchText)
+                break
+            case .search_productsOnFilterBase:
+                getAllProduct(endPointName: endPointSelected(), params: updateParam)
+            }
+        }
+    }
+    
+    
     // MARK: - Methods -
 
     func getAllCategoriesPorduct(endPointName: String, paramName: String, paramNameValue: String) {
@@ -69,15 +88,29 @@ final class MPProductListingViewModel {
     func getAllProduct(endPointName: String, params: [String : Any]) {
         let context = (self)
         MPRequestManager.shared.request(endpoint: endPointName, method: .post, params: params) { response in
+            self.isLoading = false
             switch response {
             case .success(let data):
                 LogClass.debugLog("success")
                 if let jsonData = data as? Data {
                     do {
-                        context.productInfo?.products?.removeAll()
+                        
                         let decoder = JSONDecoder()
                         let categoryResult = try decoder.decode(CategoryDetailData.self, from: jsonData)
-                        context.productInfo = categoryResult.data?.returnResp
+                        
+                        if context.productInfo != nil{
+                            DispatchQueue.main.async {
+                                context.productInfo = categoryResult.data?.returnResp
+                                context.productInfo?.groups?.append(contentsOf: categoryResult.data?.returnResp?.groups ?? [])
+                                context.productInfo?.products?.append(contentsOf: categoryResult.data?.returnResp?.products ?? [])
+                                context.productInfo?.total_pages = categoryResult.data?.returnResp?.total_pages
+                                context.productInfo?.current_page = categoryResult.data?.returnResp?.current_page
+                            }
+                        } else {
+                            context.productInfo?.products?.removeAll()
+                            context.productInfo = categoryResult.data?.returnResp
+                        }
+                        
                         context.delegate?.isProductAvalaibleOrNot(true)
                         LogClass.debugLog(categoryResult)
                     } catch {
