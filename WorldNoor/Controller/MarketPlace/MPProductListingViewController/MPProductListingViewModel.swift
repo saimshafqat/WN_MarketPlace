@@ -105,13 +105,15 @@ final class MPProductListingViewModel {
                                 context.productInfo?.products?.append(contentsOf: categoryResult.data?.returnResp?.products ?? [])
                                 context.productInfo?.total_pages = categoryResult.data?.returnResp?.total_pages
                                 context.productInfo?.current_page = categoryResult.data?.returnResp?.current_page
+                                context.delegate?.isProductAvalaibleOrNot(true)
                             }
                         } else {
                             context.productInfo?.products?.removeAll()
                             context.productInfo = categoryResult.data?.returnResp
+                            context.delegate?.isProductAvalaibleOrNot(true)
                         }
                         
-                        context.delegate?.isProductAvalaibleOrNot(true)
+                        
                         LogClass.debugLog(categoryResult)
                     } catch {
                         LogClass.debugLog("Error decoding JSON: \(error)")
