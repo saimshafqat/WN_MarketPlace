@@ -11,11 +11,12 @@ import UIKit
 class ProductListCell: UICollectionViewCell {
     @IBOutlet weak var categoryImageView: UIImageView?
     @IBOutlet weak var nameLabel: UILabel?
-
+    @IBOutlet weak var priceLabel: UILabel?
     
     func setProductInfoCell(_ object: Any) {
         if let item =  object as? MarketPlaceForYouItem {
-            nameLabel?.text =  "\(item.price) . \(item.name )"
+            priceLabel?.text = item.price.priceFormat() //.priceFormat(item.price) //"\(item.price)"
+            nameLabel?.text = "\(item.name )"
             categoryImageView?.loadImage(urlMain: item.images.first ?? .emptyString)
         } else if let imageCont = object as? String {
             categoryImageView?.loadImage(urlMain: imageCont)

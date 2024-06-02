@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -38,27 +38,27 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GRy-bh-kal">
-                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="itemSize" width="207" height="305"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MarketPlaceForYouCollectionCell" id="Ymm-SU-M7e" customClass="MarketPlaceForYouCollectionCell">
-                                        <rect key="frame" x="93" y="0.0" width="207" height="273"/>
+                                        <rect key="frame" x="93" y="0.0" width="207" height="305"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3Lz-jJ-NsM">
-                                            <rect key="frame" x="0.0" y="0.0" width="207" height="273"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="207" height="305"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9tk-2L-qGf" userLabel="Body">
-                                                    <rect key="frame" x="0.0" y="0.0" width="207" height="273"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="207" height="305"/>
                                                     <subviews>
                                                         <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NmY-DA-E89">
-                                                            <rect key="frame" x="0.0" y="0.0" width="207" height="244.66666666666666"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="207" height="245.33333333333334"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad" translatesAutoresizingMaskIntoConstraints="NO" id="oyi-Lq-PHr">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="207" height="244.66666666666666"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="207" height="245.33333333333334"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" red="0.96862745100000003" green="0.96470588239999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -70,22 +70,31 @@
                                                                 <constraint firstAttribute="bottom" secondItem="oyi-Lq-PHr" secondAttribute="bottom" id="pJs-v3-PED"/>
                                                             </constraints>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Muhammad Asher Azeem" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vih-jb-16k">
-                                                            <rect key="frame" x="2" y="250.66666666666666" width="207" height="16.333333333333343"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Muhammad Asher Azeem" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vih-jb-16k" userLabel="Price Label">
+                                                            <rect key="frame" x="2" y="251.33333333333334" width="203" height="16.333333333333343"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Muhammad Asher Azeem" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6q6-3T-kif" userLabel="Name Label">
+                                                            <rect key="frame" x="2" y="273.66666666666669" width="203" height="16.333333333333314"/>
                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="Vih-jb-16k" firstAttribute="top" secondItem="NmY-DA-E89" secondAttribute="bottom" constant="6" id="1Tk-GX-awL"/>
                                                         <constraint firstItem="NmY-DA-E89" firstAttribute="leading" secondItem="9tk-2L-qGf" secondAttribute="leading" id="7ld-MY-VOX"/>
+                                                        <constraint firstItem="Vih-jb-16k" firstAttribute="leading" secondItem="9tk-2L-qGf" secondAttribute="leading" constant="2" id="7ue-eG-sKO"/>
+                                                        <constraint firstItem="6q6-3T-kif" firstAttribute="top" secondItem="Vih-jb-16k" secondAttribute="bottom" constant="6" id="HI5-Oz-Y84"/>
                                                         <constraint firstItem="NmY-DA-E89" firstAttribute="centerX" secondItem="9tk-2L-qGf" secondAttribute="centerX" id="RQR-w1-LXi"/>
-                                                        <constraint firstItem="Vih-jb-16k" firstAttribute="trailing" secondItem="NmY-DA-E89" secondAttribute="trailing" constant="2" id="T2z-NY-UnV"/>
+                                                        <constraint firstAttribute="trailing" secondItem="6q6-3T-kif" secondAttribute="trailing" constant="2" id="Um6-yA-Zk6"/>
                                                         <constraint firstItem="NmY-DA-E89" firstAttribute="top" secondItem="9tk-2L-qGf" secondAttribute="top" id="bbG-BR-stM"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Vih-jb-16k" secondAttribute="bottom" constant="6" id="jX8-zp-efx"/>
-                                                        <constraint firstItem="Vih-jb-16k" firstAttribute="top" secondItem="NmY-DA-E89" secondAttribute="bottom" constant="6" id="m3N-ji-khP"/>
+                                                        <constraint firstAttribute="bottom" secondItem="6q6-3T-kif" secondAttribute="bottom" constant="15" id="clI-AM-61j"/>
+                                                        <constraint firstItem="6q6-3T-kif" firstAttribute="leading" secondItem="9tk-2L-qGf" secondAttribute="leading" constant="2" id="mtm-B8-W6Q"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Vih-jb-16k" secondAttribute="trailing" constant="2" id="rDb-vj-zUj"/>
                                                         <constraint firstAttribute="trailing" secondItem="NmY-DA-E89" secondAttribute="trailing" id="ste-WF-iTO"/>
-                                                        <constraint firstItem="Vih-jb-16k" firstAttribute="leading" secondItem="NmY-DA-E89" secondAttribute="leading" constant="2" id="uVa-Vj-C5V"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -96,10 +105,11 @@
                                                 <constraint firstItem="9tk-2L-qGf" firstAttribute="top" secondItem="3Lz-jJ-NsM" secondAttribute="top" id="OYx-AO-5An"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="207" height="273"/>
+                                        <size key="customSize" width="207" height="305"/>
                                         <connections>
                                             <outlet property="categoryImageView" destination="oyi-Lq-PHr" id="Nh3-NF-gzD"/>
-                                            <outlet property="nameLabel" destination="Vih-jb-16k" id="3uZ-Fb-z1I"/>
+                                            <outlet property="nameLabel" destination="6q6-3T-kif" id="mxx-n1-xYC"/>
+                                            <outlet property="priceLabel" destination="Vih-jb-16k" id="Hlm-5S-K6c"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -2016,7 +2026,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QyX-sp-4tl">
                                 <rect key="frame" x="0.0" y="110" width="393" height="708"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="L9E-dH-Xgg">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" sectionInsetReference="safeArea" id="L9E-dH-Xgg">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -2034,10 +2044,10 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="207" height="273"/>
                                                     <subviews>
                                                         <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbG-v9-e9t">
-                                                            <rect key="frame" x="0.0" y="0.0" width="207" height="244.66666666666666"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="207" height="213.33333333333334"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad" translatesAutoresizingMaskIntoConstraints="NO" id="rvi-qF-t0Z">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="207" height="244.66666666666666"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="207" height="213.33333333333334"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" red="0.96862745100000003" green="0.96470588239999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2049,22 +2059,31 @@
                                                                 <constraint firstAttribute="bottom" secondItem="rvi-qF-t0Z" secondAttribute="bottom" id="sQA-Fo-xXg"/>
                                                             </constraints>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Muhammad Asher Azeem" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exc-Rq-OkK">
-                                                            <rect key="frame" x="2" y="250.66666666666666" width="207" height="16.333333333333343"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Muhammad Asher Azeem" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exc-Rq-OkK" userLabel="Price Label">
+                                                            <rect key="frame" x="2" y="219.33333333333334" width="203" height="16.333333333333343"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Muhammad Asher Azeem" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC5-iI-Q6i" userLabel="Name Label">
+                                                            <rect key="frame" x="2" y="241.66666666666666" width="203" height="16.333333333333343"/>
                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstItem="Exc-Rq-OkK" firstAttribute="trailing" secondItem="pbG-v9-e9t" secondAttribute="trailing" constant="2" id="EYA-WP-cTK"/>
+                                                        <constraint firstItem="kC5-iI-Q6i" firstAttribute="leading" secondItem="5MA-SY-82U" secondAttribute="leading" constant="2" id="1yv-Y9-BHn"/>
                                                         <constraint firstItem="pbG-v9-e9t" firstAttribute="centerX" secondItem="5MA-SY-82U" secondAttribute="centerX" id="J5m-Rb-xnh"/>
-                                                        <constraint firstItem="Exc-Rq-OkK" firstAttribute="top" secondItem="pbG-v9-e9t" secondAttribute="bottom" constant="6" id="KX8-CA-rfM"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Exc-Rq-OkK" secondAttribute="trailing" constant="2" id="Lz5-n8-eU6"/>
                                                         <constraint firstAttribute="trailing" secondItem="pbG-v9-e9t" secondAttribute="trailing" id="MUF-Pc-wg3"/>
-                                                        <constraint firstItem="Exc-Rq-OkK" firstAttribute="leading" secondItem="pbG-v9-e9t" secondAttribute="leading" constant="2" id="S6J-PW-N1L"/>
+                                                        <constraint firstAttribute="trailing" secondItem="kC5-iI-Q6i" secondAttribute="trailing" constant="2" id="aIB-U0-yTy"/>
+                                                        <constraint firstAttribute="bottom" secondItem="kC5-iI-Q6i" secondAttribute="bottom" constant="15" id="aoo-cC-JzJ"/>
                                                         <constraint firstItem="pbG-v9-e9t" firstAttribute="leading" secondItem="5MA-SY-82U" secondAttribute="leading" id="ehv-31-uub"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Exc-Rq-OkK" secondAttribute="bottom" constant="6" id="h8S-ln-QE1"/>
+                                                        <constraint firstItem="Exc-Rq-OkK" firstAttribute="top" secondItem="pbG-v9-e9t" secondAttribute="bottom" constant="6" id="gCZ-1P-cbc"/>
+                                                        <constraint firstItem="kC5-iI-Q6i" firstAttribute="top" secondItem="Exc-Rq-OkK" secondAttribute="bottom" constant="6" id="iiR-eP-6LL"/>
                                                         <constraint firstItem="pbG-v9-e9t" firstAttribute="top" secondItem="5MA-SY-82U" secondAttribute="top" id="lPg-oS-CHa"/>
+                                                        <constraint firstItem="Exc-Rq-OkK" firstAttribute="leading" secondItem="5MA-SY-82U" secondAttribute="leading" constant="2" id="vzu-fX-pmm"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -2078,7 +2097,8 @@
                                         <size key="customSize" width="207" height="273"/>
                                         <connections>
                                             <outlet property="categoryImageView" destination="rvi-qF-t0Z" id="6YV-3E-xkX"/>
-                                            <outlet property="nameLabel" destination="Exc-Rq-OkK" id="0Ya-6D-v9p"/>
+                                            <outlet property="nameLabel" destination="kC5-iI-Q6i" id="6MH-Bc-DvF"/>
+                                            <outlet property="priceLabel" destination="Exc-Rq-OkK" id="syX-P1-h62"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -2110,7 +2130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HMs-3z-a8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="808" y="-32"/>
+            <point key="canvasLocation" x="806.87022900763361" y="-32.394366197183103"/>
         </scene>
         <!--Global Search View Controller-->
         <scene sceneID="5nv-bB-vHp">

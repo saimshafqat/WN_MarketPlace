@@ -15,11 +15,13 @@ class MarketPlaceForYouCollectionCell: SSBaseCollectionCell {
     // MARK: - Properties -
     @IBOutlet weak var categoryImageView: UIImageView?
     @IBOutlet weak var nameLabel: UILabel?
+    @IBOutlet weak var priceLabel: UILabel?
     
     // MARK: - Override -
     override func configureCell(_ cell: Any!, atIndex thisIndex: IndexPath!, with object: Any!) {
         if let item =  object as? MarketPlaceForYouItem {
-            nameLabel?.text = item.price + " ⠐ " + item.name
+            priceLabel?.text = item.price.priceFormat()
+            nameLabel?.text = item.name
             categoryImageView?.loadImage(urlMain: item.images.first ?? .emptyString)
         } else if let imageCont = object as? String {
             categoryImageView?.loadImage(urlMain: imageCont)

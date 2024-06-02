@@ -40,6 +40,19 @@ extension String {
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss" //"2023-08-10 09:33:48"
         return dateFormatter.date(from: dateString) ?? Date()
     }
+    
+    func priceFormat() -> String {
+        let cleanPrice = self.replacingOccurrences(of: "$", with: "")
+        if let priceNumber = Double(cleanPrice) {
+            let formatter = NumberFormatter()
+            formatter.numberStyle = .decimal
+            formatter.groupingSeparator = ","
+            if let formattedPrice = formatter.string(from: NSNumber(value: priceNumber)) {
+                return "Rs" + formattedPrice
+            }
+        }
+        return self
+    }
 }
 
 enum DateFormatteType: String {
