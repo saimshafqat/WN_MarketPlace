@@ -27,6 +27,7 @@ class MPCategoryListViewController: UIViewController {
     
     var isFromCreateListing: Bool = false
     var selectedCategory : ((Category) -> ())?
+    var genericsSelectedCategory : ((GenericCategory) -> ())?
     
     // MARK: - IBOutlets -
     @IBOutlet weak var collectionView: UICollectionView?
@@ -128,6 +129,21 @@ extension MPCategoryListViewController: UICollectionViewDelegate, UIScrollViewDe
         let item = dataSource?.section(at: indexPath.section)
         if (item?.sectionIdentifier as? String) == "Generic Categories" {
             // Generic Categories ==> Case
+            let item = dataSource?.item(at: indexPath) as? GenericCategory
+            if isFromCreateListing {
+                if let selectedCategory = genericsSelectedCategory, let item = item {
+                    selectedCategory(item)
+                }
+                
+                dismissVC(completion: nil)
+            }
+            else {
+                let controller = MPProductListingViewController.instantiate(fromAppStoryboard: .Marketplace)
+                controller.viewModel.selectedApi = .category_items
+                controller.viewModel.genericCategoryItem = item // clicked local listing but getting item nil
+                navigationController?.pushViewController(controller, animated: true)
+            }
+            
         } else {
             // All Categories ==> Case
             // Top Categories ==> Case
@@ -142,7 +158,7 @@ extension MPCategoryListViewController: UICollectionViewDelegate, UIScrollViewDe
             else {
                 let controller = MPProductListingViewController.instantiate(fromAppStoryboard: .Marketplace)
                 controller.viewModel.selectedApi = .category_items
-                controller.viewModel.categoryItem = item
+                controller.viewModel.categoryItem = item //clicked classifieds
                 navigationController?.pushViewController(controller, animated: true)
             }
         }

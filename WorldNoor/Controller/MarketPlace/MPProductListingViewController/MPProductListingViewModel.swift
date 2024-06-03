@@ -23,6 +23,7 @@ enum ReCallApiSelection: Int {
 
 final class MPProductListingViewModel {
     var categoryItem: Category?
+    var genericCategoryItem: GenericCategory?
     var searchText: String = ""
     var productsPerCategory = 20
     var productPage = 1
@@ -46,9 +47,19 @@ final class MPProductListingViewModel {
             getAllProduct(endPointName: endPointSelected(), params: updateParam)
         }
     }
+//    func fetchProductListOnCategorieSelection() {
+//        guard let categoryItem =  categoryItem else { return}
+//        getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem.slug) //called here
+//    }
+    
     func fetchProductListOnCategorieSelection() {
-        guard let categoryItem =  categoryItem else { return}
-        getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem.slug)
+        if let genericCategory = genericCategoryItem {
+            getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: genericCategoryItem?.slug ?? "")
+        } else if let category = categoryItem {
+            getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem?.slug ?? "")
+        } else {
+            print("Both categoryItem and genericCategoryItem are nil")
+        }
     }
     
     func fetchProductListOnSearchResult(_ text: String?) {
@@ -82,7 +93,7 @@ final class MPProductListingViewModel {
             "productsPerCategory": productsPerCategory,
             "productPage": productPage
         ]
-        self.getAllProduct(endPointName: endPointName, params: params)
+        self.getAllProduct(endPointName: endPointName, params: params) //called here
     }
     
     func getAllProduct(endPointName: String, params: [String : Any]) {
@@ -100,7 +111,7 @@ final class MPProductListingViewModel {
                         
                         if context.productInfo != nil{
                             DispatchQueue.main.async {
-                                context.productInfo = categoryResult.data?.returnResp
+//                                context.productInfo = categoryResult.data?.returnResp
                                 context.productInfo?.groups?.append(contentsOf: categoryResult.data?.returnResp?.groups ?? [])
                                 context.productInfo?.products?.append(contentsOf: categoryResult.data?.returnResp?.products ?? [])
                                 context.productInfo?.total_pages = categoryResult.data?.returnResp?.total_pages
