@@ -50,6 +50,14 @@ class MPFilterSelectcontroller: UIViewController {
             stackView.isHidden = true
             tblView.isHidden = false
             viewModel.getCondition()
+            // Parse the comma-separated string of selected IDs
+              let selectedConditionString = viewModel.selectedItem?.condition ?? ""
+              let selectedConditionIDs = selectedConditionString.split(separator: ",").compactMap { Int($0) }
+
+              // Create instances of FilterCondition based on selected IDs from shared condition list
+            viewModel.maintainSelectedCondition = selectedConditionIDs.compactMap { id in
+                  return SharedManager.shared.conditionList.first { $0.id == id }
+              }
         } else if viewModel.selectedItem?.selectedItem == .date_listed ||  viewModel.selectedItem?.selectedItem == .availability {
             if (viewModel.selectedItem?.selectedItem == .availability){
                 self.stackHeight.constant = CGFloat(availabilityArr.count * 50)
