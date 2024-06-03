@@ -100,7 +100,7 @@ final class MPProductListingViewModel {
                         
                         if context.productInfo != nil{
                             DispatchQueue.main.async {
-                                context.productInfo = categoryResult.data?.returnResp
+//                                context.productInfo = categoryResult.data?.returnResp
                                 context.productInfo?.groups?.append(contentsOf: categoryResult.data?.returnResp?.groups ?? [])
                                 context.productInfo?.products?.append(contentsOf: categoryResult.data?.returnResp?.products ?? [])
                                 context.productInfo?.total_pages = categoryResult.data?.returnResp?.total_pages
