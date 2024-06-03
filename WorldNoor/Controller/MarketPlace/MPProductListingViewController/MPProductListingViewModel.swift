@@ -49,7 +49,7 @@ final class MPProductListingViewModel {
     }
 //    func fetchProductListOnCategorieSelection() {
 //        guard let categoryItem =  categoryItem else { return}
-//        getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem.slug) //called here
+//        getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem.slug ?? "") //called here
 //    }
     
     func fetchProductListOnCategorieSelection() {
@@ -59,6 +59,7 @@ final class MPProductListingViewModel {
             getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem?.slug ?? "")
         } else {
             print("Both categoryItem and genericCategoryItem are nil")
+            return
         }
     }
     
@@ -144,7 +145,7 @@ final class MPProductListingViewModel {
     
     
     func endPointSelected() -> String {
-        if categoryItem != nil  {
+        if categoryItem != nil || genericCategoryItem != nil {
             return "category_items"
         }else
         {

@@ -63,7 +63,7 @@ struct Results: Codable {
     let generic_categories: [GenericCategory]
     let top_categories: [Category]
 }
-//{"slug":"local_listing","radius":"50","location":"0.0,0.0","productPage":1,"productsPerCategory":30}
+
 struct Category: Codable {
     let created_at: String
     let icon: String?
@@ -71,7 +71,7 @@ struct Category: Codable {
     let market_category_type_id: String?
     let name: String
     let parent_id: String?
-    let slug: String
+    let slug: String?
     let type: String
     let updated_at: String
 }
@@ -80,6 +80,6 @@ struct GenericCategory: Codable {
     let icon: String
     let name: String
     let type: String
-    let slug: String
+    let slug: String?
 }
 
