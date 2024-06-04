@@ -22,9 +22,11 @@ extension MPProductListingViewController: UICollectionViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
             let offsetY = scrollView.contentOffset.y
             let contentHeight = scrollView.contentSize.height
-            let height = scrollView.frame.size.height
+//            let height = scrollView.frame.size.height
+            
+        let visibleHeight = scrollView.frame.height - scrollView.contentInset.top - scrollView.contentInset.bottom
 
-            if offsetY > contentHeight - height * 1.5 {
+            if offsetY > contentHeight - visibleHeight + 100.0 {
                 if !viewModel.isLoading {
                     viewModel.loadMoreData()
                 }

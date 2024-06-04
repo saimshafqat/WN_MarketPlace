@@ -29,7 +29,7 @@ final class MPFilterSelectionModel {
             callRequestForCondition()
         }else {
             conditionList = SharedManager.shared.conditionList
-            self.delegate?.isProductAvalaibleOrNot(true)
+            self.delegate?.isProductAvalaibleOrNot(true,newIndexes: [])
         }
     }
     
@@ -103,15 +103,15 @@ final class MPFilterSelectionModel {
                         SharedManager.shared.conditionList = context.conditionList ?? []
 
                         // Now you have your Swift model
-                        context.delegate?.isProductAvalaibleOrNot(true)
+                        context.delegate?.isProductAvalaibleOrNot(true, newIndexes: [])
                         LogClass.debugLog(condition)
                     } catch {
                         LogClass.debugLog("Error decoding JSON: \(error)")
-                        context.delegate?.isProductAvalaibleOrNot(false)
+                        context.delegate?.isProductAvalaibleOrNot(false, newIndexes: [])
                     }
                 }
                 else {
-                    context.delegate?.isProductAvalaibleOrNot(false)
+                    context.delegate?.isProductAvalaibleOrNot(false, newIndexes: [])
                     LogClass.debugLog("not getting good response")
                 }
                 

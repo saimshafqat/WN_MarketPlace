@@ -156,7 +156,7 @@ class MPFilterSelectcontroller: UIViewController {
 }
 
 extension MPFilterSelectcontroller: ProductListDelegate {
-    func isProductAvalaibleOrNot(_ avalaible: Bool) {
+    func isProductAvalaibleOrNot(_ avalaible: Bool, newIndexes : [IndexPath]) {
         if avalaible {
             tblView?.delegate = self
             tblView?.dataSource = self

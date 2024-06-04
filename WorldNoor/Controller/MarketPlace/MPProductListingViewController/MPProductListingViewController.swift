@@ -124,15 +124,40 @@ extension MPProductListingViewController: UISearchBarDelegate {
 }
 
 extension MPProductListingViewController: ProductListDelegate {
-    func isProductAvalaibleOrNot(_ avalaible: Bool) {
+    func isProductAvalaibleOrNot(_ avalaible: Bool, newIndexes: [IndexPath]) {
         if avalaible {
             self.refreshControlHandler.endRefreshing()
-            self.collectionView?.reloadData()
-            if(viewModel.getNumberOfRowsInSections() == 0){
-                self.collectionView?.setEmptyMessage("No products found".localized())
-            }else{
-                self.collectionView?.restore()
+//            self.collectionView?.reloadData()
+            
+            if newIndexes.count > 0 {
+                self.collectionView?.performBatchUpdates({
+                    collectionView?.insertItems(at: newIndexes)
+    //                self.collectionView?.reloadSections(IndexSet(integer: 0))
+                }, completion: { _ in
+                    if self.viewModel.getNumberOfRowsInSections() == 0 {
+                        self.collectionView?.setEmptyMessage("No products found".localized())
+                    } else {
+                        self.collectionView?.restore()
+                    }
+                })
+            } else {
+                self.collectionView?.reloadData()
+                
+                if self.viewModel.getNumberOfRowsInSections() == 0 {
+                    self.collectionView?.setEmptyMessage("No products found".localized())
+                } else {
+                    self.collectionView?.restore()
+                }
             }
+            
+            
+            
+            
+//            if(viewModel.getNumberOfRowsInSections() == 0){
+//                self.collectionView?.setEmptyMessage("No products found".localized())
+//            }else{
+//                self.collectionView?.restore()
+//            }
 
         }
     }

@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 
 protocol ProductListDelegate: AnyObject {
-    func isProductAvalaibleOrNot(_ avalaible: Bool)
+    func isProductAvalaibleOrNot(_ avalaible: Bool, newIndexes: [IndexPath])
 }
 
 
@@ -101,32 +101,40 @@ final class MPProductListingViewModel {
                         if context.productInfo != nil{
                             DispatchQueue.main.async {
 //                                context.productInfo = categoryResult.data?.returnResp
+                                
+                                let groupStartIndex = context.productInfo?.groups?.count ?? 0
+                                let productStartIndex = context.productInfo?.products?.count ?? 0
+                                
+                                let groupIndexPaths = (groupStartIndex..<groupStartIndex + (categoryResult.data?.returnResp?.groups?.count ?? 0)).map { IndexPath(item: $0, section: 0) }
+//                                    let productIndexPaths = (productStartIndex..<productStartIndex + newProducts.count).map { IndexPath(item: $0, section: 1) }
+
+                                
                                 context.productInfo?.groups?.append(contentsOf: categoryResult.data?.returnResp?.groups ?? [])
                                 context.productInfo?.products?.append(contentsOf: categoryResult.data?.returnResp?.products ?? [])
                                 context.productInfo?.total_pages = categoryResult.data?.returnResp?.total_pages
                                 context.productInfo?.current_page = categoryResult.data?.returnResp?.current_page
-                                context.delegate?.isProductAvalaibleOrNot(true)
+                                context.delegate?.isProductAvalaibleOrNot(true, newIndexes: groupIndexPaths)
                             }
                         } else {
                             context.productInfo?.products?.removeAll()
                             context.productInfo = categoryResult.data?.returnResp
-                            context.delegate?.isProductAvalaibleOrNot(true)
+                            context.delegate?.isProductAvalaibleOrNot(true, newIndexes: [])
                         }
                         
                         
                         LogClass.debugLog(categoryResult)
                     } catch {
                         LogClass.debugLog("Error decoding JSON: \(error)")
-                        context.delegate?.isProductAvalaibleOrNot(false)
+                        context.delegate?.isProductAvalaibleOrNot(false, newIndexes: [])
                     }
                 }
                 else {
                     LogClass.debugLog("not getting good response")
-                    context.delegate?.isProductAvalaibleOrNot(false)
+                    context.delegate?.isProductAvalaibleOrNot(false, newIndexes: [])
                 }
             case .failure(let error):
                 LogClass.debugLog(error.localizedDescription)
-                context.delegate?.isProductAvalaibleOrNot(false)
+                context.delegate?.isProductAvalaibleOrNot(false, newIndexes: [])
             }
         }
     }
