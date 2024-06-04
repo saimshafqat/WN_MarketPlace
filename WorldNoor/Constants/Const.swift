@@ -222,6 +222,7 @@ struct Const {
     static let locationPermissionMessage = ""
     static let dismissButtonTitle = "Cancel"
     static let acceptButtonTitle = "Open Setting"
+    static let genericCategories = "Generic Categories"
 
 }
 

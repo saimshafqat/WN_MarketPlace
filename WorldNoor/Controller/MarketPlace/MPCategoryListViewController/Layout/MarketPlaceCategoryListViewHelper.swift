@@ -25,7 +25,7 @@ class MarketPlaceCategoryListViewHelper: LayoutBaseHelper {
     func compositionalLayout() -> UICollectionViewCompositionalLayout {
         let layout = UICollectionViewCompositionalLayout { (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
             let identifier = (self.dataSource as? SSSectionedDataSource)?.section(at: sectionIndex).sectionIdentifier as? String ?? .emptyString
-            if identifier == "Generic Categories" {
+            if identifier == Const.genericCategories {
                 return self.categoryPeopleSection(isHeader: false)
             } else {
                 return self.categoryPeopleSection(isHeader: true)

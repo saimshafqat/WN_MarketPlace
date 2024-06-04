@@ -77,11 +77,18 @@ final class MPProductListingViewModel {
     // MARK: - Methods -
 
     func getAllCategoriesPorduct(endPointName: String, paramName: String, paramNameValue: String) {
-        let params: [String : Any] = [
+        var params: [String : Any] = [
             paramName: paramNameValue,
             "productsPerCategory": productsPerCategory,
             "productPage": productPage
         ]
+        
+        if categoryItem?.type == "Generic Categories"{
+            params["radius"] = categoryItem?.radius ?? "50"
+            params["location"] = categoryItem?.location ?? "0.0,0.0"
+            params["productsPerCategory"] = categoryItem?.productsPerCategory ?? "30"
+        }
+        
         self.getAllProduct(endPointName: endPointName, params: params)
     }
     

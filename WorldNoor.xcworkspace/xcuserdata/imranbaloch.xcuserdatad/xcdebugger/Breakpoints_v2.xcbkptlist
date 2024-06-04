@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "00995946-AEED-42DB-BA34-4CA7680BD7BB"
+            uuid = "428ED741-105C-40EE-B483-86DEF1DC0832"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "fetchProductListOnCategorieSelection()"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "fetchProductListOnSearchResult(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BA53999-A605-479F-880D-632691BCC8ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "loadMoreData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

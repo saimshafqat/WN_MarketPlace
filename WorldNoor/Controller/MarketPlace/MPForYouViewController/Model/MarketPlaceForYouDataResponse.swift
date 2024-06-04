@@ -19,7 +19,7 @@ struct MarketPlaceForYouItem: Codable {
     let price: String
     let created_at: String
     let address: String
-    let distance: String?
+    let distance: Int?
     var is_alert_created: Bool?
     var is_saved: Bool?
     var is_default_msg_sent: Bool?

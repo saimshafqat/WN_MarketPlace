@@ -128,6 +128,11 @@ extension MPCategoryListViewController: UICollectionViewDelegate, UIScrollViewDe
         let item = dataSource?.section(at: indexPath.section)
         if (item?.sectionIdentifier as? String) == "Generic Categories" {
             // Generic Categories ==> Case
+            let newGenericCategory = dataSource?.item(at: indexPath) as? GenericCategory
+            let controller = MPProductListingViewController.instantiate(fromAppStoryboard: .Marketplace)
+            controller.viewModel.selectedApi = .category_items
+            controller.viewModel.categoryItem = Category(created_at: "", icon: newGenericCategory?.icon ?? "", id: -1, market_category_type_id: nil, name: newGenericCategory?.name ?? "", parent_id: nil, slug: "local_listing", type: "Generic Categories", updated_at: "",radius: "50", location: "0.0,0.0", productsPerCategory: "30")
+            navigationController?.pushViewController(controller, animated: true)
         } else {
             // All Categories ==> Case
             // Top Categories ==> Case

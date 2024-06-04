@@ -18,7 +18,7 @@ class MarketPlaceCategoryListCell: SSBaseCollectionCell {
     // MARK: - Override -
     override func configureCell(_ cellInfo: Any? = nil, atIndex thisIndex: IndexPath, with object: Any? = nil) {
         let sectionIdentifier = cellInfo as? String
-        if sectionIdentifier == "Generic Categories" {
+        if sectionIdentifier == Const.genericCategories {
             if let item = object as? GenericCategory {
                 nameLabel?.text = item.name
                 categoryImageView?.loadImage(urlMain: item.icon)

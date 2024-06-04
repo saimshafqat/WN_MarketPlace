@@ -74,6 +74,11 @@ struct Category: Codable {
     let slug: String
     let type: String
     let updated_at: String
+    
+    let radius: String?
+    let location: String?
+    let productsPerCategory: String?
+
 }
 
 struct GenericCategory: Codable {
