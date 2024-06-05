@@ -60,6 +60,8 @@ class MPProductListingViewController: UIViewController {
 //                loadMoreHandler.resetPage()
                 self.isAPICall = false
                 self.isRefresh = true
+                viewModel.resetToFreshState()
+                self.collectionView?.reloadData()
                 viewModel.pullToRefresh()
             }.store(in: &bag)
     }
