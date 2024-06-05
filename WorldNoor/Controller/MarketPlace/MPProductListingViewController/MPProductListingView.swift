@@ -168,10 +168,12 @@ extension MPProductListingViewController: ApplyFilterViewDelegate {
     func resetApplyFilter() {
         if viewModel.categoryItem == nil {
             viewModel.selectedApi = .search_products
+            viewModel.resetToFreshState()
             viewModel.updateParam = [:]
             viewModel.fetchProductListOnSearchResult(viewModel.searchText)
         }else{
             viewModel.updateParam = [:]
+            viewModel.resetToFreshState()
             viewModel.selectedApi = .category_items
             viewModel.fetchProductListOnCategorieSelection()
         }
@@ -187,6 +189,7 @@ extension MPProductListingViewController: ApplyFilterViewDelegate {
         }
         viewModel.updateParam["productsPerCategory"] = viewModel.productsPerCategory
         viewModel.updateParam["productPage"] = viewModel.productPage
+        viewModel.resetToFreshState()
         viewModel.getAllProduct(endPointName: viewModel.endPointSelected(), params: viewModel.updateParam)
     }
 }
