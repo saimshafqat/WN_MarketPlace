@@ -187,9 +187,9 @@ extension MPProductListingViewController: ApplyFilterViewDelegate {
         }else{
             viewModel.updateParam["slug"] = name
         }
+        viewModel.resetToFreshState()
         viewModel.updateParam["productsPerCategory"] = viewModel.productsPerCategory
         viewModel.updateParam["productPage"] = viewModel.productPage
-        viewModel.resetToFreshState()
         viewModel.getAllProduct(endPointName: viewModel.endPointSelected(), params: viewModel.updateParam)
     }
 }

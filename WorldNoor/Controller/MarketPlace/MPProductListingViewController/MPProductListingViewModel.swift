@@ -95,6 +95,15 @@ final class MPProductListingViewModel {
             params["productsPerCategory"] = categoryItem?.productsPerCategory ?? "30"
         }
         
+        updateParam["productPage"] = productPage
+        
+        
+        for (key, value) in updateParam {
+            if params[key] == nil {
+                params[key] = value
+            }
+        }
+        
         self.getAllProduct(endPointName: endPointName, params: params)
     }
     
