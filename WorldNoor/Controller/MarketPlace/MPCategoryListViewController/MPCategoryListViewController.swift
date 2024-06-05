@@ -27,6 +27,7 @@ class MPCategoryListViewController: UIViewController {
     
     var isFromCreateListing: Bool = false
     var selectedCategory : ((Category) -> ())?
+    var genericsSelectedCategory : ((GenericCategory) -> ())?
     
     // MARK: - IBOutlets -
     @IBOutlet weak var collectionView: UICollectionView?
@@ -147,7 +148,7 @@ extension MPCategoryListViewController: UICollectionViewDelegate, UIScrollViewDe
             else {
                 let controller = MPProductListingViewController.instantiate(fromAppStoryboard: .Marketplace)
                 controller.viewModel.selectedApi = .category_items
-                controller.viewModel.categoryItem = item
+                controller.viewModel.categoryItem = item //clicked classifieds
                 navigationController?.pushViewController(controller, animated: true)
             }
         }

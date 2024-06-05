@@ -23,6 +23,7 @@ enum ReCallApiSelection: Int {
 
 final class MPProductListingViewModel {
     var categoryItem: Category?
+    var genericCategoryItem: GenericCategory?
     var searchText: String = ""
     var productsPerCategory = 20
     var productPage = 1
@@ -46,9 +47,20 @@ final class MPProductListingViewModel {
             getAllProduct(endPointName: endPointSelected(), params: updateParam)
         }
     }
+//    func fetchProductListOnCategorieSelection() {
+//        guard let categoryItem =  categoryItem else { return}
+//        getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem.slug ?? "") //called here
+//    }
+    
     func fetchProductListOnCategorieSelection() {
-        guard let categoryItem =  categoryItem else { return}
-        getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem.slug)
+        if let genericCategory = genericCategoryItem {
+            getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: genericCategoryItem?.slug ?? "")
+        } else if let category = categoryItem {
+            getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem?.slug ?? "")
+        } else {
+            print("Both categoryItem and genericCategoryItem are nil")
+            return
+        }
     }
     
     func fetchProductListOnSearchResult(_ text: String?) {
@@ -148,7 +160,7 @@ final class MPProductListingViewModel {
     
     
     func endPointSelected() -> String {
-        if categoryItem != nil  {
+        if categoryItem != nil || genericCategoryItem != nil {
             return "category_items"
         }else
         {

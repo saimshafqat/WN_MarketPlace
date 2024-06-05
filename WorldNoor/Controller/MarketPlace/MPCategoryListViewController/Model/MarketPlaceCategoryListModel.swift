@@ -71,7 +71,7 @@ struct Category: Codable {
     let market_category_type_id: String?
     let name: String
     let parent_id: String?
-    let slug: String
+    let slug: String?
     let type: String
     let updated_at: String
     
@@ -85,5 +85,6 @@ struct GenericCategory: Codable {
     let icon: String
     let name: String
     let type: String
+    let slug: String?
 }
 

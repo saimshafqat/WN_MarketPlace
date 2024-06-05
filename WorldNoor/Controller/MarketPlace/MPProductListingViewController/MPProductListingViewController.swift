@@ -47,7 +47,7 @@ class MPProductListingViewController: UIViewController {
         self.collectionView?.register(UINib(nibName: MPProductListHeaderView.headerName, bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: MPProductListHeaderView.headerName)
         self.collectionView?.register(UINib(nibName: MPProductSearchListHeaderView.headerName, bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: MPProductSearchListHeaderView.headerName)
         setupRefreshListner()
-        viewModel.searchText.isEmpty == true ? fetchProductListCategorieBase() : fetchProductListSearchBase(viewModel.searchText)
+        viewModel.searchText.isEmpty == true ? fetchProductListCategorieBase() : fetchProductListSearchBase(viewModel.searchText) //called here
         self.searchBar.text = viewModel.searchText
         
     }
@@ -88,7 +88,7 @@ class MPProductListingViewController: UIViewController {
         if NetworkReachabilityManager()!.isReachable {
             viewModel.selectedApi = .category_items
             viewModel.productPage = 1
-            viewModel.fetchProductListOnCategorieSelection()
+            viewModel.fetchProductListOnCategorieSelection() //called here
         }else {
             SharedManager.shared.showAlert(message: Const.networkProblemMessage, view: self)
         }
