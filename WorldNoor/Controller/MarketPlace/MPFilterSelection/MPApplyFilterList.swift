@@ -19,8 +19,17 @@ extension MPFilterSelectcontroller: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: String.className(MPApplyFilterCell.self), for: indexPath) as? MPApplyFilterCell, let item = viewModel.getItemAt(index: indexPath.row) else { return UITableViewCell() }
-        cell.btnCheckBox.isSelected =  viewModel.containsObjectss(object: item)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: String.className(MPApplyFilterCell.self), for: indexPath) as? MPApplyFilterCell, let item = viewModel.getItemAt(index: indexPath.row) as? FilterCondition  else { return UITableViewCell() }
+//        // Parse the comma-separated string of selected IDs
+//          let selectedConditionString = viewModel.selectedItem?.condition ?? ""
+//          let selectedConditionIDs = selectedConditionString.split(separator: ",").compactMap { Int($0) }
+//
+//          // Check if the current item's ID is in the array of selected IDs
+//          let isItemSelected = item.id.flatMap { selectedConditionIDs.contains($0) } ?? false
+//
+//          // Use the containsObjectss method to handle additional logic
+        let isItemSelected = viewModel.containsObjectss(object: item)
+            cell.btnCheckBox.isSelected = isItemSelected
         cell.setFilterUI(item)
         return cell
     }
