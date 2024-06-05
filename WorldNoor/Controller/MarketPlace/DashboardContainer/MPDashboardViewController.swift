@@ -51,6 +51,7 @@ class MPDashboardViewController: ContainerBaseController {
         let controller = MPGlobalSearchViewController.instantiate(fromAppStoryboard: .Marketplace)
         let navController = UINavigationController(rootViewController: controller)
         controller.delegate = self
+        controller.isFromMPDashboardSearch = true
         presentFullVC(navController)
     }
 }

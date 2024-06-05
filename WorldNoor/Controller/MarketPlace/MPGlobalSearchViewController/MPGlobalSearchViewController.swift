@@ -27,6 +27,7 @@ class MPGlobalSearchViewController: ContainerBaseController {
     private lazy var categoryListController: MPCategoryListViewController = {
         let categoryListController = MPCategoryListViewController.instantiate(fromAppStoryboard: .Marketplace)
         categoryListController.isFromGlobalSearch = true
+        categoryListController.isFromMPDashboardSearch = self.isFromMPDashboardSearch
         categoryListController.mpCategoryListDelegate = self
         return categoryListController
     }()
@@ -38,6 +39,7 @@ class MPGlobalSearchViewController: ContainerBaseController {
     
     // MARK: - Properties -
     var oldSegmentState: Int = 0
+    var isFromMPDashboardSearch: Bool = false
     
     // MARK: - Life Cycle -
     override func viewDidLoad() {
