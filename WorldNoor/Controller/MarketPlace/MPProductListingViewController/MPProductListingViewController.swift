@@ -60,6 +60,8 @@ class MPProductListingViewController: UIViewController {
 //                loadMoreHandler.resetPage()
                 self.isAPICall = false
                 self.isRefresh = true
+                viewModel.resetToFreshState()
+                self.collectionView?.reloadData()
                 viewModel.pullToRefresh()
             }.store(in: &bag)
     }
@@ -87,8 +89,8 @@ class MPProductListingViewController: UIViewController {
     func fetchProductListCategorieBase() {
         if NetworkReachabilityManager()!.isReachable {
             viewModel.selectedApi = .category_items
-            viewModel.productPage = 1
-            viewModel.fetchProductListOnCategorieSelection() //called here
+            viewModel.resetToFreshState()
+            viewModel.fetchProductListOnCategorieSelection()
         }else {
             SharedManager.shared.showAlert(message: Const.networkProblemMessage, view: self)
         }
@@ -97,7 +99,7 @@ class MPProductListingViewController: UIViewController {
     func fetchProductListSearchBase(_ text: String) {
         if NetworkReachabilityManager()!.isReachable {
             viewModel.selectedApi = .search_products
-            viewModel.productPage = 1
+            viewModel.resetToFreshState()
             viewModel.fetchProductListOnSearchResult(text)
         }else {
             SharedManager.shared.showAlert(message: Const.networkProblemMessage, view: self)

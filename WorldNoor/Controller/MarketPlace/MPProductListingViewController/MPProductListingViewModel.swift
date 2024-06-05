@@ -30,12 +30,13 @@ final class MPProductListingViewModel {
     var isLoading = false
     var selectedApi: ReCallApiSelection = .category_items
     var updateParam: [String: Any] = [:]
-    private var productInfo: ReturnResponse?
+    var productInfo: ReturnResponse?
     weak var delegate: ProductListDelegate?
 
     // MARK: - Method -
     
     func pullToRefresh() {
+        resetToFreshState()
         switch selectedApi {
         case .category_items:
             fetchProductListOnCategorieSelection()
@@ -66,6 +67,11 @@ final class MPProductListingViewModel {
     func fetchProductListOnSearchResult(_ text: String?) {
         guard let search =  text, !search.isEmpty else { return}
         getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "name", paramNameValue: search)
+    }
+    
+    func resetToFreshState(){
+        self.productPage = 1
+        self.productInfo = nil
     }
     
     func loadMoreData(){
@@ -101,6 +107,15 @@ final class MPProductListingViewModel {
             params["productsPerCategory"] = categoryItem?.productsPerCategory ?? "30"
         }
         
+        updateParam["productPage"] = productPage
+        
+        
+        for (key, value) in updateParam {
+            if params[key] == nil {
+                params[key] = value
+            }
+        }
+        
         self.getAllProduct(endPointName: endPointName, params: params)
     }
     
@@ -122,11 +137,8 @@ final class MPProductListingViewModel {
 //                                context.productInfo = categoryResult.data?.returnResp
                                 
                                 let groupStartIndex = context.productInfo?.groups?.count ?? 0
-                                let productStartIndex = context.productInfo?.products?.count ?? 0
                                 
                                 let groupIndexPaths = (groupStartIndex..<groupStartIndex + (categoryResult.data?.returnResp?.groups?.count ?? 0)).map { IndexPath(item: $0, section: 0) }
-//                                    let productIndexPaths = (productStartIndex..<productStartIndex + newProducts.count).map { IndexPath(item: $0, section: 1) }
-
                                 
                                 context.productInfo?.groups?.append(contentsOf: categoryResult.data?.returnResp?.groups ?? [])
                                 context.productInfo?.products?.append(contentsOf: categoryResult.data?.returnResp?.products ?? [])

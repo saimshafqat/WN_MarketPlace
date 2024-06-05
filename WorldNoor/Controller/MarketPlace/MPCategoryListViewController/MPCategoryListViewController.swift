@@ -26,6 +26,7 @@ class MPCategoryListViewController: UIViewController {
     }()
     
     var isFromCreateListing: Bool = false
+    var isFromMPDashboardSearch: Bool = false
     var selectedCategory : ((Category) -> ())?
     var genericsSelectedCategory : ((GenericCategory) -> ())?
     
@@ -74,7 +75,7 @@ class MPCategoryListViewController: UIViewController {
     }
     
     func updateSection() {
-        if categoryList?.top_categories.count ?? 0 > 0 && !isFromGlobalSearch && !isFromCreateListing {
+        if (categoryList?.top_categories.count ?? 0 > 0 && !isFromGlobalSearch && !isFromCreateListing) || isFromMPDashboardSearch  {
             createSection(categoryList?.generic_categories ?? [], title: "Generic Categories", type: "Generic Categories")
         }
         if categoryList?.top_categories.count ?? 0 > 0 {
