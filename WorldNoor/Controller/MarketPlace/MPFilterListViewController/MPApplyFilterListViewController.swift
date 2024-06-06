@@ -28,9 +28,8 @@ class MPApplyFilterListViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        resetFilterBtn.isSelected = !resetFilterBtn.isSelected
         SharedManager.shared.filterItem.isEmpty ? viewModel.getAllItem() : ()
-        resetFilterBtn.isSelected = !viewModel.isResetButtonEnableOrDisable()
+        resetFilterBtn.isSelected = viewModel.isResetButtonEnableOrDisable()
 
         tbleView.reloadData()
     }

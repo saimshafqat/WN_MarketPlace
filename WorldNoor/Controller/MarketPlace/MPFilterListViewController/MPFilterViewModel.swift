@@ -19,7 +19,7 @@ final class MPFilterViewModel {
     }
     
     func isResetButtonEnableOrDisable()-> Bool {
-        SharedManager.shared.filterItem.isEmpty
+        return SharedManager.shared.filterItem.contains { $0.isApplyFilter }
     }
     func getNumberOfRowsInSections() -> Int {
           SharedManager.shared.filterItem.count
