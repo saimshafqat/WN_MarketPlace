@@ -47,6 +47,12 @@ class MPDashboardViewController: ContainerBaseController {
         navigationController?.pushViewController(controller, animated: true)
     }
     
+    @IBAction func onClickProfile(_ sender: Any) {
+        let controller = MPProfileViewController.instantiate(fromAppStoryboard: .Marketplace)
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    
     @IBAction func btnSearchBtn_Pressed(_ sender: UIButton) {
         let controller = MPGlobalSearchViewController.instantiate(fromAppStoryboard: .Marketplace)
         let navController = UINavigationController(rootViewController: controller)
