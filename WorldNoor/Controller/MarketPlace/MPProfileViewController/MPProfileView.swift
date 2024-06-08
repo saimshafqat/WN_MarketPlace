@@ -56,11 +56,15 @@ extension MPProfileViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == 2 {
+            let lisitingItems = viewModel.userListingItemsCount()
             let itemWidth = ((tableView.frame.width - 5) / 3) + 20
-            let rows = ceil(Double(100) / Double(3))
-            let totalSpacing = 5 * CGFloat(rows - 1)
+            let rows = ceil(Double(lisitingItems) / Double(3))
+            //let totalSpacing = 5 * CGFloat(rows - 1)
+            let totalSpacing = max(5 * CGFloat(rows - 1), 0)
             let totalHeight = (CGFloat(rows) * itemWidth) + totalSpacing
             return totalHeight
+        } else if indexPath.section == 1 {
+            return UITableView.automaticDimension
         } else {
             
             if let cellModel = viewModel.cellList[safe: indexPath.row] {
@@ -79,12 +83,12 @@ extension MPProfileViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 2 {
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MPProfileListingTableViewCell.self), for: indexPath) as! MPProfileListingTableViewCell
-            //                cell.configure(with: viewModel.section3Items)
+            cell.configure(with: viewModel.itemsForCellAt(index: indexPath.row), itemsCount: viewModel.userListingItemsCount())
             return cell
         } else if indexPath.section == 1{
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MPProfileListingHeaderTableViewCell.self), for: indexPath) as! MPProfileListingHeaderTableViewCell
-            cell.backgroundColor = .darkGreenCust
-            
+            cell.textField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+            cell.filterBtn.addTarget(self, action: #selector(filterbuttonTapped(_:)), for: .touchUpInside)   
             return cell
         } else {
             
@@ -136,6 +140,17 @@ extension MPProfileViewController: UITableViewDataSource {
         }
         
         return UITableViewCell()
+    }
+    @objc func filterbuttonTapped(_ sender: UIButton) {
+        self.filterViewDelegate()
+    }
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        guard let text = textField.text else { return }
+        viewModel.searchText = text
+        viewModel.userListingType = .serach
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            self.viewModel.pullToRefresh()
+        }
     }
     
 }

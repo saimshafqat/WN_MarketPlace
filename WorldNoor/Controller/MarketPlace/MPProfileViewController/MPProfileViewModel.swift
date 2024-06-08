@@ -20,6 +20,9 @@ import Alamofire
 //    case search_productsOnFilterBase
 //}
 
+protocol UserListDelegate: AnyObject {
+    func isUserListingAvalaibleOrNot(_ avalaible: Bool)
+}
 
 final class MPProfileViewModel {
     var categoryItem: Category?
@@ -28,12 +31,14 @@ final class MPProfileViewModel {
     var productPage = 1
     var isLoading = false
     var selectedApi: ReCallApiSelection = .category_items
+    var userListingType: UserListing = .none
     var updateParam: [String: Any] = [:]
     var productInfo: ReturnResponse?
     weak var delegate: ProductListDelegate?
-    
+    var userListing: FollowingUsersItems?
+    var searchedUserListing: FollowingUsersItems?
     var cellList = [DynamicCellModel]()
-    
+    weak var userListingDelegate: UserListDelegate?
     var section1Items: [String] = ["Row 1", "Row 2", "Row 3"]
     var section2Item: String = "Single Row"
     var section3Items: [ProfileItem] = [
@@ -45,6 +50,9 @@ final class MPProfileViewModel {
         ProfileItem(id: 6, name: "Item 6")
     ]
     
+    var numberOfPageForListing: Int = 1
+    var numberOfPerPageForListing: Int = 30
+    var sellerId: Int = 0
     // MARK: - Method
     
     func createCellList(){
@@ -59,19 +67,27 @@ final class MPProfileViewModel {
     }
     
     func pullToRefresh() {
-        resetToFreshState()
-        switch selectedApi {
-        case .category_items:
+        switch userListingType {
+        case .none:
+            userListingType = .none
             fetchProductListOnCategorieSelection()
-            break
-        case .search_products:
-            fetchProductListOnSearchResult(searchText)
-            break
-        case .search_productsOnFilterBase:
-            getAllProduct(endPointName: endPointSelected(), params: updateParam)
+        case .serach:
+            userListingType = .serach
+            fetchProductListOnCategorieSelection()
+        case .isSold:
+            userListingType = .isSold
+            fetchProductListOnCategorieSelection()
+        case .sortBy:
+            userListingType = .sortBy
+            fetchProductListOnCategorieSelection()
         }
     }
     func fetchProductListOnCategorieSelection() {
+        let parameter = parameterForUserListing(type: userListingType)
+        getAllItems(endPointName: endPointForUserListing(), params: parameter)
+    }
+    
+    func fetchUserItemListing() {
         guard let categoryItem =  categoryItem else { return}
         getAllCategoriesPorduct(endPointName: endPointSelected(), paramName: "slug", paramNameValue: categoryItem.slug)
     }
@@ -192,6 +208,47 @@ final class MPProfileViewModel {
         }
     }
     
+    
+    func endPointForUserListing() -> String {
+        return "following_users_items"
+    }
+    
+    func parameterForUserListing(type:UserListing) -> [String: Any]{
+        switch type {
+        case .none:
+            return [
+                "seller_id": 1164, //sellerId,
+                "page": numberOfPageForListing,
+                "perPage": numberOfPerPageForListing
+            ]
+        case .serach:
+            return [
+                "seller_id": 1164, //sellerId,
+                "page": numberOfPageForListing,
+                "search": searchText,
+                "perPage": numberOfPerPageForListing
+            ]
+            
+        case .isSold:
+            return [
+                "seller_id": 14, //sellerId,
+                "sort_by": "",
+                "order":"asc",
+                "is_sold":0,
+                "page": numberOfPageForListing,
+                "perPage": numberOfPerPageForListing
+            ]
+        case .sortBy:
+            return [
+                "seller_id": 14, //sellerId,
+                "sort_by": "",
+                "order":"asc",
+                "page": numberOfPageForListing,
+                "perPage": numberOfPerPageForListing
+            ]
+        }
+    }
+    
     func getNumberOfRowsInSections() -> Int {
         productInfo?.products?.count ?? 0
     }
@@ -199,4 +256,40 @@ final class MPProfileViewModel {
     func getItemAt(index: Int) -> MarketPlaceForYouItem? {
         productInfo?.products?[safe: index]
     }
+    
+    func userListingItemsCount() -> Int {
+        userListing?.data?.products?.count ?? 0
+    }
+    
+    func itemsForCellAt(index: Int) -> UserListingProduct? {
+        userListing?.data?.products?[index]
+    }
+    
+    func getAllItems(endPointName: String, params: [String : Any]) {
+        _ = (self)
+        MPRequestManager.shared.request(endpoint: endPointName, method: .post, params: params) { response in
+            self.isLoading = false
+            do {
+                switch response {
+                case .success(let data):
+                    LogClass.debugLog("success")
+                    if let jsonData = data as? Data {
+                        let decoder = JSONDecoder()
+                        let usersItems = try decoder.decode(FollowingUsersItems.self, from: jsonData)
+                        self.userListing = usersItems
+
+                        self.userListingDelegate?.isUserListingAvalaibleOrNot(true)
+                    }
+                case .failure(let error):
+                    LogClass.debugLog(error.localizedDescription)
+                    self.userListingDelegate?.isUserListingAvalaibleOrNot(false)
+                }
+            } catch {
+                // Handle any errors thrown during decoding here
+                LogClass.debugLog("Decoding error: \(error.localizedDescription)")
+                self.userListingDelegate?.isUserListingAvalaibleOrNot(false)
+            }
+        }
+    }
+    
 }

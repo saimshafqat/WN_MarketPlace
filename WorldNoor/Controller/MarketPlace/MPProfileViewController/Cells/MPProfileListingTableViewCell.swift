@@ -13,8 +13,8 @@ class MPProfileListingTableViewCell: UITableViewCell, UICollectionViewDelegate, 
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var items: [Item] = []
-        
+    var items: UserListingProduct?
+    var itemsCount: Int = 0
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,19 +26,20 @@ class MPProfileListingTableViewCell: UITableViewCell, UICollectionViewDelegate, 
         collectionView.register(UINib(nibName: "MPProfileListingCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: MPProfileListingCollectionViewCell.identifier)
     }
     
-    func configure(with items: [Item]) {
+    func configure(with items: UserListingProduct?, itemsCount: Int) {
+           self.itemsCount = itemsCount
            self.items = items
            collectionView.reloadData()
        }
 
        func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-           return 100 // items.count
+           return self.itemsCount
        }
 
        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MPProfileListingCollectionViewCell", for: indexPath) as! MPProfileListingCollectionViewCell
            cell.backgroundColor = .red
-           
+           cell.confirgure(model: self.items)
            return cell
        }
     

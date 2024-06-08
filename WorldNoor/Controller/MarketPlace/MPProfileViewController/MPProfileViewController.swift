@@ -44,6 +44,7 @@ class MPProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.delegate = self
+        viewModel.userListingDelegate = self
         viewModel.createCellList()
         self.tableView.register(UINib(nibName: String(describing: MPProfileSettingsInfoTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileSettingsInfoTableViewCell.identifier)
         self.tableView.register(UINib(nibName: String(describing: MPProfileCoverPhotoTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileCoverPhotoTableViewCell.identifier)
@@ -57,7 +58,7 @@ class MPProfileViewController: UIViewController {
         self.tableView.register(UINib(nibName: String(describing: MPProfileListingNotFoundTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileListingNotFoundTableViewCell.identifier)
         tableView.delegate = self
         tableView.dataSource = self
-        
+        viewModel.pullToRefresh()
 //        setupRefreshListner()
 //        viewModel.searchText.isEmpty == true ? fetchProductListCategorieBase() : fetchProductListSearchBase(viewModel.searchText)
 //        self.searchBar.text = viewModel.searchText
@@ -176,5 +177,14 @@ extension MPProfileViewController: SearchResultDelgate {
 }
 
 
-
+extension MPProfileViewController: UserListDelegate {
+    func isUserListingAvalaibleOrNot(_ avalaible: Bool) {
+        if avalaible {
+            self.refreshControlHandler.endRefreshing()
+            self.tableView.reloadData()
+        } else {
+            //set empty message
+        }
+    }
+}
 
