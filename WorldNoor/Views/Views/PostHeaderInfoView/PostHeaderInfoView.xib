@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -395,7 +395,7 @@
                                             <rect key="frame" x="11" y="51" width="405" height="25"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nfg-aU-kPu">
-                                                    <rect key="frame" x="0.0" y="0.0" width="170.33333333333334" height="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="167.33333333333334" height="17"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBC-jm-ekK" customClass="LoadingButton" customModule="WorldNoor" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="17"/>
@@ -415,7 +415,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ge1-dJ-r7c">
-                                                            <rect key="frame" x="114.33333333333331" y="0.0" width="56" height="17"/>
+                                                            <rect key="frame" x="114.33333333333331" y="0.0" width="53" height="17"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                                                             <color key="tintColor" name="Blue Color"/>
                                                             <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="-5" maxY="0.0"/>
@@ -496,10 +496,10 @@
     </objects>
     <designables>
         <designable name="6XT-vi-iIT">
-            <size key="intrinsicContentSize" width="365.66666666666669" height="20"/>
+            <size key="intrinsicContentSize" width="366" height="21"/>
         </designable>
         <designable name="IxS-fe-aEb">
-            <size key="intrinsicContentSize" width="998.66666666666663" height="20"/>
+            <size key="intrinsicContentSize" width="999" height="21"/>
         </designable>
     </designables>
     <resources>
@@ -508,11 +508,11 @@
         <image name="NT_Dots" width="26.666666030883789" height="7"/>
         <image name="addFriend" width="20" height="14"/>
         <image name="showMore" width="14.666666984558105" height="8.3333330154418945"/>
-        <image name="speakerOff" width="16" height="12"/>
-        <image name="speakerOn" width="12" height="9"/>
+        <image name="speakerOff" width="13" height="12"/>
+        <image name="speakerOn" width="16" height="12"/>
         <image name="translation" width="13.333333015441895" height="13.333333015441895"/>
         <namedColor name="Blue Color">
-            <color red="0.094117647058823528" green="0.40000000000000002" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.12549019607843137" green="0.41568627450980394" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
