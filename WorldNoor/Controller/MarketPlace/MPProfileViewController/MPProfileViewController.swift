@@ -47,6 +47,7 @@ class MPProfileViewController: UIViewController {
         viewModel.userListingDelegate = self
         viewModel.createCellList()
         self.tableView.register(UINib(nibName: String(describing: MPProfileSettingsInfoTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileSettingsInfoTableViewCell.identifier)
+        self.tableView.register(UINib(nibName: String(describing: MPProfileHolidaySettingsTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileHolidaySettingsTableViewCell.identifier)
         self.tableView.register(UINib(nibName: String(describing: MPProfileCoverPhotoTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileCoverPhotoTableViewCell.identifier)
         self.tableView.register(UINib(nibName: String(describing: MPProfileShareButtonTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileShareButtonTableViewCell.identifier)
         self.tableView.register(UINib(nibName: String(describing: MPProfileAboutMeTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileAboutMeTableViewCell.identifier)

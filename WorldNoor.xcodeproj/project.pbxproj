@@ -294,6 +294,8 @@
 		0AE84E1D2AA793320057C5DA /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE84E1C2AA793320057C5DA /* ReportModel.swift */; };
 		0AE84E1F2AA7B80D0057C5DA /* ViewControllerDataSubSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE84E1E2AA7B80D0057C5DA /* ViewControllerDataSubSource.swift */; };
 		0AF0D9F42A5C1D5F002DFACB /* ExtensionNSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0D9F32A5C1D5F002DFACB /* ExtensionNSLayoutConstraint.swift */; };
+		1575FD7F2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575FD7D2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.swift */; };
+		1575FD802C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1575FD7E2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.xib */; };
 		15C0DAAA2C11ACAB0097AAFC /* MPProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DAA62C11ACAB0097AAFC /* MPProfileView.swift */; };
 		15C0DAAB2C11ACAB0097AAFC /* MPProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DAA72C11ACAB0097AAFC /* MPProfileViewModel.swift */; };
 		15C0DAAC2C11ACAB0097AAFC /* MPProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DAA82C11ACAB0097AAFC /* MPProfileViewController.swift */; };
@@ -304,8 +306,8 @@
 		15C0DAB52C11BF600097AAFC /* MPProfileListingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C0DAB32C11BF600097AAFC /* MPProfileListingCollectionViewCell.xib */; };
 		15C0DAB82C11BF890097AAFC /* MPProfileListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DAB62C11BF890097AAFC /* MPProfileListingTableViewCell.swift */; };
 		15C0DAB92C11BF890097AAFC /* MPProfileListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C0DAB72C11BF890097AAFC /* MPProfileListingTableViewCell.xib */; };
-		15C0DABC2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DABA2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.swift */; };
-		15C0DABD2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C0DABB2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.xib */; };
+		15C0DABC2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DABA2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.swift */; };
+		15C0DABD2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C0DABB2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.xib */; };
 		15C0DAC22C11F7570097AAFC /* MPProfileAboutMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DAC02C11F7570097AAFC /* MPProfileAboutMeTableViewCell.swift */; };
 		15C0DAC32C11F7570097AAFC /* MPProfileAboutMeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C0DAC12C11F7570097AAFC /* MPProfileAboutMeTableViewCell.xib */; };
 		15C0DAC62C11F7760097AAFC /* MPProfileShareButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0DAC42C11F7760097AAFC /* MPProfileShareButtonTableViewCell.swift */; };
@@ -1925,6 +1927,8 @@
 		0AE84E1C2AA793320057C5DA /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
 		0AE84E1E2AA7B80D0057C5DA /* ViewControllerDataSubSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDataSubSource.swift; sourceTree = "<group>"; };
 		0AF0D9F32A5C1D5F002DFACB /* ExtensionNSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNSLayoutConstraint.swift; sourceTree = "<group>"; };
+		1575FD7D2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPProfileSettingsInfoTableViewCell.swift; sourceTree = "<group>"; };
+		1575FD7E2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPProfileSettingsInfoTableViewCell.xib; sourceTree = "<group>"; };
 		15C0DAA62C11ACAB0097AAFC /* MPProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPProfileView.swift; sourceTree = "<group>"; };
 		15C0DAA72C11ACAB0097AAFC /* MPProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPProfileViewModel.swift; sourceTree = "<group>"; };
 		15C0DAA82C11ACAB0097AAFC /* MPProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPProfileViewController.swift; sourceTree = "<group>"; };
@@ -1935,8 +1939,8 @@
 		15C0DAB32C11BF600097AAFC /* MPProfileListingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPProfileListingCollectionViewCell.xib; sourceTree = "<group>"; };
 		15C0DAB62C11BF890097AAFC /* MPProfileListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPProfileListingTableViewCell.swift; sourceTree = "<group>"; };
 		15C0DAB72C11BF890097AAFC /* MPProfileListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPProfileListingTableViewCell.xib; sourceTree = "<group>"; };
-		15C0DABA2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPProfileSettingsInfoTableViewCell.swift; sourceTree = "<group>"; };
-		15C0DABB2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPProfileSettingsInfoTableViewCell.xib; sourceTree = "<group>"; };
+		15C0DABA2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPProfileHolidaySettingsTableViewCell.swift; sourceTree = "<group>"; };
+		15C0DABB2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPProfileHolidaySettingsTableViewCell.xib; sourceTree = "<group>"; };
 		15C0DAC02C11F7570097AAFC /* MPProfileAboutMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPProfileAboutMeTableViewCell.swift; sourceTree = "<group>"; };
 		15C0DAC12C11F7570097AAFC /* MPProfileAboutMeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPProfileAboutMeTableViewCell.xib; sourceTree = "<group>"; };
 		15C0DAC42C11F7760097AAFC /* MPProfileShareButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPProfileShareButtonTableViewCell.swift; sourceTree = "<group>"; };
@@ -4976,8 +4980,10 @@
 		15C0DA9D2C11AB4D0097AAFC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				15C0DABA2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.swift */,
-				15C0DABB2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.xib */,
+				1575FD7D2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.swift */,
+				1575FD7E2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.xib */,
+				15C0DABA2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.swift */,
+				15C0DABB2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.xib */,
 				15C0DAAE2C11B4520097AAFC /* MPProfileCoverPhotoTableViewCell.swift */,
 				15C0DAAF2C11B4520097AAFC /* MPProfileCoverPhotoTableViewCell.xib */,
 				15C0DAC42C11F7760097AAFC /* MPProfileShareButtonTableViewCell.swift */,
@@ -11487,7 +11493,7 @@
 				18636FB8271FF83600CE40DD /* NewPageImageCell.xib in Resources */,
 				181FFAD22742689500080D95 /* NewTextSharedCell.xib in Resources */,
 				182DBE81250F5D3B00C84EA1 /* GroupProfileNewHEaderCell.xib in Resources */,
-				15C0DABD2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.xib in Resources */,
+				15C0DABD2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.xib in Resources */,
 				AECABCE42BB36D9B008E5453 /* warningIconLight@3x.png in Resources */,
 				181CC630273E4FC0006DE6C6 /* NewAttachmentFeedCell.xib in Resources */,
 				1F3848972A2AC1BB004894BB /* PostHeaderInfoView.xib in Resources */,
@@ -11628,6 +11634,7 @@
 				B28774FB2BDA9551002F50C2 /* PostDetail.storyboard in Resources */,
 				183BE5412434DF56007CAAA9 /* SettingVideosCollectionCell.xib in Resources */,
 				18184A512987A94200EF3E9A /* PopUpView.xib in Resources */,
+				1575FD802C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.xib in Resources */,
 				18A6C94E270322D100241EAF /* NCBTextCell.xib in Resources */,
 				040E155D2B96998B007008D6 /* Poppins-SemiBold.ttf in Resources */,
 				E330C22F2AA882F80053C5AE /* FriendSuggestionTableViewCell.xib in Resources */,
@@ -12526,7 +12533,7 @@
 				583D32C52AC54FBA007AB529 /* WaveformImageDrawer+macOS.swift in Sources */,
 				181FFABF27422FCE00080D95 /* NewSharedFeedCell.swift in Sources */,
 				583D32BE2AC54FBA007AB529 /* WaveformImageDrawer+iOS.swift in Sources */,
-				15C0DABC2C11F70E0097AAFC /* MPProfileSettingsInfoTableViewCell.swift in Sources */,
+				15C0DABC2C11F70E0097AAFC /* MPProfileHolidaySettingsTableViewCell.swift in Sources */,
 				1F3848982A2AC1BB004894BB /* PostSharingViewViewModel.swift in Sources */,
 				045A03522B34DB600028E5B4 /* DropDownBase.swift in Sources */,
 				CB389B1F2A1E37830028D3ED /* EZPlayerView.swift in Sources */,
@@ -12768,6 +12775,7 @@
 				AECABCF02BB36D9B008E5453 /* KeyboardTrackingView.swift in Sources */,
 				CB389B212A1E37830028D3ED /* AVPlayer+EZPlayer.swift in Sources */,
 				0482C1362B9774C600E6E897 /* SSBaseCollectionReusableView.m in Sources */,
+				1575FD7F2C1637EC00CE913A /* MPProfileSettingsInfoTableViewCell.swift in Sources */,
 				18B2F45D289ADAD7003F9688 /* LikeHQPagerMenuView.swift in Sources */,
 				AED74D492B687FE0003DB174 /* LoadMoreHandler.swift in Sources */,
 				E738FCA12BBD3D2E0078765F /* MPChatBuyerInfo+CoreDataClass.swift in Sources */,

@@ -23,7 +23,6 @@ class MPProfileCoverPhotoTableViewCell: UITableViewCell {
     var joinWorlNoorText = "Join Worldnoor in"
     override func awakeFromNib() {
         super.awakeFromNib()
-        makeCircle()
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -32,12 +31,7 @@ class MPProfileCoverPhotoTableViewCell: UITableViewCell {
         // Configure the view for the selected state
         
     }
-    
-    func makeCircle() {
-        let size = min(profileBgView.layer.frame.width, profileBgView.layer.frame.height)
-        profileBgView.layer.cornerRadius = size / 2
-        profileBgView.clipsToBounds = true
-    }
+
     
     func setupCellData(model: ListingUser?){
         nameLabel.text = "\(model?.firstname ?? "") \(model?.lastname ?? "")"

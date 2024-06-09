@@ -3,7 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -55,7 +55,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="463-mR-Yzw">
                                         <rect key="frame" x="0.0" y="0.0" width="289" height="40"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Search" translatesAutoresizingMaskIntoConstraints="NO" id="SSf-Fg-rBj">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NT_Search" translatesAutoresizingMaskIntoConstraints="NO" id="SSf-Fg-rBj">
                                                 <rect key="frame" x="12" y="10" width="20" height="20"/>
                                                 <color key="tintColor" name="CustomgreyColor"/>
                                                 <constraints>
@@ -64,15 +64,15 @@
                                                 </constraints>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search listings" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5CN-km-OqE">
-                                                <rect key="frame" x="32" y="0.0" width="217" height="40"/>
+                                                <rect key="frame" x="40" y="0.0" width="218" height="40"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQo-mc-M8Y">
-                                                <rect key="frame" x="249" y="5" width="30" height="30"/>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQo-mc-M8Y">
+                                                <rect key="frame" x="266" y="12.666666666666657" width="15" height="15"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="aaZ-aA-82N"/>
-                                                    <constraint firstAttribute="width" constant="30" id="pTC-Xv-84k"/>
+                                                    <constraint firstAttribute="height" constant="15" id="aaZ-aA-82N"/>
+                                                    <constraint firstAttribute="width" constant="15" id="pTC-Xv-84k"/>
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="cancelIcon"/>
@@ -81,17 +81,17 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" name="PlaceholderColor"/>
+                                        <color key="backgroundColor" name="LightGreyColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="5CN-km-OqE" secondAttribute="bottom" id="DEf-JK-XTt"/>
-                                            <constraint firstAttribute="trailing" secondItem="vQo-mc-M8Y" secondAttribute="trailing" constant="10" id="H42-m5-gUM"/>
-                                            <constraint firstItem="5CN-km-OqE" firstAttribute="leading" secondItem="SSf-Fg-rBj" secondAttribute="trailing" id="KQD-LH-4j8"/>
+                                            <constraint firstAttribute="trailing" secondItem="vQo-mc-M8Y" secondAttribute="trailing" constant="8" id="H42-m5-gUM"/>
+                                            <constraint firstItem="5CN-km-OqE" firstAttribute="leading" secondItem="SSf-Fg-rBj" secondAttribute="trailing" constant="8" id="KQD-LH-4j8"/>
                                             <constraint firstAttribute="height" constant="40" id="Ug0-9G-KEY"/>
                                             <constraint firstItem="SSf-Fg-rBj" firstAttribute="centerY" secondItem="5CN-km-OqE" secondAttribute="centerY" id="hLf-PN-CXx"/>
                                             <constraint firstItem="vQo-mc-M8Y" firstAttribute="centerY" secondItem="5CN-km-OqE" secondAttribute="centerY" id="i6d-m9-pQw"/>
                                             <constraint firstItem="5CN-km-OqE" firstAttribute="top" secondItem="463-mR-Yzw" secondAttribute="top" id="qix-bm-sbM"/>
                                             <constraint firstItem="SSf-Fg-rBj" firstAttribute="leading" secondItem="463-mR-Yzw" secondAttribute="leading" constant="12" id="vuU-ci-hDe"/>
-                                            <constraint firstItem="vQo-mc-M8Y" firstAttribute="leading" secondItem="5CN-km-OqE" secondAttribute="trailing" id="zqx-fc-GTM"/>
+                                            <constraint firstItem="vQo-mc-M8Y" firstAttribute="leading" secondItem="5CN-km-OqE" secondAttribute="trailing" constant="8" id="zqx-fc-GTM"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -103,7 +103,7 @@
                                         <rect key="frame" x="304" y="0.0" width="50" height="40"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="n9t-xQ-j9K">
-                                                <rect key="frame" x="5" y="5" width="40" height="30"/>
+                                                <rect key="frame" x="7" y="5" width="41" height="30"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mark_filter_icon" translatesAutoresizingMaskIntoConstraints="NO" id="XBz-86-0xj">
                                                         <rect key="frame" x="0.0" y="9" width="12" height="12"/>
@@ -113,7 +113,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVc-bp-hly">
-                                                        <rect key="frame" x="15" y="5" width="25" height="20.333333333333332"/>
+                                                        <rect key="frame" x="15" y="5" width="26" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -130,14 +130,13 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" name="PlaceholderColor"/>
+                                        <color key="backgroundColor" name="LightGreyColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="BKz-2k-m6q" secondAttribute="trailing" id="AVg-GA-sFY"/>
-                                            <constraint firstAttribute="trailing" secondItem="n9t-xQ-j9K" secondAttribute="trailing" constant="5" id="AYr-Ox-C7N"/>
+                                            <constraint firstAttribute="trailing" secondItem="n9t-xQ-j9K" secondAttribute="trailing" constant="2" id="AYr-Ox-C7N"/>
                                             <constraint firstItem="n9t-xQ-j9K" firstAttribute="centerY" secondItem="Duk-LI-AqG" secondAttribute="centerY" id="D83-P2-hnu"/>
                                             <constraint firstAttribute="bottom" secondItem="n9t-xQ-j9K" secondAttribute="bottom" constant="5" id="HXT-Aw-Tgg"/>
-                                            <constraint firstItem="n9t-xQ-j9K" firstAttribute="leading" secondItem="Duk-LI-AqG" secondAttribute="leading" constant="5" id="MQk-gv-Al5"/>
-                                            <constraint firstItem="n9t-xQ-j9K" firstAttribute="centerX" secondItem="Duk-LI-AqG" secondAttribute="centerX" id="Okc-MB-c3J"/>
+                                            <constraint firstItem="n9t-xQ-j9K" firstAttribute="leading" secondItem="Duk-LI-AqG" secondAttribute="leading" constant="7" id="MQk-gv-Al5"/>
                                             <constraint firstAttribute="width" constant="50" id="Uqr-9u-Cgv"/>
                                             <constraint firstItem="BKz-2k-m6q" firstAttribute="top" secondItem="Duk-LI-AqG" secondAttribute="top" id="UxM-UT-kNe"/>
                                             <constraint firstItem="BKz-2k-m6q" firstAttribute="leading" secondItem="Duk-LI-AqG" secondAttribute="leading" id="eOq-uZ-1YF"/>
@@ -146,7 +145,7 @@
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="5"/>
+                                                <real key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
@@ -201,7 +200,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Search" width="25" height="25"/>
+        <image name="NT_Search" width="22" height="22"/>
         <image name="cancelIcon" width="18.666666030883789" height="18.666666030883789"/>
         <image name="mark_filter_icon" width="18" height="18"/>
         <namedColor name="Blue Color">
@@ -210,8 +209,8 @@
         <namedColor name="CustomgreyColor">
             <color red="0.28627450980392155" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="PlaceholderColor">
-            <color red="0.68599998950958252" green="0.68599998950958252" blue="0.68599998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="LightGreyColor">
+            <color red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

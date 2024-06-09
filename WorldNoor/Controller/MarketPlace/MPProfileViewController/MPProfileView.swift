@@ -97,6 +97,10 @@ extension MPProfileViewController: UITableViewDataSource {
             if let coverPhotoCell = cell as? MPProfileSettingsInfoTableViewCell {
                 return coverPhotoCell
             }
+            else if let coverPhotoCell = cell as? MPProfileHolidaySettingsTableViewCell {
+                coverPhotoCell.configrureCell()
+                return coverPhotoCell
+            }
             else if let coverPhotoCell = cell as? MPProfileCoverPhotoTableViewCell {
                 coverPhotoCell.setupCellData(model: viewModel.aboutUserInfo())
                 return coverPhotoCell

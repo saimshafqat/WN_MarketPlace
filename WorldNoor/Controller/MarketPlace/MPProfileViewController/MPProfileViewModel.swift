@@ -68,7 +68,8 @@ final class MPProfileViewModel {
         
         switch userType {
         case.currentUser:
-            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileSettingsInfoTableViewCell.self), type: MPProfileCellType.settingsInfo.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileSettingsInfoTableViewCell.self), type: MPProfileCellType.holidaySettings.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileHolidaySettingsTableViewCell.self), type: MPProfileCellType.settingsInfo.rawValue))
             cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileCoverPhotoTableViewCell.self), type: MPProfileCellType.coverPhoto.rawValue))
             cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileShareButtonTableViewCell.self), type: MPProfileCellType.shareButton.rawValue))
             cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileAboutMeTableViewCell.self), type: MPProfileCellType.aboutMe.rawValue))

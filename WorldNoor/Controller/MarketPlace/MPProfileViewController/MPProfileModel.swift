@@ -46,6 +46,7 @@ import Foundation
 
 enum MPProfileCellType : String {
     case settingsInfo = "settingsInfo"
+    case holidaySettings = "HolidaySettings"
     case coverPhoto = "coverPhoto"
     case shareButton = "shareButton"
     case aboutMe = "aboutMe"

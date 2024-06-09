@@ -18,7 +18,7 @@ class MPProfileListingHeaderTableViewCell: UITableViewCell {
     @IBOutlet weak var filterBtn: UIButton!
     @IBOutlet weak var clearBtn: UIButton!
     @IBOutlet weak var filterCountLbl: UILabel!
-    var descriptionText = "You can manage listing from Your listing. Your listingsin private groups may not be visible to buyers"
+    var descriptionText = "You can manage listing from Your listing. Your listings in private groups may not be visible to buyers"
     var subDescription = "Your listing"
     var listing = "listing"
     override func awakeFromNib() {
