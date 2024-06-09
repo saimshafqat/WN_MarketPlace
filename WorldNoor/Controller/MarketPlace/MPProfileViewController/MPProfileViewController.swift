@@ -56,6 +56,8 @@ class MPProfileViewController: UIViewController {
         self.tableView.register(UINib(nibName: String(describing: MPProfileListingHeaderTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileListingHeaderTableViewCell.identifier)
         self.tableView.register(UINib(nibName: String(describing: MPProfileListingTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileListingTableViewCell.identifier)
         self.tableView.register(UINib(nibName: String(describing: MPProfileListingNotFoundTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileListingNotFoundTableViewCell.identifier)
+        self.tableView.register(UINib(nibName: String(describing: MPProfileFollowAndChatTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileFollowAndChatTableViewCell.identifier)
+        self.tableView.register(UINib(nibName: String(describing: MPProfileSellerModeTableViewCell.self), bundle: nil), forCellReuseIdentifier: MPProfileSellerModeTableViewCell.identifier)
         tableView.delegate = self
         tableView.dataSource = self
         viewModel.pullToRefresh()
@@ -179,12 +181,27 @@ extension MPProfileViewController: SearchResultDelgate {
 
 extension MPProfileViewController: UserListDelegate {
     func isUserListingAvalaibleOrNot(_ avalaible: Bool) {
+        let indexSet = IndexSet(integer: 2)
         if avalaible {
-            self.refreshControlHandler.endRefreshing()
-            self.tableView.reloadData()
+            if self.viewModel.getNumberOfRowsInSections() > 0 {
+                self.refreshControlHandler.endRefreshing()
+                //self.tableView?.reloadSections(indexSet, with: .automatic)
+            } else {
+                //set empty message
+            }
         } else {
             //set empty message
         }
+        self.tableView?.reloadData()
     }
 }
 
+extension MPProfileViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        print("Editing began")
+    }
+
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        print("Editing ended")
+    }
+}

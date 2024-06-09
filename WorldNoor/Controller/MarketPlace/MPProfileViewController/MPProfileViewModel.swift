@@ -39,6 +39,8 @@ final class MPProfileViewModel {
     var searchedUserListing: FollowingUsersItems?
     var cellList = [DynamicCellModel]()
     weak var userListingDelegate: UserListDelegate?
+    var itemInfo: FollowingUsersDataClass?
+    var userType: userTypeForCell = .currentUser
     var section1Items: [String] = ["Row 1", "Row 2", "Row 3"]
     var section2Item: String = "Single Row"
     var section3Items: [ProfileItem] = [
@@ -50,20 +52,32 @@ final class MPProfileViewModel {
         ProfileItem(id: 6, name: "Item 6")
     ]
     
+    func getAllFilters() {
+        SharedManager.shared.filterItem = [Item(name: "Availability", description: "Any", selectedItem: .availability, availability: "", isApplyFilter: false)
+        ]
+    }
+    
     var numberOfPageForListing: Int = 1
     var numberOfPerPageForListing: Int = 30
     var sellerId: Int = 0
+    var sortingOrder: SortingOrder = .ascending
     // MARK: - Method
     
     func createCellList(){
         //Only handling section 0 items
-        cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileSettingsInfoTableViewCell.self), type: MPProfileCellType.settingsInfo.rawValue))
-        cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileCoverPhotoTableViewCell.self), type: MPProfileCellType.coverPhoto.rawValue))
-        cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileShareButtonTableViewCell.self), type: MPProfileCellType.shareButton.rawValue))
-        cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileAboutMeTableViewCell.self), type: MPProfileCellType.aboutMe.rawValue))
-        cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileSellerRatingTableViewCell.self), type: MPProfileCellType.sellerRating.rawValue))
-        cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileYourStrengthsTableViewCell.self), type: MPProfileCellType.yourStrengths.rawValue))
-        cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileAccessYourRatingsTableViewCell.self), type: MPProfileCellType.accessYourRatings.rawValue))
+        
+        switch userType {
+        case.currentUser:
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileSettingsInfoTableViewCell.self), type: MPProfileCellType.settingsInfo.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileCoverPhotoTableViewCell.self), type: MPProfileCellType.coverPhoto.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileShareButtonTableViewCell.self), type: MPProfileCellType.shareButton.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileAboutMeTableViewCell.self), type: MPProfileCellType.aboutMe.rawValue))
+        case .otheruser:
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileSellerRatingTableViewCell.self), type: MPProfileCellType.sellerRating.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileYourStrengthsTableViewCell.self), type: MPProfileCellType.yourStrengths.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileAccessYourRatingsTableViewCell.self), type: MPProfileCellType.accessYourRatings.rawValue))
+            cellList.append(DynamicCellModel(cellIndentifier: String(describing: MPProfileFollowAndChatTableViewCell.self), type: MPProfileCellType.followAndChatCell.rawValue))
+        }
     }
     
     func pullToRefresh() {
@@ -99,7 +113,7 @@ final class MPProfileViewModel {
     
     func resetToFreshState(){
         self.productPage = 1
-        self.productInfo = nil
+        self.itemInfo = nil
     }
     
     func loadMoreData(){
@@ -119,7 +133,42 @@ final class MPProfileViewModel {
         }
     }
     
+    func loadMoreItems(){
+        if !isLoading && self.numberOfPageForListing < itemInfo?.totalPages ?? 0{
+            self.isLoading = true
+            self.numberOfPageForListing += 1
+            switch userListingType {
+            case .none:
+                userListingType = .none
+                fetchProductListOnCategorieSelection()
+            case .serach:
+                userListingType = .serach
+                fetchProductListOnCategorieSelection()
+            case .isSold:
+                userListingType = .isSold
+                fetchProductListOnCategorieSelection()
+            case .sortBy:
+                userListingType = .sortBy
+                fetchProductListOnCategorieSelection()
+            }
+        }
+    }
     
+    func firstNameUser() ->String {
+        userListing?.data?.user?.firstname ?? ""
+    }
+    
+    func countForHeaderCell() -> Int{
+        switch userType {
+        case .currentUser:
+            1
+        case .otheruser:
+            1
+        }
+    }
+    func aboutUserInfo() -> ListingUser? {
+        userListing?.data?.user
+    }
     // MARK: - Methods -
 
     func getAllCategoriesPorduct(endPointName: String, paramName: String, paramNameValue: String) {
@@ -233,7 +282,7 @@ final class MPProfileViewModel {
             return [
                 "seller_id": 14, //sellerId,
                 "sort_by": "",
-                "order":"asc",
+                "order":sortingOrder.rawValue,
                 "is_sold":0,
                 "page": numberOfPageForListing,
                 "perPage": numberOfPerPageForListing
@@ -242,7 +291,7 @@ final class MPProfileViewModel {
             return [
                 "seller_id": 14, //sellerId,
                 "sort_by": "",
-                "order":"asc",
+                "order": sortingOrder.rawValue,
                 "page": numberOfPageForListing,
                 "perPage": numberOfPerPageForListing
             ]
@@ -250,7 +299,14 @@ final class MPProfileViewModel {
     }
     
     func getNumberOfRowsInSections() -> Int {
-        productInfo?.products?.count ?? 0
+        switch userListingType {
+        case .serach:
+            searchedUserListing?.data?.products?.count ?? 0
+        default:
+            userListing?.data?.products?.count ?? 0
+        
+        }
+        
     }
     
     func getItemAt(index: Int) -> MarketPlaceForYouItem? {
@@ -258,11 +314,23 @@ final class MPProfileViewModel {
     }
     
     func userListingItemsCount() -> Int {
-        userListing?.data?.products?.count ?? 0
+        switch userListingType {
+        case .serach:
+            searchedUserListing?.data?.products?.count ?? 0
+        default:
+            userListing?.data?.products?.count ?? 0
+        
+        }
     }
     
     func itemsForCellAt(index: Int) -> UserListingProduct? {
-        userListing?.data?.products?[index]
+        switch userListingType {
+        case .serach:
+            guard let products = searchedUserListing?.data?.products, products.indices.contains(index) else { return nil}
+            return products[index]
+        default:
+            return userListing?.data?.products?[index]
+        }
     }
     
     func getAllItems(endPointName: String, params: [String : Any]) {
@@ -276,8 +344,12 @@ final class MPProfileViewModel {
                     if let jsonData = data as? Data {
                         let decoder = JSONDecoder()
                         let usersItems = try decoder.decode(FollowingUsersItems.self, from: jsonData)
-                        self.userListing = usersItems
-
+                        switch self.userListingType {
+                        case .serach:
+                            self.searchedUserListing = usersItems
+                        default:
+                            self.userListing = usersItems
+                        }
                         self.userListingDelegate?.isUserListingAvalaibleOrNot(true)
                     }
                 case .failure(let error):

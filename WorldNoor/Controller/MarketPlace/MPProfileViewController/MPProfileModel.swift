@@ -55,6 +55,8 @@ enum MPProfileCellType : String {
     case listingHeaderCell = "listingHeaderCell"
     case listingCell = "listingCell"
     case noListinFoundCell = "noListinFoundCell"
+    case followAndChatCell = "followAndChatCell"
+    case sellerModeMessgae = "sellerModeMessgae"
 }
 
 enum UserListing {
@@ -65,6 +67,15 @@ enum UserListing {
 
 }
 
+enum userTypeForCell {
+    case currentUser
+    case otheruser
+}
+
+enum SortingOrder: String {
+    case ascending = "asc"
+    case descending = "des"
+}
 struct UserListingRequestModel: Codable {
     let seller_id: Int?
     let search: String?
@@ -94,13 +105,13 @@ class DynamicCellModel {
 struct FollowingUsersItems: Codable {
     let action: String?
     let meta: Meta?
-    let data: FollowingUsersDataClass?
+    var data: FollowingUsersDataClass?
 }
 
 struct FollowingUsersDataClass: Codable {
     let user: ListingUser?
     let userSettings: UserSettings?
-    let products: [UserListingProduct]?
+    var products: [UserListingProduct]?
     let totalPages: Int?
     let currentPage: String?
 

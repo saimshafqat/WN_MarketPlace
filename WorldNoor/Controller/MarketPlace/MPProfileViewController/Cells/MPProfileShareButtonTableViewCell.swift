@@ -10,7 +10,9 @@ import UIKit
 
 class MPProfileShareButtonTableViewCell: UITableViewCell {
     static let identifier = "MPProfileShareButtonTableViewCell"
-
+    
+    @IBOutlet weak var shareLbl: UILabel!
+    @IBOutlet weak var shareBtn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,5 +23,6 @@ class MPProfileShareButtonTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
     
 }

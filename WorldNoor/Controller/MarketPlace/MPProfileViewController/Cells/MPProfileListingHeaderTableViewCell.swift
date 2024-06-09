@@ -17,10 +17,12 @@ class MPProfileListingHeaderTableViewCell: UITableViewCell {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var filterBtn: UIButton!
     @IBOutlet weak var clearBtn: UIButton!
-
+    @IBOutlet weak var filterCountLbl: UILabel!
+    var descriptionText = "You can manage listing from Your listing. Your listingsin private groups may not be visible to buyers"
+    var subDescription = "Your listing"
+    var listing = "listing"
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -29,7 +31,12 @@ class MPProfileListingHeaderTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    
+    func configure(firstName:String?) {
+        let desctext = descriptionText.coloredAndClickableAttributedString(substringToColor: subDescription)
+        descriptionLbl.attributedText = desctext
+        titleLbl.text = "\(firstName ?? "") 's \(listing)"
+        
+    }
     @IBAction func shareBtn_Action(_ sender: Any) {
     }
     

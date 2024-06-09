@@ -63,18 +63,16 @@ extension MPProfileViewController: UITableViewDataSource {
             let totalSpacing = max(5 * CGFloat(rows - 1), 0)
             let totalHeight = (CGFloat(rows) * itemWidth) + totalSpacing
             return totalHeight
-        } else if indexPath.section == 1 {
-            return UITableView.automaticDimension
         } else {
             
-            if let cellModel = viewModel.cellList[safe: indexPath.row] {
-                if cellModel.cellIndentifier == String(describing: MPProfileCoverPhotoTableViewCell.self) {
-                    
-                    return 250 //UITableView.automaticDimension
-                }
-                
-                return 100 //Set heights of cell list as per cell height
-            }
+//            if let cellModel = viewModel.cellList[safe: indexPath.row] {
+//                if cellModel.cellIndentifier == String(describing: MPProfileCoverPhotoTableViewCell.self) {
+//                    
+//                    return 300 //UITableView.automaticDimension
+//                }
+//                
+//                return UITableView.automaticDimension //Set heights of cell list as per cell height
+//            }
             
             return UITableView.automaticDimension
         }
@@ -87,6 +85,7 @@ extension MPProfileViewController: UITableViewDataSource {
             return cell
         } else if indexPath.section == 1{
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MPProfileListingHeaderTableViewCell.self), for: indexPath) as! MPProfileListingHeaderTableViewCell
+            cell.configure(firstName: viewModel.firstNameUser())
             cell.textField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
             cell.filterBtn.addTarget(self, action: #selector(filterbuttonTapped(_:)), for: .touchUpInside)   
             return cell
@@ -94,16 +93,12 @@ extension MPProfileViewController: UITableViewDataSource {
             
             let cellModel = viewModel.cellList[indexPath.row]
             let cell = tableView.dequeueReusableCell(withIdentifier: cellModel.cellIndentifier, for: indexPath)
+            
             if let coverPhotoCell = cell as? MPProfileSettingsInfoTableViewCell {
-                //Configure Cell
-//                coverPhotoCell.setupCellData()
-                coverPhotoCell.backgroundColor = .gray
                 return coverPhotoCell
             }
             else if let coverPhotoCell = cell as? MPProfileCoverPhotoTableViewCell {
-                //Configure Cell
-                coverPhotoCell.setupCellData()
-                coverPhotoCell.backgroundColor = .red
+                coverPhotoCell.setupCellData(model: viewModel.aboutUserInfo())
                 return coverPhotoCell
             }
             else if let coverPhotoCell = cell as? MPProfileShareButtonTableViewCell {
@@ -112,11 +107,14 @@ extension MPProfileViewController: UITableViewDataSource {
                 coverPhotoCell.backgroundColor = .blue
                 return coverPhotoCell
             }
-            else if let coverPhotoCell = cell as? MPProfileAboutMeTableViewCell {
-                //Configure Cell
-//                coverPhotoCell.setupCellData()
-                coverPhotoCell.backgroundColor = .green
-                return coverPhotoCell
+            
+            else if let followAndChatCell = cell as? MPProfileFollowAndChatTableViewCell {
+                return followAndChatCell
+            }
+            
+            else if let aboutMCell = cell as? MPProfileAboutMeTableViewCell {
+                aboutMCell.configure(model: viewModel.aboutUserInfo())
+                return aboutMCell
             }
             else if let coverPhotoCell = cell as? MPProfileSellerRatingTableViewCell {
                 //Configure Cell
@@ -141,16 +139,25 @@ extension MPProfileViewController: UITableViewDataSource {
         
         return UITableViewCell()
     }
+    
     @objc func filterbuttonTapped(_ sender: UIButton) {
-        self.filterViewDelegate()
+        self.sortTapped()
     }
+    
     @objc func textFieldDidChange(_ textField: UITextField) {
         guard let text = textField.text else { return }
         viewModel.searchText = text
-        viewModel.userListingType = .serach
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-            self.viewModel.pullToRefresh()
+        if text.isEmpty {
+            viewModel.userListingType = .none
+        } else {
+            viewModel.userListingType = .serach
         }
+        NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(getUserListingItems), object: nil)
+        self.perform(#selector(getUserListingItems), with: nil, afterDelay: 0.3)
+    }
+    
+    @objc func getUserListingItems() {
+        self.viewModel.pullToRefresh()
     }
     
 }
