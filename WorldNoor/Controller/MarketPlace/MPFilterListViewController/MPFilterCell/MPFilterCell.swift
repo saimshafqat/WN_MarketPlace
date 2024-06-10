@@ -29,10 +29,18 @@ class MPFilterCell: UITableViewCell {
             lblSubtitle?.text = item.isApplyFilter == true ? item.availability : item.description
         case .price:
             lblSubtitle?.text = item.isApplyFilter == true ? "$ \(item.minimumPrice) - $ \(item.maximumPrice)" : item.description
-        case .date_listed:
+        case .dateListed:
             lblSubtitle?.text =  item.description
         case .condition:
             lblSubtitle?.text = item.description
+        case .bathrooms:
+            lblSubtitle?.text = item.isApplyFilter == true ? item.bathroom : item.description
+        case .bedrooms:
+            lblSubtitle?.text = item.isApplyFilter == true ? item.bedroom : item.description
+        case .rentalTypes:
+            lblSubtitle?.text = item.description
+        case .squareMeters:
+            lblSubtitle?.text = item.isApplyFilter == true ? "\(item.minimumSq) - \(item.maximumSq)" : item.description
         }
         lblTitle?.text = item.name
     }

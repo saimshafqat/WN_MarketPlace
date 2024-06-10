@@ -80,8 +80,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
             endingLineNumber = "43"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "MPGlobalSearchViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,8 +96,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
             endingLineNumber = "90"
-            landmarkName = "searchBarSearchButtonClicked(_:)"
-            landmarkType = "7">
+            landmarkName = "MPGlobalSearchViewController"
+            landmarkType = "21">
             <Locations>
                <Location
                   uuid = "3A1D474C-D7C9-4E46-9051-68D550E8D787 - fa97ee9533d80e5d"
@@ -245,7 +245,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E0AE98F2-D543-4FFA-B734-7ADEF06F64F6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPApplyFilterListViewController.swift"
@@ -261,7 +261,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "944DCB2F-EC5D-4466-8227-ACC6C6CB3D47"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterViewList.swift"
@@ -409,8 +409,8 @@
             filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "locationTapped()"
             landmarkType = "7">
             <Locations>
@@ -519,6 +519,21 @@
                   endingLineNumber = "164"
                   offsetFromSymbolStart = "12">
                </Location>
+               <Location
+                  uuid = "E0FB9B52-0024-4739-B9F5-B06BA97091A3 - 520ce43e0e5c8c20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPProductListingViewController.locationTapped() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "12">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -565,6 +580,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
                   endingLineNumber = "49"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DA6B8ABA-2456-4EED-9A9C-A2D3879E1F2D - f406367c0dc6fc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WorldNoor.MPApplyFilterListViewController.btnResetFilter(__C.UIButton) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPApplyFilterListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
                   offsetFromSymbolStart = "28">
                </Location>
             </Locations>
@@ -643,8 +673,8 @@
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "getAllItem()"
             landmarkType = "7">
             <Locations>
@@ -747,92 +777,30 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "14EEB94E-2D04-4512-970A-9ED52B78642D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "tableView(_:didSelectRowAt:)"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "14EEB94E-2D04-4512-970A-9ED52B78642D - b54fe5e35ac193cf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WorldNoor.MPFilterSelect.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "WorldNoor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/8%20commits/Worldnoor_iOS_Saim-Market-place-searchmodule/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "272">
-               </Location>
-               <Location
-                  uuid = "14EEB94E-2D04-4512-970A-9ED52B78642D - 97aa5dba73b51bda"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WorldNoor.MPFilterSelectcontroller.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "WorldNoor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/8%20commits/Worldnoor_iOS_Saim-Market-place-searchmodule/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "272">
-               </Location>
-               <Location
-                  uuid = "14EEB94E-2D04-4512-970A-9ED52B78642D - aa8a7976ea83e0fc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WorldNoor.MPFilterSelectcontroller.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "WorldNoor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "272">
-               </Location>
-               <Location
-                  uuid = "14EEB94E-2D04-4512-970A-9ED52B78642D - be2f383ee60fdf44"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WorldNoor.MPFilterSelectcontroller.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "WorldNoor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "1912">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C768576F-8242-4B91-970B-711390C003B3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "updateSelectedItem(item:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -841,7 +809,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1AEBCCD9-FE43-497B-8742-C0F3BC5B3C63"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
@@ -919,14 +887,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "33C64CD8-4BBF-4197-833A-0C4E3C3A6361"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "containsObjectss(object:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -935,14 +903,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9E7444AE-4722-4BF7-8345-279CF552B0C3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "removeSelectedItem(item:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1127,16 +1095,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "getFilterItem()"
-            landmarkType = "7">
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "MPFilterSelectionModel"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - 25f38a1f10f4ebc8"
@@ -1288,6 +1256,231 @@
                   endingLineNumber = "76"
                   offsetFromSymbolStart = "36">
                </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - fab92591cf17f988"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - 753e43f578ba5b52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.SlotItem&gt; in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - dbcb91f8063f1d8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.SlotItem) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - 8264f87ded4a3986"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Any) -&gt; Swift.Optional&lt;WorldNoor.FilterCondition&gt; in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - a66f497a94d03833"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (WorldNoor.FilterCondition) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - fab92591cf17f853"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - 753e43f578ba5a89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.SlotItem&gt; in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - dbcb91f8063f1c57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.SlotItem) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - 8264f87ded4a385d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Any) -&gt; Swift.Optional&lt;WorldNoor.FilterCondition&gt; in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - a66f497a94d039e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (WorldNoor.FilterCondition) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - fab92591cf17f872"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - 753e43f578ba5aa8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.SlotItem&gt; in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - dbcb91f8063f1c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.SlotItem) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - 8264f87ded4a387c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Any) -&gt; Swift.Optional&lt;WorldNoor.FilterCondition&gt; in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7212E9D3-8FE0-4EA2-A890-0F8FE39669E1 - a66f497a94d039c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (WorldNoor.FilterCondition) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getFilterItem() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "36">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1295,14 +1488,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7C557293-C995-45D7-9579-6F039A5C954E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "getSelectedCondition()"
             landmarkType = "7">
             <Locations>
@@ -1396,6 +1589,141 @@
                   endingLineNumber = "81"
                   offsetFromSymbolStart = "48">
                </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 333595d763f70b70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 4c637726e72c3b7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.FilterCondition&gt; in WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 4625964e989bc692"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.FilterCondition) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 333595d763f709a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 4c637726e72c39a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.FilterCondition&gt; in WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 4625964e989bc44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.FilterCondition) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 333595d763f709c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 4c637726e72c39c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.FilterCondition&gt; in WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7C557293-C995-45D7-9579-6F039A5C954E - 4625964e989bc424"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.FilterCondition) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getSelectedCondition() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "48">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1403,14 +1731,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DC16F230-6E4B-433E-9677-8929E0898366"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "getSelectedDateAvailability()"
             landmarkType = "7">
             <Locations>
@@ -1504,6 +1832,141 @@
                   endingLineNumber = "86"
                   offsetFromSymbolStart = "40">
                </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - 33a2d4b30b17fc56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - bf8185e7f734c928"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.SlotItem&gt; in WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - 843ab821e879a15d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.SlotItem) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - 33a2d4b30b17ff39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - bf8185e7f734ca47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.SlotItem&gt; in WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - 843ab821e879a232"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.SlotItem) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - 33a2d4b30b17ff18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - bf8185e7f734ca66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; Swift.Optional&lt;WorldNoor.SlotItem&gt; in WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "DC16F230-6E4B-433E-9677-8929E0898366 - 843ab821e879a213"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (WorldNoor.SlotItem) -&gt; Swift.String in WorldNoor.MPFilterSelectionModel.getSelectedDateAvailability() -&gt; Swift.String"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "40">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1511,48 +1974,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "16636EE1-BE62-4540-A8DA-1DAA78E67D36"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "tableView(_:didSelectRowAt:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "tableView(_:heightForRowAt:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "16636EE1-BE62-4540-A8DA-1DAA78E67D36 - aa8a7976ea83e051"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WorldNoor.MPFilterSelectcontroller.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "WorldNoor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "1648">
-               </Location>
-               <Location
-                  uuid = "16636EE1-BE62-4540-A8DA-1DAA78E67D36 - 37b8c01b2fcbde10"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WorldNoor.MPFilterSelectcontroller.tableView(_: __C.UITableView, heightForRowAt: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
-                  moduleName = "WorldNoor"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "36">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1788,9 +2219,9 @@
             filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
-            landmarkName = "applyFilterOnSelectedItem(params:)"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "resetApplyFilter()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -1823,6 +2254,21 @@
                   endingLineNumber = "180"
                   offsetFromSymbolStart = "1788">
                </Location>
+               <Location
+                  uuid = "80E935EF-2089-4903-9E9F-AF296FB1DBD5 - 9124affe3ac30cee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPProductListingViewController.resetApplyFilter() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "1788">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1836,8 +2282,8 @@
             filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "resetApplyFilter()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1846,7 +2292,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "ED3B69BB-05EB-4F6B-BFAF-087E000C873D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingViewModel.swift"
@@ -1888,6 +2334,546 @@
                   offsetFromSymbolStart = "1524">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEB47EF8-86D4-4B10-8BBD-CA9219D7627F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "setTheFilterItem(applyFilterParameter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DEB47EF8-86D4-4B10-8BBD-CA9219D7627F - 5e66905b85b84d06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "7332">
+               </Location>
+               <Location
+                  uuid = "DEB47EF8-86D4-4B10-8BBD-CA9219D7627F - 5e66905b85b84d06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "2604">
+               </Location>
+               <Location
+                  uuid = "DEB47EF8-86D4-4B10-8BBD-CA9219D7627F - 5e66905b85b84ec0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "2604">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6807F902-2606-4D69-8DC9-1FB26DF5D2DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "setTheFilterItem(applyFilterParameter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A21DB9F8-D46A-4D02-BEDF-0232D825E71F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterViewList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "applyFilterParameter(item:indexPath:isComeFromSelectFilter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBFC5EE5-8C26-42D1-AA73-99153830FC44"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterCell/MPFilterCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setFilterUI(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17D5407E-3F90-4CFD-B239-2C3ED46EA5DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterViewList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "applyFilterParameter(item:indexPath:isComeFromSelectFilter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17D5407E-3F90-4CFD-B239-2C3ED46EA5DB - 53aa53af89a858c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPApplyFilterListViewController.applyFilterParameter(item: WorldNoor.Item, indexPath: Swift.Optional&lt;Foundation.IndexPath&gt;, isComeFromSelectFilter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterViewList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "776">
+               </Location>
+               <Location
+                  uuid = "17D5407E-3F90-4CFD-B239-2C3ED46EA5DB - d3b3201fa37a32ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Foundation.IndexPath&gt;) -&gt; Swift.Optional&lt;Foundation.IndexPath&gt; in WorldNoor.MPApplyFilterListViewController.applyFilterParameter(item: WorldNoor.Item, indexPath: Swift.Optional&lt;Foundation.IndexPath&gt;, isComeFromSelectFilter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterViewList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C2DA3C3-95E2-42F6-AB32-DF64C87E9A16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "setTheFilterItem(applyFilterParameter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C2DA3C3-95E2-42F6-AB32-DF64C87E9A16 - 5e66905b85b8484f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "12096">
+               </Location>
+               <Location
+                  uuid = "8C2DA3C3-95E2-42F6-AB32-DF64C87E9A16 - 5e66905b85b849ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "12096">
+               </Location>
+               <Location
+                  uuid = "8C2DA3C3-95E2-42F6-AB32-DF64C87E9A16 - 5e66905b85b8486e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "225"
+                  endingLineNumber = "225"
+                  offsetFromSymbolStart = "12096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "780DEB23-393B-425D-992F-012D6B8C5238"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "setTheFilterItem(applyFilterParameter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "780DEB23-393B-425D-992F-012D6B8C5238 - 5e66905b85b848d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "10332">
+               </Location>
+               <Location
+                  uuid = "780DEB23-393B-425D-992F-012D6B8C5238 - 5e66905b85b84831"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "10332">
+               </Location>
+               <Location
+                  uuid = "780DEB23-393B-425D-992F-012D6B8C5238 - 5e66905b85b848f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.setTheFilterItem(applyFilterParameter: Swift.Bool) -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "10332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFA359DC-3049-4E9D-807C-D4A5F78772A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getCondition()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DFA359DC-3049-4E9D-807C-D4A5F78772A7 - 7247d02c36f74b5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getCondition() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1796">
+               </Location>
+               <Location
+                  uuid = "DFA359DC-3049-4E9D-807C-D4A5F78772A7 - 7247d02c36f74b7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectionModel.getCondition() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1592">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1B2ACA7-AFA4-47C9-8195-5B55B433D17C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterListViewController/MPFilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "searchPrameter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACB53890-02E1-4400-B98D-4221197F31E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACB53890-02E1-4400-B98D-4221197F31E7 - 6d4485359eadb87b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.viewDidLoad() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "6832">
+               </Location>
+               <Location
+                  uuid = "ACB53890-02E1-4400-B98D-4221197F31E7 - 6d4485359eadb87b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.viewDidLoad() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "6884">
+               </Location>
+               <Location
+                  uuid = "ACB53890-02E1-4400-B98D-4221197F31E7 - 6d4485359eadb85c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldNoor.MPFilterSelectcontroller.viewDidLoad() -&gt; ()"
+                  moduleName = "WorldNoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeezakram/Documents/projects/Worldnoor/search_module/new/WN_MarketPlace/WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "6816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D41DFD5C-7767-438E-98A1-C1F82B0CFCF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getCondition()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0786011-986D-475A-89A2-05041184A909"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectionModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "callRequestForCondition()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "830D6665-A069-47BA-8E21-2AD973DF0FFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "630603FB-F098-4BE1-BCC4-83865530AF23"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FF8BE90-C15F-4AF8-A6F3-0409057D9119"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPApplyFilterList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F23798F-5A6C-4B07-B992-1CE1A5017226"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPFilterSelection/MPFilterSelectcontroller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "setTheFilterItem(applyFilterParameter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1903AD32-158F-488D-B0AB-AE0663FEB34D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "applyFilterOnSelectedItem(params:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C54945BB-1159-47E1-8911-4886BC5B3ADE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldNoor/Controller/MarketPlace/MPProductListingViewController/MPProductListingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "mergeAndUpdate(from:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

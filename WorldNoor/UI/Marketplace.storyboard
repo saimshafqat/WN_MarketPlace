@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -3932,7 +3932,7 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YYe-BU-aUA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1821" y="1290"/>
+            <point key="canvasLocation" x="3001" y="1317"/>
         </scene>
         <!--Apply Filter List View Controller-->
         <scene sceneID="PmL-gz-Cmi">
@@ -3981,7 +3981,8 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOi-af-Rd9">
-                                        <rect key="frame" x="325" y="10" width="60" height="30"/>
+                                        <rect key="frame" x="323" y="10" width="62" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Reset All">
@@ -4107,13 +4108,14 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8es-eZ-8Fa">
-                                        <rect key="frame" x="168.33333333333334" y="14.33333333333333" width="56.333333333333343" height="21.666666666666671"/>
+                                        <rect key="frame" x="168.33333333333334" y="13.666666666666673" width="56.333333333333343" height="22.666666666666671"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iO5-zt-kXX">
-                                        <rect key="frame" x="325" y="10" width="60" height="30"/>
+                                        <rect key="frame" x="323" y="10" width="62" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Reset All">
@@ -4205,6 +4207,61 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                                     <constraint firstAttribute="bottom" secondItem="M2X-qX-V2f" secondAttribute="bottom" constant="12" id="gQy-rM-bRz"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ua-tF-L8v">
+                                <rect key="frame" x="0.0" y="121" width="393" height="100"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="AsP-fF-lvX">
+                                        <rect key="frame" x="10" y="0.0" width="373" height="100"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Minimum" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EIM-es-2bw">
+                                                <rect key="frame" x="0.0" y="0.0" width="183" height="100"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Maximum" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J1A-yY-XOy">
+                                                <rect key="frame" x="190" y="0.0" width="183" height="100"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="J1A-yY-XOy" firstAttribute="width" secondItem="EIM-es-2bw" secondAttribute="width" id="cz0-bg-4QQ"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="AsP-fF-lvX" firstAttribute="top" secondItem="0Ua-tF-L8v" secondAttribute="top" id="4M5-e6-Bha"/>
+                                    <constraint firstAttribute="height" constant="100" id="7am-Ox-QcE"/>
+                                    <constraint firstItem="AsP-fF-lvX" firstAttribute="leading" secondItem="0Ua-tF-L8v" secondAttribute="leading" constant="10" id="7h7-9h-1wZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="AsP-fF-lvX" secondAttribute="bottom" id="qLM-zZ-sDD"/>
+                                    <constraint firstAttribute="trailing" secondItem="AsP-fF-lvX" secondAttribute="trailing" constant="10" id="tVN-Hx-ZOq"/>
+                                </constraints>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymO-4t-Amq">
                                 <rect key="frame" x="16" y="764" width="361" height="40"/>
                                 <color key="backgroundColor" red="0.11764705882352941" green="0.23921568627450979" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
@@ -4234,9 +4291,11 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                             <constraint firstItem="c47-9K-neW" firstAttribute="trailing" secondItem="EXp-dA-ds1" secondAttribute="trailing" constant="12" id="3bq-4r-tw6"/>
                             <constraint firstItem="YJa-do-sUc" firstAttribute="top" secondItem="gGH-pG-8Wp" secondAttribute="bottom" constant="12" id="3lc-QV-Zsg"/>
                             <constraint firstItem="gGH-pG-8Wp" firstAttribute="top" secondItem="c47-9K-neW" secondAttribute="top" id="5hq-y5-UVu"/>
+                            <constraint firstItem="c47-9K-neW" firstAttribute="trailing" secondItem="0Ua-tF-L8v" secondAttribute="trailing" id="8Q4-no-z8A"/>
                             <constraint firstItem="EXp-dA-ds1" firstAttribute="top" secondItem="fHY-dn-ukd" secondAttribute="bottom" constant="2" id="9ph-6s-Qdp"/>
                             <constraint firstItem="c47-9K-neW" firstAttribute="trailing" secondItem="ymO-4t-Amq" secondAttribute="trailing" constant="16" id="B5b-ob-fMr"/>
                             <constraint firstItem="YJa-do-sUc" firstAttribute="trailing" secondItem="c47-9K-neW" secondAttribute="trailing" id="Cnp-EZ-Ymc"/>
+                            <constraint firstItem="0Ua-tF-L8v" firstAttribute="leading" secondItem="YJa-do-sUc" secondAttribute="leading" id="I9n-uv-a0J"/>
                             <constraint firstItem="ymO-4t-Amq" firstAttribute="top" secondItem="lY1-gE-B2s" secondAttribute="bottom" constant="14" id="OBL-mc-1vY"/>
                             <constraint firstItem="fHY-dn-ukd" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" id="Rni-ki-JLo"/>
                             <constraint firstItem="c47-9K-neW" firstAttribute="bottom" secondItem="ymO-4t-Amq" secondAttribute="bottom" constant="14" id="TjU-P4-5VI"/>
@@ -4244,6 +4303,7 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                             <constraint firstItem="EXp-dA-ds1" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" constant="12" id="itf-uN-a3N"/>
                             <constraint firstItem="lY1-gE-B2s" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" id="kg4-zS-lEE"/>
                             <constraint firstItem="YJa-do-sUc" firstAttribute="leading" secondItem="c47-9K-neW" secondAttribute="leading" id="ldt-UH-BC3"/>
+                            <constraint firstItem="0Ua-tF-L8v" firstAttribute="top" secondItem="YJa-do-sUc" secondAttribute="top" id="nFI-5R-GR2"/>
                             <constraint firstItem="lY1-gE-B2s" firstAttribute="top" secondItem="gGH-pG-8Wp" secondAttribute="bottom" constant="5" id="oie-lT-7Xf"/>
                             <constraint firstItem="gGH-pG-8Wp" firstAttribute="trailing" secondItem="c47-9K-neW" secondAttribute="trailing" id="p1K-aB-JK7"/>
                             <constraint firstItem="lY1-gE-B2s" firstAttribute="trailing" secondItem="c47-9K-neW" secondAttribute="trailing" id="qnk-JY-raC"/>
@@ -4254,11 +4314,14 @@ Marketplace listings must not discriminate. See our Discrimination policies. </s
                         <outlet property="btnFilter" destination="iO5-zt-kXX" id="zbo-EU-KsQ"/>
                         <outlet property="lblTitle" destination="8es-eZ-8Fa" id="42a-5E-9gr"/>
                         <outlet property="maximumPriceText" destination="Mwx-ri-rFn" id="mwh-23-r21"/>
+                        <outlet property="maximumSqTf" destination="J1A-yY-XOy" id="bSp-vY-pfB"/>
+                        <outlet property="mimimumSqTF" destination="EIM-es-2bw" id="7aB-kC-dVb"/>
                         <outlet property="minimumPriceText" destination="M2X-qX-V2f" id="srR-6e-btc"/>
                         <outlet property="stackHeight" destination="Xfq-fd-0ZT" id="qlc-24-rov"/>
                         <outlet property="stackView" destination="EXp-dA-ds1" id="bpJ-MP-EJp"/>
                         <outlet property="tblView" destination="lY1-gE-B2s" id="Q86-nk-95O"/>
                         <outlet property="viewOfPrice" destination="YJa-do-sUc" id="Itx-qJ-xzj"/>
+                        <outlet property="viewofSQ" destination="0Ua-tF-L8v" id="oQy-fY-dQG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pwQ-65-djv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

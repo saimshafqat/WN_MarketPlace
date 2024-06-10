@@ -117,6 +117,9 @@ extension MPProductListingViewController: FilterViewDelegate {
     func filterViewDelegate() {
 //        SharedManager.shared.filterItem.removeAll()
         let controller = MPApplyFilterListViewController.instantiate(fromAppStoryboard: .Marketplace)
+        if(viewModel.categoryItem?.slug == "propertyrentals"){
+            controller.viewModel.showAllOptions = true
+        }
         controller.delegate = self
         self.presentVC(controller)
     }
@@ -126,6 +129,8 @@ extension MPProductListingViewController: FilterViewDelegate {
         controller.selectedCategory = { [weak self] category in
             guard let self = self else { return }
             viewModel.categoryItem = category
+            SharedManager.shared.filterItem.removeAll() //reset filters
+            viewModel.updateParam.removeAll() //reset filters
             fetchProductListCategorieBase()
         }
         openBottomSheet(controller, sheetSize: [.fixed(UIScreen.main.bounds.height * 0.7)], animated: false)
@@ -190,7 +195,17 @@ extension MPProductListingViewController: ApplyFilterViewDelegate {
         viewModel.resetToFreshState()
         viewModel.updateParam["productsPerCategory"] = viewModel.productsPerCategory
         viewModel.updateParam["productPage"] = viewModel.productPage
-        viewModel.getAllProduct(endPointName: viewModel.endPointSelected(), params: viewModel.updateParam)
+        viewModel.getAllProduct(endPointName: viewModel.endPointSelected(), params: removeEmptyString(fromdic: viewModel.updateParam))
+    }
+    func removeEmptyString(fromdic:[String:Any]) -> [String:Any]{
+         // Remove entries with empty string values
+        var params = viewModel.updateParam.filter { (key, value) in
+            if let valueString = value as? String {
+                return !valueString.isEmpty
+            }
+            return true
+        }
+        return params
     }
 }
 

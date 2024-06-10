@@ -19,9 +19,16 @@ class Item {
     var daysSinceListed: String = "Any"
     var availability: String = "Any"
     var condition: String = "Any"
+    
+    var bathroom:String = "Any"
+    var bedroom:String = "Any"
+    var rentaltypes:String = "Any"
+    var minimumSq:String = ""
+    var maximumSq:String = ""
+
     var isApplyFilter: Bool = false
     var selectedIndex : String = ""
-    init(name: String = "", iconImage: UIImage? = UIImage(), description: String = "", counterStr:String = "", selectedItem: NavigationType = .price, minimumPrice: String = "", maximumPrice: String = "", daysSinceListed: String = "Any", availability: String = "Any", condition: String = "Any", isApplyFilter: Bool = false, selectedIndex : String = "") {
+    init(name: String = "", iconImage: UIImage? = UIImage(), description: String = "", counterStr:String = "", selectedItem: NavigationType = .price, minimumPrice: String = "", maximumPrice: String = "", daysSinceListed: String = "Any", availability: String = "Any", condition: String = "Any", isApplyFilter: Bool = false, selectedIndex : String = "",bathroom:String = "", bedroom:String = "",rentaltypes:String = "",minimumSq:String = "",maximumSq:String = "") {
         self.name = name
         self.iconImage = iconImage
         self.description = description
@@ -34,6 +41,14 @@ class Item {
         self.condition = condition
         self.isApplyFilter = isApplyFilter
         self.selectedIndex = selectedIndex
+        
+        self.bathroom = bathroom
+        self.bedroom = bedroom
+        self.rentaltypes = rentaltypes
+        self.minimumSq = minimumSq
+        self.maximumSq = maximumSq
+
+        
     }
 }
 

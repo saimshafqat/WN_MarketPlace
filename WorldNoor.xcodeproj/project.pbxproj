@@ -3954,8 +3954,8 @@
 				C909B7902BF2F8E500B79FDB /* Cell */,
 				0480209E2B9B04F8003957DF /* MPProductListingViewController.swift */,
 				C909B78A2BF2A3C100B79FDB /* MPProductListingViewModel.swift */,
-				C909B78C2BF2F45C00B79FDB /* MPProductModel.swift */,
 				C909B78E2BF2F7B700B79FDB /* MPProductListingView.swift */,
+				C909B78C2BF2F45C00B79FDB /* MPProductModel.swift */,
 			);
 			path = MPProductListingViewController;
 			sourceTree = "<group>";

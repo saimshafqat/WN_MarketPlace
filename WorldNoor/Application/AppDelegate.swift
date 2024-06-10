@@ -150,7 +150,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         GMSServices.provideAPIKey("AIzaSyBVqyJTLcFZoB46FyL1ulc5_Jhp279XDXA")
-        
+        UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+
         UIStackView.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).spacing = -5
         return true
     }

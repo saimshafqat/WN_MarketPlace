@@ -23,20 +23,20 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4n-3N-2Vh">
-                        <rect key="frame" x="20" y="12.666666666666666" width="248" height="18.666666666666671"/>
+                        <rect key="frame" x="20" y="12.666666666666666" width="250" height="18.666666666666671"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                         <color key="textColor" red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeF-66-wYN">
-                        <rect key="frame" x="278" y="7" width="30" height="30"/>
+                        <rect key="frame" x="280" y="8" width="28" height="28"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="fzV-a5-BCO"/>
-                            <constraint firstAttribute="width" constant="30" id="pxH-WN-ICu"/>
+                            <constraint firstAttribute="height" constant="28" id="fzV-a5-BCO"/>
+                            <constraint firstAttribute="width" constant="28" id="pxH-WN-ICu"/>
                         </constraints>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                        <state key="normal" image="remember_box_not-checked"/>
-                        <state key="selected" image="remember_box_checked"/>
+                        <state key="normal" image="singleUnSelectIcon"/>
+                        <state key="selected" image="singleSelectIcon"/>
                     </button>
                 </subviews>
                 <constraints>
@@ -56,7 +56,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="remember_box_checked" width="30" height="30"/>
-        <image name="remember_box_not-checked" width="30" height="30"/>
+        <image name="singleSelectIcon" width="30" height="30"/>
+        <image name="singleUnSelectIcon" width="30" height="30"/>
     </resources>
 </document>

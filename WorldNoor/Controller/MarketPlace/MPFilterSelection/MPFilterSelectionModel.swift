@@ -12,24 +12,38 @@ enum NavigationType: Int {
     case price
     case condition
     case availability
-    case date_listed
+    case dateListed
+    case bathrooms
+    case bedrooms
+    case rentalTypes
+    case squareMeters
 }
 
 final class MPFilterSelectionModel {
     var selectedItem: Item?
     private var slotedItem: [SlotItem]?
-    private var conditionList: [FilterCondition]?
+    var conditionList: [FilterCondition]?
     weak var delegate: ProductListDelegate?
     var indexPath: IndexPath?
     var maintainSelectedCondition: [Any] = []
     var updatedItem: Item?
     
     func getCondition() {
-        if SharedManager.shared.conditionList.isEmpty {
-            callRequestForCondition()
-        }else {
-            conditionList = SharedManager.shared.conditionList
+        if selectedItem?.selectedItem == .rentalTypes {
+            conditionList = [
+                FilterCondition(id: 0, name: "Apartment/Condo", slug: "apartment-condo"),
+                FilterCondition(id: 1, name: "House", slug: "house"),
+                FilterCondition(id: 2, name: "Room only", slug: "room-only"),
+                FilterCondition(id: 3, name: "Townhouse", slug: "townhouse")
+            ]
             self.delegate?.isProductAvalaibleOrNot(true,newIndexes: [])
+        }else{
+            if SharedManager.shared.conditionList.isEmpty {
+                callRequestForCondition()
+            }else {
+                conditionList = SharedManager.shared.conditionList
+                self.delegate?.isProductAvalaibleOrNot(true,newIndexes: [])
+            }
         }
     }
     
@@ -38,14 +52,14 @@ final class MPFilterSelectionModel {
     }
     
     func getNumberOfRowsInSections() -> Int {
-        if selectedItem?.selectedItem == .condition {
+        if selectedItem?.selectedItem == .condition || selectedItem?.selectedItem == .rentalTypes{
            return conditionList?.count ?? 0
         }
         return slotedItem?.count ?? 0
     }
     
     func getItemAt(index: Int) -> Any? {
-        if selectedItem?.selectedItem == .condition {
+        if selectedItem?.selectedItem == .condition || selectedItem?.selectedItem == .rentalTypes {
            return conditionList?[safe: index]
         }
         return slotedItem?[safe: index]
@@ -72,10 +86,34 @@ final class MPFilterSelectionModel {
         SharedManager.shared.filterItem.isEmpty
     }
 
-    func getFilterItem()-> String {
-        let stringArray = (selectedItem?.selectedItem == .availability || selectedItem?.selectedItem == .date_listed) ? maintainSelectedCondition.compactMap{ $0 as? SlotItem }.map({$0.slotedValue}).joined(separator: ",") : maintainSelectedCondition.compactMap { $0 as? FilterCondition }.map({String($0.id ?? 0)}).joined(separator: ",")
+    func getFilterItem() -> String {
+        let stringArray = (selectedItem?.selectedItem == .availability ||
+                           selectedItem?.selectedItem == .dateListed ||
+                           selectedItem?.selectedItem == .bathrooms ||
+                           selectedItem?.selectedItem == .bedrooms) ?
+                          maintainSelectedCondition.compactMap {
+                              $0 as? SlotItem
+                          }.map {
+                              $0.slotedValue
+                          }.joined(separator: ",") :
+                          (selectedItem?.selectedItem == .rentalTypes) ?
+                          maintainSelectedCondition.compactMap {
+                              $0 as? FilterCondition
+                          }.map {
+                              $0.slug ?? ""
+                          }.joined(separator: ",") :
+                          maintainSelectedCondition.compactMap {
+                              $0 as? FilterCondition
+                          }.map {
+                              String($0.id ?? 0)
+                          }.joined(separator: ",")
         return stringArray
     }
+
+//    func getFilterItem()-> String {
+//        let stringArray = (selectedItem?.selectedItem == .availability || selectedItem?.selectedItem == .dateListed || selectedItem?.selectedItem == .bathrooms || selectedItem?.selectedItem == .bedrooms) ? maintainSelectedCondition.compactMap{ $0 as? SlotItem }.map({$0.slotedValue}).joined(separator: ",") : maintainSelectedCondition.compactMap { $0 as? FilterCondition }.map({String($0.id ?? 0)}).joined(separator: ",")
+//        return stringArray
+//    }
 
     func getSelectedCondition()-> String {
         let stringArray =  maintainSelectedCondition.compactMap { $0 as? FilterCondition }.map({$0.name ?? ""}).joined(separator: ",")
@@ -125,11 +163,28 @@ final class MPFilterSelectionModel {
 
 extension MPFilterSelectionModel {
     func getAvailabilitySlot() {
-        if selectedItem?.selectedItem == .date_listed {
+        if selectedItem?.selectedItem == .dateListed {
             slotedItem = [ SlotItem(name: "All", slotedValue: ""),
                            SlotItem(name: "Last 24 hours", slotedValue: "1"),
                            SlotItem(name: "Last 7 days", slotedValue: "7"),
                            SlotItem(name: "Last 30 days", slotedValue: "30")
+                        ]
+        }else if selectedItem?.selectedItem == .bathrooms {
+            slotedItem = [ SlotItem(name: "All", slotedValue: ""),
+                           SlotItem(name: "1+", slotedValue: "1"),
+                           SlotItem(name: "2+", slotedValue: "2"),
+                           SlotItem(name: "3+", slotedValue: "3"),
+                           SlotItem(name: "4+", slotedValue: "4"),
+                           SlotItem(name: "5+", slotedValue: "5"),
+                        ]
+        }else if selectedItem?.selectedItem == .bedrooms {
+            slotedItem = [ SlotItem(name: "All", slotedValue: ""),
+                           SlotItem(name: "1+", slotedValue: "1"),
+                           SlotItem(name: "2+", slotedValue: "2"),
+                           SlotItem(name: "3+", slotedValue: "3"),
+                           SlotItem(name: "4+", slotedValue: "4"),
+                           SlotItem(name: "5+", slotedValue: "5"),
+                           SlotItem(name: "6+", slotedValue: "6")
                         ]
         } else {
             slotedItem = [ SlotItem(name: "Available", slotedValue: "availability"),
