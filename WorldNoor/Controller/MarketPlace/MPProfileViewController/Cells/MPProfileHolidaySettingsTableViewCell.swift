@@ -15,7 +15,8 @@ class MPProfileHolidaySettingsTableViewCell: UITableViewCell {
     @IBOutlet weak var turnOffBtn: UIButton!
     @IBOutlet weak var disabledInforContainerView: UIView!
     @IBOutlet weak var infoWithIconContainerView: UIView!
-   
+    @IBOutlet weak var imgViewIcon: UIImageView!
+    @IBOutlet weak var outerView: UIView!
     var onHolidayDescription = "This seller has turned on holiday mode and currently won't accept any orders or receive messages."
     var turnOffHolidayModeDescription = "Turn off holiday mode to let people know that you're available"
     
@@ -40,8 +41,21 @@ class MPProfileHolidaySettingsTableViewCell: UITableViewCell {
         turnOffBtn.isHidden = true
     }
 
-    func configrureCell(){
-        resetCell()
+    func configrureCell(model: UserSettings?){
+       // resetCell()
+//        if model?.sellerMode == 1 {
+//            turnOffDescriptionLbl.text = turnOffHolidayModeDescription
+//        } else {
+//            turnOffDescriptionLbl.isHidden = true
+//        }
+//        
+//        if model?.vactionMode == 1 {
+//            descriptionLbl.text = onHolidayDescription
+//        } else {
+//            infoWithIconContainerView.isHidden = false
+//            turnOffBtn.isHidden = false
+//            imgViewIcon.isHidden = false
+//        }
 //        if holidayOn == true {
 //            descriptionLbl.text = onHolidayDescription
 //        } else {

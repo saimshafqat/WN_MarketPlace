@@ -31,10 +31,13 @@ class MPProfileListingHeaderTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(firstName:String?) {
+    func configure(firstName:String?, userType: userTypeForCell?) {
         let desctext = descriptionText.coloredAndClickableAttributedString(substringToColor: subDescription)
         descriptionLbl.attributedText = desctext
         titleLbl.text = "\(firstName ?? "") 's \(listing)"
+        if userType == .otheruser {
+            descriptionLbl.isHidden = true
+        }
         
     }
     @IBAction func shareBtn_Action(_ sender: Any) {

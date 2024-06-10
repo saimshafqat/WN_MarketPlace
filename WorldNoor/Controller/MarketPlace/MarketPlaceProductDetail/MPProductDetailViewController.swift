@@ -21,6 +21,7 @@ class MPProductDetailViewController: UIViewController {
     var productDetailModel:  MPProductDetailModel?
     var viewHelper = MarketPlaceProductDetailViewHelper()
     var mpProductDetailDelegate: MPProductDetailDelegate?
+    var mpSellerDetailDelegate: MPSellerDetailDelegate?
     lazy var dataSource: SSSectionedDataSource? = {
         let ds = SSSectionedDataSource(sections: [])
         return ds
@@ -81,6 +82,13 @@ class MPProductDetailViewController: UIViewController {
             (cell as? SSBaseCollectionCell)?.layoutIfNeeded()
             if cell is MPProductDetailInfoCell {
                 (cell as? MPProductDetailInfoCell)?.mpProductDetailInfoDelegate = self
+            }
+        }
+        dataSource?.cellConfigureBlock = { cell, object, _, indexPath in
+            (cell as? SSBaseCollectionCell)?.configureCell(nil, atIndex: indexPath, with: object)
+            (cell as? SSBaseCollectionCell)?.layoutIfNeeded()
+            if cell is MPProductDetailSellerInfoCell {
+                (cell as? MPProductDetailSellerInfoCell)?.mpSellerDetailDelegate = self
             }
         }
         dataSource?.collectionViewSupplementaryElementClass = MPProductDetailHeaderView.self
@@ -270,4 +278,14 @@ extension MPProductDetailViewController: MPProductDetailInfoDelegate {
             }
         }
     }
+}
+// MARK: - MPSellerDetailInfoDelegate
+extension MPProductDetailViewController: MPSellerDetailDelegate {
+    func viewSellerDetailTapped(sender: UIButton, sellerId: Int) {
+        LogClass.debugLog("seller View Button Tapped \(sellerId)" )
+        let vcProfile = MPProfileViewController.instantiate(fromAppStoryboard: .Marketplace)
+        vcProfile.viewModel = MPProfileViewModel(sellerId: sellerId, userType: .otheruser)
+        navigationController?.pushViewController(vcProfile, animated: true)
+    }
+    
 }

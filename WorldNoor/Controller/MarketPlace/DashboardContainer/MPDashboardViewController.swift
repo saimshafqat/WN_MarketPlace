@@ -49,6 +49,8 @@ class MPDashboardViewController: ContainerBaseController {
     
     @IBAction func onClickProfile(_ sender: Any) {
         let controller = MPProfileViewController.instantiate(fromAppStoryboard: .Marketplace)
+        let currentUserId = SharedManager.shared.getUserID()
+        controller.viewModel = MPProfileViewModel(sellerId: currentUserId, userType: .currentUser)
         navigationController?.pushViewController(controller, animated: true)
     }
     

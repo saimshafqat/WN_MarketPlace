@@ -18,7 +18,8 @@ class MPProfileFollowAndChatTableViewCell: UITableViewCell {
     
     @IBOutlet weak var viewProfileLbl: UILabel!
     @IBOutlet weak var filterBtn: UIButton!
-    
+    var followText = "Follow"
+    var followingText = "Following"
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,4 +32,11 @@ class MPProfileFollowAndChatTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configure(model: ListingUser?){
+       if model?.isFollowing ?? false {
+           followLbl.text = followingText
+       } else {
+           followLbl.text = followText
+       }
+    }
 }

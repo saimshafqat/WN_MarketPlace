@@ -85,7 +85,7 @@ extension MPProfileViewController: UITableViewDataSource {
             return cell
         } else if indexPath.section == 1{
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: MPProfileListingHeaderTableViewCell.self), for: indexPath) as! MPProfileListingHeaderTableViewCell
-            cell.configure(firstName: viewModel.firstNameUser())
+            cell.configure(firstName: viewModel.firstNameUser(), userType: viewModel.userType)
             cell.textField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
             cell.filterBtn.addTarget(self, action: #selector(filterbuttonTapped(_:)), for: .touchUpInside)   
             return cell
@@ -98,13 +98,19 @@ extension MPProfileViewController: UITableViewDataSource {
                 return coverPhotoCell
             }
             else if let coverPhotoCell = cell as? MPProfileHolidaySettingsTableViewCell {
-                coverPhotoCell.configrureCell()
+                coverPhotoCell.configrureCell(model: viewModel.aboutUserSettings())
                 return coverPhotoCell
             }
             else if let coverPhotoCell = cell as? MPProfileCoverPhotoTableViewCell {
                 coverPhotoCell.setupCellData(model: viewModel.aboutUserInfo())
                 return coverPhotoCell
             }
+            
+            else if let followAndChatCell = cell as? MPProfileFollowAndChatTableViewCell {
+                followAndChatCell.configure(model: viewModel.aboutUserInfo())
+                return followAndChatCell
+            }
+            
             else if let coverPhotoCell = cell as? MPProfileShareButtonTableViewCell {
                 //Configure Cell
 //                coverPhotoCell.setupCellData()
@@ -112,9 +118,6 @@ extension MPProfileViewController: UITableViewDataSource {
                 return coverPhotoCell
             }
             
-            else if let followAndChatCell = cell as? MPProfileFollowAndChatTableViewCell {
-                return followAndChatCell
-            }
             
             else if let aboutMCell = cell as? MPProfileAboutMeTableViewCell {
                 aboutMCell.configure(model: viewModel.aboutUserInfo())

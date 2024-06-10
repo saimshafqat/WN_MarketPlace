@@ -26,7 +26,6 @@ class MPProfileAboutMeTableViewCell: UITableViewCell {
     var joinAtText = "Joined Worldnoor in"
     override func awakeFromNib() {
         super.awakeFromNib()
-        showState()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -42,17 +41,17 @@ class MPProfileAboutMeTableViewCell: UITableViewCell {
         livesInLabel.text = aboutMe
         responsiveLabel.text = responsive
         joinedLabel.text = "\(joinAtText) \(joinAt)"
+        showState()
+        if aboutMe.isEmpty {
+            liveInView.isHidden = true
+        }
         
-//        if aboutMe.isEmpty {
-//            liveInView.isHidden = true
-//        }
-//        
-//        if responsive.isEmpty {
-//            responseView.isHidden = true
-//        }
-//        if joinAt == 0 {
-//            joinedView.isHidden = true
-//        }
+        if responsive.isEmpty {
+            responseView.isHidden = true
+        }
+        if joinAt == 0 {
+            joinedView.isHidden = true
+        }
     }
     
     func showState(){
